@@ -1,0 +1,378 @@
+// To run from CLI:
+// webppl models.wppl --require actions --require webppl-json --require webppl-timeit
+
+var colors = ['Red', 'Green', 'Blue']
+var textures = ['Striped', 'Spotted', 'Solid']
+var values = [2, 1, 0, -1, -2]
+
+var trueWorld = {"Red": 0, "Green":2, "Blue": -2, "Striped": -1, "Spotted": 1, "Solid": 0}
+
+var worlds = Infer({method: 'enumerate'}, function(){
+    var features = colors.concat(textures)
+    var world = repeat(features.length, function(){return uniformDraw(values)})
+    return _.zipObject(features, world)
+})
+
+var utterances = Infer({method: 'enumerate'}, function(){
+    return {
+        'feature' : uniformDraw(colors.concat(textures)),
+        'feature_value' : uniformDraw(values)
+    }
+})
+
+var truthFunc = function(utt, falsePenalty) {
+
+    // The RSA way of doing it
+    // return (utt["feature"] === "SILENCE") ? SILENCE_SHIFTED : (trueWorld[utt["feature"]] === utt["feature_value"]) ? TRUTH_SHIFTED : LIE_UTILITY
+
+    // The "fixed value" way
+    return (utt["feature"] === "SILENCE") ? 0 : (trueWorld[utt["feature"]] === utt["feature_value"]) ? 1 : falsePenalty
+
+}
+
+var weightedQUDutility = function (utt, params, featureCounts){
+
+    // Calculate utterance truth and utility, then combine
+    var thisUttTruth = truthFunc(utt, params.falsePenalty)
+
+    if (thisUttTruth !== 1){
+        return thisUttTruth // If it's a lie, then set its utility to whatever our false penalty was
+    } else if (featureCounts[utt['feature']]) {
+        return featureCounts[utt['feature']]
+    } else {
+        return 0
+    }
+
+}
+
+var weightedQUDS1 = cache(function(utt, context, _, params, comparisonUtterances) {
+
+    var featureCounts = actions.getContextFeatureCounts(context)
+    var thisUttUtility = weightedQUDutility(utt, params, featureCounts)
+
+    // Calculate rewards for all other utterances
+    var normalizingConstant = reduce(function(otherUtt, summedUtility){
+
+        var otherUttUtility = weightedQUDutility(otherUtt, params, featureCounts)
+        return Math.log(Math.exp(summedUtility) + Math.exp(otherUttUtility * params.alphaS))
+
+    }, -Infinity, comparisonUtterances.support())
+
+    // Subtract logs directly-- equivalent to:
+    // Math.log(Math.exp(thisUttUtility * params.alphaS) / Math.exp(normalizingConstant))
+    return (thisUttUtility * params.alphaS) - normalizingConstant
+
+}, 10000)
+
+var combinedS1 = cache(function(utt, context, utilityWeight, params, comparisonUtterances) {
+
+    // Calculate utterance truth and utility, then combine
+    var thisUttTruth = truthFunc(utt, params.falsePenalty)
+    var thisUttRewards = actions.speakerUtteranceRewardsDirect(trueWorld, utt, context, params)
+    var thisUttValence = (utt.feature_value > 0) ? 1 : (utt.feature_value < 0) ? -1 : 0
+
+    var thisUttUtility = utilityWeight * thisUttRewards + (1 - utilityWeight) * thisUttTruth + params.valenceWeight * thisUttValence
+
+    // Calculate rewards for all other utterances
+    var normalizingConstant = reduce(function(otherUtt, summedUtility){
+
+        // Calculate utterance truth and utility for *other* utterance, keep running sum
+        var otherUttTruth = truthFunc(otherUtt, params.falsePenalty)
+        var otherUttRewards = actions.speakerUtteranceRewardsDirect(trueWorld, otherUtt, context, params)
+        var otherUttValence = (otherUtt.feature_value > 0) ? 1 : (otherUtt.feature_value < 0) ? -1 : 0
+
+        var otherUttUtility = utilityWeight * otherUttRewards + (1 - utilityWeight) * otherUttTruth + params.valenceWeight * otherUttValence
+
+        return Math.log(Math.exp(summedUtility) + Math.exp(otherUttUtility * params.alphaS))
+
+    }, -Infinity, comparisonUtterances.support())
+
+    // Subtract logs directly-- equivalent to:
+    // Math.log(Math.exp(thisUttUtility * params.alphaS) / Math.exp(normalizingConstant))
+    return (thisUttUtility * params.alphaS) - normalizingConstant
+
+}, 10000)
+
+var combinedS1Distribution = cache(function(context, utilityWeight, params, comparisonUtterances) {
+    return Infer({method: 'enumerate'},
+        function () {
+            var utt = sample(comparisonUtterances)
+            factor(combinedS1(utt, context, utilityWeight, params, comparisonUtterances))
+            return utt
+        })
+}, 10000)
+
+
+var sliderNoiseFunc = function(modelPred, sigma) {
+
+    return Gaussian({mu: modelPred, sigma: sigma})
+}
+
+var sliderLogLikelihood = function(datum, utilityWeight, params, likelihoodFunc){
+
+    // Construct alternative utterance set: here, this utterance or silence.
+    var possibleUtterances = Infer({method: 'enumerate'},
+        function(){ return uniformDraw([datum.utterance, {feature:"SILENCE", feature_value:0}])})
+
+    // Get the probability of speaking-vs-silence
+    var probUtterance = Math.exp(likelihoodFunc(
+        datum.utterance,
+        datum.action_context,
+        utilityWeight,
+        params,
+        possibleUtterances)
+    )
+
+    return sliderNoiseFunc(probUtterance*100, params.sigmaGaussian).score(datum.response)
+
+}
+
+var sliderSummedLogLikelihood = function(behavioralData, params, likelihoodFunc){
+
+    // Given a set of model parameters, return a likelihood for this data.
+    var obsFn = function(datum){
+
+        var utilityWeight = params.hasOwnProperty("utilityWeight") ? params.utilityWeight :
+            params.hasOwnProperty("utilityWeight-1") ? params["utilityWeight-" + datum.horizon] :
+                params["utilityWeight-" + datum.objective]
+
+        return sliderLogLikelihood(datum, utilityWeight, params, likelihoodFunc)
+
+    }
+
+    return sum(mapData({data: behavioralData}, obsFn))
+}
+
+var selectSummedLogLikelihoodDist = function(behavioralData, params, _){
+
+    // Given a set of model parameters, return a likelihood for this data.
+    var obsFn = function(datum){
+
+        var utilityWeight = params.hasOwnProperty("utilityWeight") ? params.utilityWeight :
+            params.hasOwnProperty("utilityWeight-1") ? params["utilityWeight-" + datum.horizon] :
+                params["utilityWeight-" + datum.objective]
+
+        var speakerDist = combinedS1Distribution(datum.action_context, utilityWeight, params, utterances)
+        var mixtureDist = Mixture({dists: [speakerDist, utterances], ps: [0.95, 0.05]});
+        return mixtureDist.score(datum.response)
+
+    }
+
+    return sum(mapData({data: behavioralData}, obsFn))
+}
+
+var selectSummedLogLikelihood = function(behavioralData, params, likelihoodFunc){
+
+    // Given a set of model parameters, return a likelihood for this data.
+    var obsFn = function(datum){
+
+        var utilityWeight = params.hasOwnProperty("utilityWeight") ? params.utilityWeight :
+            params.hasOwnProperty("utilityWeight-1") ? params["utilityWeight-" + datum.horizon] :
+                params["utilityWeight-" + datum.objective]
+
+        return likelihoodFunc(
+            datum.response,
+            datum.action_context,
+            utilityWeight,
+            params,
+            utterances
+        )
+    }
+
+    return sum(mapData({data: behavioralData}, obsFn))
+}
+
+// Vanilla gridsearch (single utilityWeight)
+var gridSearchParameters = function(){
+    return Infer({method: 'enumerate'}, function(){
+        return {
+            'utilityWeight' : uniformDraw(_.range(0, 1.05, .05)),
+            'alphaS' : uniformDraw(_.range(1, 11)),
+            'alphaL' : uniformDraw(_.range(1, 11)),
+            'valenceWeight': uniformDraw([0, .25, .5, .75, 1]),
+            "falsePenalty": uniformDraw([-1]),
+            "sigmaGaussian": uniformDraw([30]),
+        }
+    }).support()
+}
+
+// Exp 1 + 2: conditions vary the participants' objectives
+var gridSearchByObjectiveParameters = function(alphaS){
+    return Infer({method: 'enumerate'}, function(){
+        return {
+            'utilityWeight-belief' : uniformDraw(_.range(0, 1.1, .1)),
+            'utilityWeight-utility' : uniformDraw(_.range(0, 1.1, .1)),
+            'utilityWeight-ambiguous' : uniformDraw(_.range(0, 1.1, .1)),
+            'valenceWeight': uniformDraw([0]),
+            'alphaS': uniformDraw([alphaS]),
+            'alphaL' : uniformDraw(_.range(1, 11)),
+            "falsePenalty": uniformDraw([-1]),
+            "sigmaGaussian": uniformDraw([30]),
+        }
+    }).support()
+}
+
+// Exp 3: conditions vary the participants' horizons
+var gridSearchByHorizonParameters = function(alphaS){
+    return Infer({method: 'enumerate'}, function(){
+        return {
+            // 'utilityWeight-1' : uniformDraw(_.range(0, 1.05, .05)),
+            'utilityWeight-1' : uniformDraw(_.range(0, 1.1, .1)),
+            'utilityWeight-2' : uniformDraw(_.range(0, 1.1, .1)),
+            'utilityWeight-4' : uniformDraw(_.range(0, 1.1, .1)),
+            'alphaS': uniformDraw([alphaS]),
+            'valenceWeight': uniformDraw([0]),
+            // 'alphaL' : uniformDraw(_.range(1, 11)),
+            'alphaL' : uniformDraw(_.range(1, 11)),
+            "falsePenalty": uniformDraw([-1]),
+            "sigmaGaussian": uniformDraw([30]),
+        }
+    }).support()
+}
+
+// QUD gridsearch (no utilityWeight)
+var qudGridSearch = function(){
+    return Infer({method: 'enumerate'}, function(){
+        return {
+            'alphaS' : uniformDraw(_.range(1, 11)),
+            "falsePenalty": uniformDraw([-1]),
+            "sigmaGaussian": uniformDraw([30]),
+        }
+    }).support()
+}
+
+///// RUN IT ///////
+
+// Given data and model parameters, write out log-likelihoods
+if (argv.hasOwnProperty("gridsearch")) {
+
+    var input_data = json.read(argv.fpath + argv.fname)
+    console.log("Read " + input_data.length + " data from " + argv.fpath + argv.fname)
+
+    if (input_data.length > 0) {
+
+        // Different grids for different experiments
+        var likelihood_params = (argv.hasOwnProperty("byHorizon")) ? gridSearchByHorizonParameters(argv.byHorizon) :
+            (argv.hasOwnProperty("byObjective")) ? gridSearchByObjectiveParameters(argv.byObjective) :
+                (argv.hasOwnProperty("qudParams")) ? qudGridSearch() :
+                gridSearchParameters()
+
+        // Use the select, slider, or binarized likelihood functions, depending on input type
+        var inputType = (argv.inputType === 'slider') ? sliderSummedLogLikelihood :
+            selectSummedLogLikelihood // for Epsilon Noise --> switch to selectSummedLogLikelihoodDist
+
+        // Legacy: vary the actual likelihood function applied
+        var likelihoodFunc = (argv.likelihood === "qud") ? weightedQUDS1 : combinedS1
+
+        // Keep input data fixed, but allow different parameters to be applied to the data
+        var likelihoodFuncWrapper = function (param_set) {
+            var likelihood = inputType(input_data, param_set, likelihoodFunc)
+            return extend(param_set, {"likelihood": likelihood})
+        }
+
+        // Now map likelihood function over the parameter sets we want to evaluate.
+        var likelihoods = mapData({data: likelihood_params}, likelihoodFuncWrapper)
+
+        // OUTPUT DATA
+        json.write(argv.outpath, likelihoods);
+
+    }
+}
+
+if (argv.hasOwnProperty("debug")) {
+
+    var action = {"color": "Red", "texture": "Spotted"}
+    var context = [action, {"color": "Red", "texture": "Solid"}, {"color": "Blue", "texture": "Striped"}]
+
+    console.log("\n==== Test Context ====")
+    console.log(context)
+
+    var mapUtterance = function (utterance, speaker, param_list) {
+
+        map(
+            function (params) {
+                var utilityWeight = params.utilityWeight
+                var probability = Math.exp(speaker(utterance, context, params.utilityWeight, params, utterances))
+                console.log("\t\tUtility weight: " + utilityWeight + " --> " + probability)
+            },
+            param_list
+        )
+
+    }
+
+    var mapUtteranceDist = function (utterance, speaker, param_list) {
+
+        map(
+            function (params) {
+                var utilityWeight = params.utilityWeight
+                var speakerDist = speaker(context, utilityWeight, params, utterances)
+                var probability = Math.exp(speakerDist.score(utterance))
+                console.log("\t\tUtility weight: " + utilityWeight + " --> " + probability)
+
+                var mixtureDist = Mixture({dists: [speakerDist, utterances], ps: [0.5, 0.5]});
+                var mixtureProbability = Math.exp(mixtureDist.score(utterance))
+                console.log("\t\t\t Mixed: " + utilityWeight + " --> " + mixtureProbability)
+            },
+            param_list
+        )
+
+    }
+
+    var mapParams = function (utterances, speaker, param_list, mapFunc) {
+
+        map(
+            function (utterance) {
+                console.log("\t" + utterance.feature + " = " + utterance.feature_value)
+                mapFunc(utterance, speaker, param_list)
+            }, utterances
+        )
+
+    }
+
+    var testCogSciUtilityUtts = [
+        {"feature": "Spotted", "feature_value": 2},
+        {"feature": "Blue", "feature_value": -2},
+        {"feature": "Red", "feature_value": 2},
+        {"feature": "Spotted", "feature_value": 1},
+        {"feature": "Red", "feature_value": 0}
+    ]
+
+    var testCogSciUtilityParams = [{alphaL: 3, alphaS: 10, utilityWeight: 1, falsePenalty: -1}]
+
+    console.log("\n\nConfirmation of CogSci Utility model: \nCombined S1")
+    mapParams(testCogSciUtilityUtts, combinedS1, testCogSciUtilityParams, mapUtterance)
+
+    var testUtts = [
+        {"feature": "Spotted", "feature_value": 2},
+        {"feature": "Spotted", "feature_value": 1},
+        {"feature": "Red", "feature_value": 0},
+        {"feature": "Blue", feature_value: -2}
+    ]
+
+    var testParams = [
+        {alphaL: 3, alphaS: 2, utilityWeight: 1, falsePenalty: -1},
+        {alphaL: 3, alphaS: 2, utilityWeight: .5, falsePenalty: -1},
+        {alphaL: 3, alphaS: 2, utilityWeight: 0, falsePenalty: -1}
+    ]
+
+    console.log("\n\nResults for Combined S1")
+    mapParams(testUtts, combinedS1, testParams, mapUtterance)
+
+    console.log("\n\nResults for Noise Dist S1")
+    mapParams(testUtts, combinedS1Distribution, testParams, mapUtteranceDist)
+
+    console.log("\n\nResults for Weighted QUD S1")
+    mapParams(testUtts, weightedQUDS1, testParams, mapUtterance)
+
+    var testParamsExtremeAlpha = [
+        {alphaL: 3, alphaS: 50, utilityWeight: 1, falsePenalty: -1},
+        {alphaL: 3, alphaS: 50, utilityWeight: .5, falsePenalty: -1},
+        {alphaL: 3, alphaS: 50, utilityWeight: 0, falsePenalty: -1}
+    ]
+
+    console.log("\n\nResults for Combined S1, alphaS = 100")
+    mapParams(testUtts, combinedS1, testParamsExtremeAlpha, mapUtterance)
+
+
+
+}

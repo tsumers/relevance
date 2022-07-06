@@ -1,0 +1,2315 @@
+,workerid,key,value
+1,Wcd24be75b9,startTime,Fri Apr 15 2022 14:53:40 GMT-0400 (Eastern Daylight Time)
+2,Wcd24be75b9,condition,"{""objective"":""ambiguous"",""trial_type"":""slider"",""horizon"":""ambiguous""}"
+3,Wcd24be75b9,trialDataFile,exp2_split4
+4,Wcd24be75b9,featureRandomization,"{""Green"":""Striped"",""Red"":""Spotted"",""Blue"":""Solid"",""Spotted"":""Blue"",""Solid"":""Red"",""Striped"":""Green""}"
+5,Wcd24be75b9,quizAttempt-1,"{""attempt"":1,""correct"":11,""total"":16}"
+6,Wcd24be75b9,quizAttempt-2,"{""attempt"":2,""correct"":9,""total"":10}"
+7,Wcd24be75b9,quizAttempt-3,"{""attempt"":3,""correct"":3,""total"":3}"
+8,Wcd24be75b9,quizPassed,"{""attempt"":3,""correct"":3,""total"":3}"
+9,Wcd24be75b9,bonus,2
+10,Wd6cf30c0d3,startTime,Fri Apr 15 2022 14:50:01 GMT-0400 (Eastern Daylight Time)
+11,Wd6cf30c0d3,condition,"{""objective"":""utility"",""trial_type"":""slider"",""horizon"":""ambiguous""}"
+12,Wd6cf30c0d3,trialDataFile,exp2_split3
+13,Wd6cf30c0d3,featureRandomization,"{""Green"":""Red"",""Red"":""Green"",""Blue"":""Blue"",""Spotted"":""Spotted"",""Solid"":""Solid"",""Striped"":""Striped""}"
+14,Wd6cf30c0d3,quizAttempt-1,"{""attempt"":1,""correct"":14,""total"":16}"
+15,Wd6cf30c0d3,quizAttempt-2,"{""attempt"":2,""correct"":4,""total"":4}"
+16,Wd6cf30c0d3,quizPassed,"{""attempt"":2,""correct"":4,""total"":4}"
+17,Wd6cf30c0d3,bonus,2
+18,Wbf950f851c,startTime,Fri Apr 15 2022 14:54:03 GMT-0400 (EDT)
+19,Wbf950f851c,condition,"{""objective"":""utility"",""trial_type"":""slider"",""horizon"":""ambiguous""}"
+20,Wbf950f851c,trialDataFile,exp2_split3
+21,Wbf950f851c,featureRandomization,"{""Green"":""Blue"",""Red"":""Red"",""Blue"":""Green"",""Spotted"":""Spotted"",""Solid"":""Solid"",""Striped"":""Striped""}"
+22,Wbf950f851c,quizAttempt-1,"{""attempt"":1,""correct"":16,""total"":16}"
+23,Wbf950f851c,quizPassed,"{""attempt"":1,""correct"":16,""total"":16}"
+24,Wbf950f851c,bonus,2
+25,W2ae61511cb,startTime,Fri Apr 15 2022 11:52:08 GMT-0700 (Pacific Daylight Time)
+26,Wa50e8e9a72,startTime,Fri Apr 15 2022 14:51:03 GMT-0400 (EDT)
+27,Wa50e8e9a72,condition,"{""objective"":""belief"",""trial_type"":""slider"",""horizon"":""ambiguous""}"
+28,Wa50e8e9a72,trialDataFile,exp2_split1
+29,Wa50e8e9a72,featureRandomization,"{""Green"":""Green"",""Red"":""Blue"",""Blue"":""Red"",""Spotted"":""Solid"",""Solid"":""Spotted"",""Striped"":""Striped""}"
+30,Wa50e8e9a72,quizAttempt-1,"{""attempt"":1,""correct"":16,""total"":16}"
+31,Wa50e8e9a72,quizPassed,"{""attempt"":1,""correct"":16,""total"":16}"
+32,Wa50e8e9a72,bonus,2
+33,W431033b141,startTime,Fri Apr 15 2022 15:20:05 GMT-0400 (Eastern Daylight Time)
+34,W431033b141,condition,"{""objective"":""utility"",""trial_type"":""slider"",""horizon"":""ambiguous""}"
+35,W431033b141,trialDataFile,exp2_split4
+36,W431033b141,featureRandomization,"{""Green"":""Solid"",""Red"":""Striped"",""Blue"":""Spotted"",""Spotted"":""Blue"",""Solid"":""Red"",""Striped"":""Green""}"
+37,W431033b141,quizAttempt-1,"{""attempt"":1,""correct"":16,""total"":16}"
+38,W431033b141,quizPassed,"{""attempt"":1,""correct"":16,""total"":16}"
+39,W431033b141,bonus,2
+40,Wc2ccb370ec,startTime,Fri Apr 15 2022 11:52:27 GMT-0700 (Pacific Daylight Time)
+41,Wc2ccb370ec,condition,"{""objective"":""utility"",""trial_type"":""slider"",""horizon"":""ambiguous""}"
+42,Wc2ccb370ec,trialDataFile,exp2_split3
+43,Wc2ccb370ec,featureRandomization,"{""Green"":""Green"",""Red"":""Blue"",""Blue"":""Red"",""Spotted"":""Solid"",""Solid"":""Spotted"",""Striped"":""Striped""}"
+44,Wc2ccb370ec,quizAttempt-1,"{""attempt"":1,""correct"":9,""total"":16}"
+45,Wc2ccb370ec,quizAttempt-2,"{""attempt"":2,""correct"":13,""total"":13}"
+46,Wc2ccb370ec,quizPassed,"{""attempt"":2,""correct"":13,""total"":13}"
+47,Wc2ccb370ec,bonus,2
+48,W96689ec551,startTime,Fri Apr 15 2022 14:50:58 GMT-0400 (Eastern Daylight Time)
+49,W96689ec551,condition,"{""objective"":""belief"",""trial_type"":""slider"",""horizon"":""ambiguous""}"
+50,W96689ec551,trialDataFile,exp2_split1
+51,W96689ec551,featureRandomization,"{""Green"":""Green"",""Red"":""Red"",""Blue"":""Blue"",""Spotted"":""Solid"",""Solid"":""Striped"",""Striped"":""Spotted""}"
+52,W96689ec551,quizAttempt-1,"{""attempt"":1,""correct"":16,""total"":16}"
+53,W96689ec551,quizPassed,"{""attempt"":1,""correct"":16,""total"":16}"
+54,W96689ec551,bonus,2
+55,W7d606c0a33,startTime,Fri Apr 15 2022 20:22:08 GMT+0100 (British Summer Time)
+56,W7d606c0a33,condition,"{""objective"":""utility"",""trial_type"":""slider"",""horizon"":""ambiguous""}"
+57,W7d606c0a33,trialDataFile,exp2_split2
+58,W7d606c0a33,featureRandomization,"{""Green"":""Green"",""Red"":""Red"",""Blue"":""Blue"",""Spotted"":""Striped"",""Solid"":""Spotted"",""Striped"":""Solid""}"
+59,W7d606c0a33,quizAttempt-1,"{""attempt"":1,""correct"":14,""total"":16}"
+60,W7d606c0a33,quizAttempt-2,"{""attempt"":2,""correct"":4,""total"":4}"
+61,W7d606c0a33,quizPassed,"{""attempt"":2,""correct"":4,""total"":4}"
+62,W7d606c0a33,bonus,2
+63,W61cb31cb07,startTime,Sat Apr 16 2022 06:35:23 GMT-0400 (Eastern Daylight Time)
+64,W61cb31cb07,condition,"{""objective"":""ambiguous"",""trial_type"":""slider"",""horizon"":""ambiguous""}"
+65,W61cb31cb07,trialDataFile,exp2_split3
+66,W61cb31cb07,featureRandomization,"{""Green"":""Green"",""Red"":""Blue"",""Blue"":""Red"",""Spotted"":""Solid"",""Solid"":""Striped"",""Striped"":""Spotted""}"
+67,W61cb31cb07,quizAttempt-1,"{""attempt"":1,""correct"":9,""total"":16}"
+68,W61cb31cb07,quizAttempt-2,"{""attempt"":2,""correct"":9,""total"":9}"
+69,W61cb31cb07,quizPassed,"{""attempt"":2,""correct"":9,""total"":9}"
+70,W61cb31cb07,bonus,2
+71,Wff50b24e59,startTime,Fri Apr 15 2022 15:21:46 GMT-0400 (Eastern Daylight Time)
+72,Wff50b24e59,condition,"{""objective"":""belief"",""trial_type"":""slider"",""horizon"":""ambiguous""}"
+73,Wff50b24e59,trialDataFile,exp2_split3
+74,Wff50b24e59,featureRandomization,"{""Green"":""Solid"",""Red"":""Spotted"",""Blue"":""Striped"",""Spotted"":""Red"",""Solid"":""Blue"",""Striped"":""Green""}"
+75,Wff50b24e59,quizAttempt-1,"{""attempt"":1,""correct"":16,""total"":16}"
+76,Wff50b24e59,quizPassed,"{""attempt"":1,""correct"":16,""total"":16}"
+77,Wff50b24e59,bonus,2
+78,W043af515da,startTime,Fri Apr 15 2022 14:23:19 GMT-0500 (Central Daylight Time)
+79,W043af515da,condition,"{""objective"":""ambiguous"",""trial_type"":""slider"",""horizon"":""ambiguous""}"
+80,W043af515da,trialDataFile,exp2_split4
+81,W043af515da,featureRandomization,"{""Green"":""Blue"",""Red"":""Red"",""Blue"":""Green"",""Spotted"":""Spotted"",""Solid"":""Solid"",""Striped"":""Striped""}"
+82,W043af515da,quizAttempt-1,"{""attempt"":1,""correct"":16,""total"":16}"
+83,W043af515da,quizPassed,"{""attempt"":1,""correct"":16,""total"":16}"
+84,W043af515da,bonus,2
+85,W9c3a0eb4dc,startTime,Fri Apr 15 2022 15:20:36 GMT-0400 (Eastern Daylight Time)
+86,W9c3a0eb4dc,condition,"{""objective"":""belief"",""trial_type"":""slider"",""horizon"":""ambiguous""}"
+87,W9c3a0eb4dc,trialDataFile,exp2_split3
+88,W9c3a0eb4dc,featureRandomization,"{""Green"":""Red"",""Red"":""Blue"",""Blue"":""Green"",""Spotted"":""Solid"",""Solid"":""Spotted"",""Striped"":""Striped""}"
+89,W9c3a0eb4dc,quizAttempt-1,"{""attempt"":1,""correct"":16,""total"":16}"
+90,W9c3a0eb4dc,quizPassed,"{""attempt"":1,""correct"":16,""total"":16}"
+91,W9c3a0eb4dc,bonus,2
+92,W472a997d4e,startTime,Sat Apr 16 2022 14:57:15 GMT+0100 (British Summer Time)
+93,W472a997d4e,condition,"{""objective"":""belief"",""trial_type"":""slider"",""horizon"":""ambiguous""}"
+94,W472a997d4e,trialDataFile,exp2_split4
+95,W472a997d4e,featureRandomization,"{""Green"":""Green"",""Red"":""Red"",""Blue"":""Blue"",""Spotted"":""Spotted"",""Solid"":""Striped"",""Striped"":""Solid""}"
+96,W472a997d4e,quizAttempt-1,"{""attempt"":1,""correct"":11,""total"":16}"
+97,W472a997d4e,quizAttempt-2,"{""attempt"":2,""correct"":10,""total"":10}"
+98,W472a997d4e,quizPassed,"{""attempt"":2,""correct"":10,""total"":10}"
+99,W472a997d4e,bonus,2
+100,W1f755f5517,startTime,Sat Apr 16 2022 11:33:48 GMT+0100 (Ora legale del Regno Unito)
+101,W1f755f5517,condition,"{""objective"":""ambiguous"",""trial_type"":""slider"",""horizon"":""ambiguous""}"
+102,W1f755f5517,trialDataFile,exp2_split2
+103,W1f755f5517,featureRandomization,"{""Green"":""Solid"",""Red"":""Spotted"",""Blue"":""Striped"",""Spotted"":""Green"",""Solid"":""Blue"",""Striped"":""Red""}"
+104,W1f755f5517,quizAttempt-1,"{""attempt"":1,""correct"":16,""total"":16}"
+105,W1f755f5517,quizPassed,"{""attempt"":1,""correct"":16,""total"":16}"
+106,W1f755f5517,bonus,2
+107,W88de141bae,startTime,Sat Apr 16 2022 05:33:54 GMT-0500 (Central Daylight Time)
+108,W88de141bae,condition,"{""objective"":""ambiguous"",""trial_type"":""slider"",""horizon"":""ambiguous""}"
+109,W88de141bae,trialDataFile,exp2_split1
+110,W88de141bae,featureRandomization,"{""Green"":""Green"",""Red"":""Red"",""Blue"":""Blue"",""Spotted"":""Spotted"",""Solid"":""Striped"",""Striped"":""Solid""}"
+111,W88de141bae,quizAttempt-1,"{""attempt"":1,""correct"":16,""total"":16}"
+112,W88de141bae,quizPassed,"{""attempt"":1,""correct"":16,""total"":16}"
+113,W88de141bae,bonus,2
+114,W39adc54338,startTime,Sat Apr 16 2022 09:58:32 GMT-0400 (Eastern Daylight Time)
+115,Wb4edb87faa,startTime,Fri Apr 15 2022 14:56:55 GMT-0400 (Eastern Daylight Time)
+116,Wb4edb87faa,condition,"{""objective"":""ambiguous"",""trial_type"":""slider"",""horizon"":""ambiguous""}"
+117,Wb4edb87faa,trialDataFile,exp2_split2
+118,Wb4edb87faa,featureRandomization,"{""Green"":""Green"",""Red"":""Red"",""Blue"":""Blue"",""Spotted"":""Striped"",""Solid"":""Spotted"",""Striped"":""Solid""}"
+119,Wb4edb87faa,quizAttempt-1,"{""attempt"":1,""correct"":16,""total"":16}"
+120,Wb4edb87faa,quizPassed,"{""attempt"":1,""correct"":16,""total"":16}"
+121,Wb4edb87faa,bonus,2
+122,W60f9708ea5,startTime,Sat Apr 16 2022 06:36:55 GMT-0400 (Eastern Daylight Time)
+123,W60f9708ea5,condition,"{""objective"":""ambiguous"",""trial_type"":""slider"",""horizon"":""ambiguous""}"
+124,W60f9708ea5,trialDataFile,exp2_split3
+125,W60f9708ea5,featureRandomization,"{""Green"":""Green"",""Red"":""Red"",""Blue"":""Blue"",""Spotted"":""Striped"",""Solid"":""Spotted"",""Striped"":""Solid""}"
+126,W60f9708ea5,quizAttempt-1,"{""attempt"":1,""correct"":16,""total"":16}"
+127,W60f9708ea5,quizPassed,"{""attempt"":1,""correct"":16,""total"":16}"
+128,W60f9708ea5,bonus,2
+129,W0e93b7a016,startTime,Sat Apr 16 2022 11:46:35 GMT+0100 (British Summer Time)
+130,W0e93b7a016,condition,"{""objective"":""utility"",""trial_type"":""slider"",""horizon"":""ambiguous""}"
+131,W0e93b7a016,trialDataFile,exp2_split1
+132,W0e93b7a016,featureRandomization,"{""Green"":""Solid"",""Red"":""Spotted"",""Blue"":""Striped"",""Spotted"":""Blue"",""Solid"":""Green"",""Striped"":""Red""}"
+133,W0e93b7a016,quizAttempt-1,"{""attempt"":1,""correct"":15,""total"":16}"
+134,W0e93b7a016,quizAttempt-2,"{""attempt"":2,""correct"":3,""total"":3}"
+135,W0e93b7a016,quizPassed,"{""attempt"":2,""correct"":3,""total"":3}"
+136,W0e93b7a016,bonus,2
+137,Wdb79252947,startTime,Sat Apr 16 2022 05:36:58 GMT-0500 (Central Daylight Time)
+138,Wdb79252947,condition,"{""objective"":""utility"",""trial_type"":""slider"",""horizon"":""ambiguous""}"
+139,Wdb79252947,trialDataFile,exp2_split4
+140,Wdb79252947,featureRandomization,"{""Green"":""Solid"",""Red"":""Spotted"",""Blue"":""Striped"",""Spotted"":""Red"",""Solid"":""Blue"",""Striped"":""Green""}"
+141,Wdb79252947,quizAttempt-1,"{""attempt"":1,""correct"":16,""total"":16}"
+142,Wdb79252947,quizPassed,"{""attempt"":1,""correct"":16,""total"":16}"
+143,Wdb79252947,bonus,2
+144,W965426cf86,startTime,Sat Apr 16 2022 06:37:00 GMT-0400 (Eastern Daylight Time)
+145,W3a7c94ab05,startTime,Sat Apr 16 2022 06:43:46 GMT-0400 (Eastern Daylight Time)
+146,W3a7c94ab05,condition,"{""objective"":""belief"",""trial_type"":""slider"",""horizon"":""ambiguous""}"
+147,W3a7c94ab05,trialDataFile,exp2_split1
+148,W3a7c94ab05,featureRandomization,"{""Green"":""Striped"",""Red"":""Solid"",""Blue"":""Spotted"",""Spotted"":""Red"",""Solid"":""Green"",""Striped"":""Blue""}"
+149,W3a7c94ab05,quizAttempt-1,"{""attempt"":1,""correct"":8,""total"":16}"
+150,W3a7c94ab05,quizAttempt-2,"{""attempt"":2,""correct"":13,""total"":13}"
+151,W3a7c94ab05,quizPassed,"{""attempt"":2,""correct"":13,""total"":13}"
+152,W3a7c94ab05,bonus,2
+153,W0d6c592678,startTime,Sat Apr 16 2022 11:33:42 GMT+0100 (BST)
+154,W0d6c592678,condition,"{""objective"":""belief"",""trial_type"":""slider"",""horizon"":""ambiguous""}"
+155,W0d6c592678,trialDataFile,exp2_split2
+156,W0d6c592678,featureRandomization,"{""Green"":""Red"",""Red"":""Green"",""Blue"":""Blue"",""Spotted"":""Solid"",""Solid"":""Spotted"",""Striped"":""Striped""}"
+157,W0d6c592678,quizAttempt-1,"{""attempt"":1,""correct"":15,""total"":16}"
+158,W0d6c592678,quizAttempt-2,"{""attempt"":2,""correct"":3,""total"":3}"
+159,W0d6c592678,quizPassed,"{""attempt"":2,""correct"":3,""total"":3}"
+160,W0d6c592678,bonus,2
+161,W6063795726,startTime,Sat Apr 16 2022 06:35:06 GMT-0400 (EDT)
+162,W6063795726,condition,"{""objective"":""belief"",""trial_type"":""slider"",""horizon"":""ambiguous""}"
+163,W6063795726,trialDataFile,exp2_split2
+164,W6063795726,featureRandomization,"{""Green"":""Spotted"",""Red"":""Striped"",""Blue"":""Solid"",""Spotted"":""Blue"",""Solid"":""Green"",""Striped"":""Red""}"
+165,W6063795726,quizAttempt-1,"{""attempt"":1,""correct"":16,""total"":16}"
+166,W6063795726,quizPassed,"{""attempt"":1,""correct"":16,""total"":16}"
+167,W6063795726,bonus,2
+168,W0c171e4019,startTime,Sat Apr 16 2022 08:03:41 GMT-0400 (EDT)
+169,W0c171e4019,condition,"{""objective"":""utility"",""trial_type"":""slider"",""horizon"":""ambiguous""}"
+170,W0c171e4019,trialDataFile,exp2_split1
+171,W0c171e4019,featureRandomization,"{""Green"":""Green"",""Red"":""Blue"",""Blue"":""Red"",""Spotted"":""Spotted"",""Solid"":""Striped"",""Striped"":""Solid""}"
+172,W0c171e4019,quizAttempt-1,"{""attempt"":1,""correct"":14,""total"":16}"
+173,W0c171e4019,quizAttempt-2,"{""attempt"":2,""correct"":4,""total"":4}"
+174,W0c171e4019,quizPassed,"{""attempt"":2,""correct"":4,""total"":4}"
+175,W0c171e4019,bonus,2
+176,W8cdee3f11a,startTime,Sat Apr 16 2022 08:03:15 GMT-0400 (Eastern Daylight Time)
+177,W8cdee3f11a,condition,"{""objective"":""ambiguous"",""trial_type"":""slider"",""horizon"":""ambiguous""}"
+178,W8cdee3f11a,trialDataFile,exp2_split3
+179,W8cdee3f11a,featureRandomization,"{""Green"":""Blue"",""Red"":""Red"",""Blue"":""Green"",""Spotted"":""Spotted"",""Solid"":""Solid"",""Striped"":""Striped""}"
+180,W8cdee3f11a,quizAttempt-1,"{""attempt"":1,""correct"":13,""total"":16}"
+181,W8cdee3f11a,quizAttempt-2,"{""attempt"":2,""correct"":6,""total"":6}"
+182,W8cdee3f11a,quizPassed,"{""attempt"":2,""correct"":6,""total"":6}"
+183,W8cdee3f11a,bonus,2
+184,W2a62aad16b,startTime,Sat Apr 16 2022 06:43:10 GMT-0400 (Eastern Daylight Time)
+185,W2a62aad16b,condition,"{""objective"":""ambiguous"",""trial_type"":""slider"",""horizon"":""ambiguous""}"
+186,W2a62aad16b,trialDataFile,exp2_split1
+187,W2a62aad16b,featureRandomization,"{""Green"":""Green"",""Red"":""Red"",""Blue"":""Blue"",""Spotted"":""Striped"",""Solid"":""Solid"",""Striped"":""Spotted""}"
+188,W2a62aad16b,quizAttempt-1,"{""attempt"":1,""correct"":16,""total"":16}"
+189,W2a62aad16b,quizPassed,"{""attempt"":1,""correct"":16,""total"":16}"
+190,W2a62aad16b,bonus,2
+191,W9d8fe97427,startTime,Sat Apr 16 2022 11:46:49 GMT+0100 (British Summer Time)
+192,W9d8fe97427,condition,"{""objective"":""ambiguous"",""trial_type"":""slider"",""horizon"":""ambiguous""}"
+193,W9d8fe97427,trialDataFile,exp2_split4
+194,W9d8fe97427,featureRandomization,"{""Green"":""Solid"",""Red"":""Spotted"",""Blue"":""Striped"",""Spotted"":""Red"",""Solid"":""Green"",""Striped"":""Blue""}"
+195,W9d8fe97427,quizAttempt-1,"{""attempt"":1,""correct"":16,""total"":16}"
+196,W9d8fe97427,quizPassed,"{""attempt"":1,""correct"":16,""total"":16}"
+197,W9d8fe97427,bonus,2
+198,W81af2d6400,startTime,Sat Apr 16 2022 11:34:14 GMT+0100 (British Summer Time)
+199,W81af2d6400,condition,"{""objective"":""utility"",""trial_type"":""slider"",""horizon"":""ambiguous""}"
+200,W81af2d6400,trialDataFile,exp2_split2
+201,W81af2d6400,featureRandomization,"{""Green"":""Spotted"",""Red"":""Striped"",""Blue"":""Solid"",""Spotted"":""Green"",""Solid"":""Red"",""Striped"":""Blue""}"
+202,W81af2d6400,quizAttempt-1,"{""attempt"":1,""correct"":15,""total"":16}"
+203,W81af2d6400,quizAttempt-2,"{""attempt"":2,""correct"":3,""total"":3}"
+204,W81af2d6400,quizPassed,"{""attempt"":2,""correct"":3,""total"":3}"
+205,W81af2d6400,bonus,2
+206,Wd09b62fea0,startTime,Sat Apr 16 2022 08:59:11 GMT-0400 (Eastern Daylight Time)
+207,Wd4f2e15ef6,startTime,Sat Apr 16 2022 13:56:51 GMT+0100 (British Summer Time)
+208,Wd4f2e15ef6,condition,"{""objective"":""utility"",""trial_type"":""slider"",""horizon"":""ambiguous""}"
+209,Wd4f2e15ef6,trialDataFile,exp2_split2
+210,Wd4f2e15ef6,featureRandomization,"{""Green"":""Blue"",""Red"":""Red"",""Blue"":""Green"",""Spotted"":""Spotted"",""Solid"":""Solid"",""Striped"":""Striped""}"
+211,Wd4f2e15ef6,quizAttempt-1,"{""attempt"":1,""correct"":16,""total"":16}"
+212,Wd4f2e15ef6,quizPassed,"{""attempt"":1,""correct"":16,""total"":16}"
+213,Wd4f2e15ef6,bonus,2
+214,W40d8d11355,startTime,Sat Apr 16 2022 13:56:49 GMT+0100 (British Summer Time)
+215,W40d8d11355,condition,"{""objective"":""ambiguous"",""trial_type"":""slider"",""horizon"":""ambiguous""}"
+216,W40d8d11355,trialDataFile,exp2_split3
+217,W40d8d11355,featureRandomization,"{""Green"":""Spotted"",""Red"":""Striped"",""Blue"":""Solid"",""Spotted"":""Blue"",""Solid"":""Green"",""Striped"":""Red""}"
+218,W40d8d11355,quizAttempt-1,"{""attempt"":1,""correct"":11,""total"":16}"
+219,W40d8d11355,quizAttempt-2,"{""attempt"":2,""correct"":7,""total"":10}"
+220,W40d8d11355,quizAttempt-3,"{""attempt"":3,""correct"":8,""total"":10}"
+221,W40d8d11355,quizFailed,"{""attempt"":3,""correct"":8,""total"":10}"
+222,W2d36b09915,startTime,Sat Apr 16 2022 14:00:18 GMT+0100 (British Summer Time)
+223,W2d36b09915,condition,"{""objective"":""utility"",""trial_type"":""slider"",""horizon"":""ambiguous""}"
+224,W2d36b09915,trialDataFile,exp2_split4
+225,W2d36b09915,featureRandomization,"{""Green"":""Striped"",""Red"":""Spotted"",""Blue"":""Solid"",""Spotted"":""Red"",""Solid"":""Blue"",""Striped"":""Green""}"
+226,W2d36b09915,quizAttempt-1,"{""attempt"":1,""correct"":16,""total"":16}"
+227,W2d36b09915,quizPassed,"{""attempt"":1,""correct"":16,""total"":16}"
+228,W2d36b09915,bonus,2
+229,Wfb26b7fb9f,startTime,Sat Apr 16 2022 15:02:47 GMT+0100 (British Summer Time)
+230,Wfb26b7fb9f,condition,"{""objective"":""belief"",""trial_type"":""slider"",""horizon"":""ambiguous""}"
+231,Wfb26b7fb9f,trialDataFile,exp2_split1
+232,Wfb26b7fb9f,featureRandomization,"{""Green"":""Red"",""Red"":""Blue"",""Blue"":""Green"",""Spotted"":""Spotted"",""Solid"":""Solid"",""Striped"":""Striped""}"
+233,Wfb26b7fb9f,quizAttempt-1,"{""attempt"":1,""correct"":14,""total"":16}"
+234,Wfb26b7fb9f,quizAttempt-2,"{""attempt"":2,""correct"":4,""total"":4}"
+235,Wfb26b7fb9f,quizPassed,"{""attempt"":2,""correct"":4,""total"":4}"
+236,Wfb26b7fb9f,bonus,2
+237,W3702a6741e,startTime,Sat Apr 16 2022 10:03:14 GMT-0400 (Eastern Daylight Time)
+238,W3702a6741e,condition,"{""objective"":""utility"",""trial_type"":""slider"",""horizon"":""ambiguous""}"
+239,W3702a6741e,trialDataFile,exp2_split3
+240,W3702a6741e,featureRandomization,"{""Green"":""Green"",""Red"":""Red"",""Blue"":""Blue"",""Spotted"":""Striped"",""Solid"":""Spotted"",""Striped"":""Solid""}"
+241,W3702a6741e,quizAttempt-1,"{""attempt"":1,""correct"":16,""total"":16}"
+242,W3702a6741e,quizPassed,"{""attempt"":1,""correct"":16,""total"":16}"
+243,W3702a6741e,bonus,2
+244,W5ad6461636,startTime,Fri Apr 15 2022 14:52:49 GMT-0400 (Eastern Daylight Time)
+245,W5ad6461636,condition,"{""objective"":""belief"",""trial_type"":""slider"",""horizon"":""ambiguous""}"
+246,W5ad6461636,trialDataFile,exp2_split3
+247,W5ad6461636,featureRandomization,"{""Green"":""Spotted"",""Red"":""Striped"",""Blue"":""Solid"",""Spotted"":""Blue"",""Solid"":""Red"",""Striped"":""Green""}"
+248,W5ad6461636,quizAttempt-1,"{""attempt"":1,""correct"":10,""total"":16}"
+249,W5ad6461636,quizAttempt-2,"{""attempt"":2,""correct"":9,""total"":10}"
+250,W5ad6461636,quizAttempt-3,"{""attempt"":3,""correct"":2,""total"":3}"
+251,W5ad6461636,quizFailed,"{""attempt"":3,""correct"":2,""total"":3}"
+252,W47400d778c,startTime,Fri Apr 15 2022 12:17:53 GMT-0700 (Pacific Daylight Time)
+253,Wa4c7e2607d,startTime,Fri Apr 15 2022 15:12:13 GMT-0400 (Eastern Daylight Time)
+254,Wa4c7e2607d,condition,"{""objective"":""utility"",""trial_type"":""slider"",""horizon"":""ambiguous""}"
+255,Wa4c7e2607d,trialDataFile,exp2_split4
+256,Wa4c7e2607d,featureRandomization,"{""Green"":""Red"",""Red"":""Blue"",""Blue"":""Green"",""Spotted"":""Spotted"",""Solid"":""Striped"",""Striped"":""Solid""}"
+257,Wa4c7e2607d,quizAttempt-1,"{""attempt"":1,""correct"":16,""total"":16}"
+258,Wa4c7e2607d,quizPassed,"{""attempt"":1,""correct"":16,""total"":16}"
+259,Wa4c7e2607d,bonus,2
+260,Wcc1bf14940,startTime,Fri Apr 15 2022 20:24:20 GMT+0100 (BST)
+261,Wcc1bf14940,condition,"{""objective"":""ambiguous"",""trial_type"":""slider"",""horizon"":""ambiguous""}"
+262,Wcc1bf14940,trialDataFile,exp2_split1
+263,Wcc1bf14940,featureRandomization,"{""Green"":""Spotted"",""Red"":""Solid"",""Blue"":""Striped"",""Spotted"":""Green"",""Solid"":""Blue"",""Striped"":""Red""}"
+264,Wcc1bf14940,quizAttempt-1,"{""attempt"":1,""correct"":16,""total"":16}"
+265,Wcc1bf14940,quizPassed,"{""attempt"":1,""correct"":16,""total"":16}"
+266,Wcc1bf14940,bonus,2
+267,W306d6b545d,startTime,Fri Apr 15 2022 12:10:23 GMT-0700 (Pacific Daylight Time)
+268,Wafb1c74bd6,startTime,Fri Apr 15 2022 20:17:23 GMT+0100 (British Summer Time)
+269,Wa8d1d29cf0,startTime,Fri Apr 15 2022 16:29:16 GMT-0400 (Eastern Daylight Time)
+270,Wa8d1d29cf0,condition,"{""objective"":""utility"",""trial_type"":""slider"",""horizon"":""ambiguous""}"
+271,Wa8d1d29cf0,trialDataFile,exp2_split4
+272,Wa8d1d29cf0,featureRandomization,"{""Green"":""Blue"",""Red"":""Red"",""Blue"":""Green"",""Spotted"":""Spotted"",""Solid"":""Solid"",""Striped"":""Striped""}"
+273,Wa8d1d29cf0,quizAttempt-1,"{""attempt"":1,""correct"":15,""total"":16}"
+274,Wa8d1d29cf0,quizAttempt-2,"{""attempt"":2,""correct"":3,""total"":3}"
+275,Wa8d1d29cf0,quizPassed,"{""attempt"":2,""correct"":3,""total"":3}"
+276,Wa8d1d29cf0,bonus,2
+277,Wc60f25b5ec,startTime,Fri Apr 15 2022 15:27:04 GMT-0500 (Central Daylight Time)
+278,Wc60f25b5ec,condition,"{""objective"":""belief"",""trial_type"":""slider"",""horizon"":""ambiguous""}"
+279,Wc60f25b5ec,trialDataFile,exp2_split1
+280,Wc60f25b5ec,featureRandomization,"{""Green"":""Red"",""Red"":""Green"",""Blue"":""Blue"",""Spotted"":""Striped"",""Solid"":""Solid"",""Striped"":""Spotted""}"
+281,Wc60f25b5ec,quizAttempt-1,"{""attempt"":1,""correct"":15,""total"":16}"
+282,Wc60f25b5ec,quizAttempt-2,"{""attempt"":2,""correct"":3,""total"":3}"
+283,Wc60f25b5ec,quizPassed,"{""attempt"":2,""correct"":3,""total"":3}"
+284,Wc60f25b5ec,bonus,2
+285,W0147897049,startTime,Fri Apr 15 2022 15:03:38 GMT-0400 (Eastern Daylight Time)
+286,W0147897049,condition,"{""objective"":""belief"",""trial_type"":""slider"",""horizon"":""ambiguous""}"
+287,W0147897049,trialDataFile,exp2_split3
+288,W0147897049,featureRandomization,"{""Green"":""Red"",""Red"":""Green"",""Blue"":""Blue"",""Spotted"":""Solid"",""Solid"":""Spotted"",""Striped"":""Striped""}"
+289,W0147897049,quizAttempt-1,"{""attempt"":1,""correct"":14,""total"":16}"
+290,W0147897049,quizAttempt-2,"{""attempt"":2,""correct"":3,""total"":3}"
+291,W0147897049,quizPassed,"{""attempt"":2,""correct"":3,""total"":3}"
+292,W0147897049,bonus,2
+293,W8c6d83ec16,startTime,Fri Apr 15 2022 13:18:51 GMT-0600 (Mountain Daylight Time)
+294,W8c6d83ec16,condition,"{""objective"":""belief"",""trial_type"":""slider"",""horizon"":""ambiguous""}"
+295,W8c6d83ec16,trialDataFile,exp2_split4
+296,W8c6d83ec16,featureRandomization,"{""Green"":""Blue"",""Red"":""Green"",""Blue"":""Red"",""Spotted"":""Striped"",""Solid"":""Solid"",""Striped"":""Spotted""}"
+297,W8c6d83ec16,quizAttempt-1,"{""attempt"":1,""correct"":16,""total"":16}"
+298,W8c6d83ec16,quizPassed,"{""attempt"":1,""correct"":16,""total"":16}"
+299,W8c6d83ec16,bonus,2
+300,We0b4b666fe,startTime,Fri Apr 15 2022 15:22:54 GMT-0400 (EDT)
+301,We0b4b666fe,condition,"{""objective"":""belief"",""trial_type"":""slider"",""horizon"":""ambiguous""}"
+302,We0b4b666fe,trialDataFile,exp2_split3
+303,We0b4b666fe,featureRandomization,"{""Green"":""Green"",""Red"":""Blue"",""Blue"":""Red"",""Spotted"":""Spotted"",""Solid"":""Striped"",""Striped"":""Solid""}"
+304,We0b4b666fe,quizAttempt-1,"{""attempt"":1,""correct"":5,""total"":16}"
+305,We0b4b666fe,quizAttempt-2,"{""attempt"":2,""correct"":1,""total"":13}"
+306,We0b4b666fe,quizAttempt-3,"{""attempt"":3,""correct"":5,""total"":13}"
+307,We0b4b666fe,quizFailed,"{""attempt"":3,""correct"":5,""total"":13}"
+308,W8b15abfa92,startTime,Fri Apr 15 2022 15:19:47 GMT-0400 (Eastern Daylight Time)
+309,W8b15abfa92,condition,"{""objective"":""utility"",""trial_type"":""slider"",""horizon"":""ambiguous""}"
+310,W8b15abfa92,trialDataFile,exp2_split3
+311,W8b15abfa92,featureRandomization,"{""Green"":""Solid"",""Red"":""Spotted"",""Blue"":""Striped"",""Spotted"":""Green"",""Solid"":""Blue"",""Striped"":""Red""}"
+312,W8b15abfa92,quizAttempt-1,"{""attempt"":1,""correct"":16,""total"":16}"
+313,W8b15abfa92,quizPassed,"{""attempt"":1,""correct"":16,""total"":16}"
+314,W8b15abfa92,bonus,2
+315,W1075c44e3f,startTime,Fri Apr 15 2022 20:18:54 GMT+0100 (British Summer Time)
+316,W1075c44e3f,condition,"{""objective"":""ambiguous"",""trial_type"":""slider"",""horizon"":""ambiguous""}"
+317,W1075c44e3f,trialDataFile,exp2_split1
+318,W1075c44e3f,featureRandomization,"{""Green"":""Solid"",""Red"":""Spotted"",""Blue"":""Striped"",""Spotted"":""Green"",""Solid"":""Red"",""Striped"":""Blue""}"
+319,W1075c44e3f,quizAttempt-1,"{""attempt"":1,""correct"":8,""total"":16}"
+320,W1075c44e3f,quizAttempt-2,"{""attempt"":2,""correct"":9,""total"":13}"
+321,W1075c44e3f,quizAttempt-3,"{""attempt"":3,""correct"":2,""total"":6}"
+322,W1075c44e3f,quizFailed,"{""attempt"":3,""correct"":2,""total"":6}"
+323,Wd386a6d382,startTime,Sat Apr 16 2022 05:35:33 GMT-0500 (Central Daylight Time)
+324,Wd386a6d382,condition,"{""objective"":""belief"",""trial_type"":""slider"",""horizon"":""ambiguous""}"
+325,Wd386a6d382,trialDataFile,exp2_split2
+326,Wd386a6d382,featureRandomization,"{""Green"":""Red"",""Red"":""Blue"",""Blue"":""Green"",""Spotted"":""Solid"",""Solid"":""Spotted"",""Striped"":""Striped""}"
+327,Wd386a6d382,quizAttempt-1,"{""attempt"":1,""correct"":15,""total"":16}"
+328,Wd386a6d382,quizAttempt-2,"{""attempt"":2,""correct"":3,""total"":3}"
+329,Wd386a6d382,quizPassed,"{""attempt"":2,""correct"":3,""total"":3}"
+330,Wd386a6d382,bonus,2
+331,W05f6e79920,startTime,Fri Apr 15 2022 15:26:39 GMT-0500 (Central Daylight Time)
+332,W05f6e79920,condition,"{""objective"":""ambiguous"",""trial_type"":""slider"",""horizon"":""ambiguous""}"
+333,W05f6e79920,trialDataFile,exp2_split1
+334,W05f6e79920,featureRandomization,"{""Green"":""Solid"",""Red"":""Striped"",""Blue"":""Spotted"",""Spotted"":""Blue"",""Solid"":""Red"",""Striped"":""Green""}"
+335,W05f6e79920,quizAttempt-1,"{""attempt"":1,""correct"":16,""total"":16}"
+336,W05f6e79920,quizPassed,"{""attempt"":1,""correct"":16,""total"":16}"
+337,W05f6e79920,bonus,2
+338,W6e62fcc769,startTime,Sat Apr 16 2022 11:37:16 GMT+0100 (British Summer Time)
+339,W6e62fcc769,condition,"{""objective"":""belief"",""trial_type"":""slider"",""horizon"":""ambiguous""}"
+340,W6e62fcc769,trialDataFile,exp2_split1
+341,W6e62fcc769,featureRandomization,"{""Green"":""Green"",""Red"":""Blue"",""Blue"":""Red"",""Spotted"":""Solid"",""Solid"":""Striped"",""Striped"":""Spotted""}"
+342,W6e62fcc769,quizAttempt-1,"{""attempt"":1,""correct"":7,""total"":16}"
+343,W6e62fcc769,quizAttempt-2,"{""attempt"":2,""correct"":6,""total"":13}"
+344,W6e62fcc769,quizAttempt-3,"{""attempt"":3,""correct"":4,""total"":13}"
+345,W6e62fcc769,quizFailed,"{""attempt"":3,""correct"":4,""total"":13}"
+346,W9ed8295732,startTime,Sat Apr 16 2022 06:37:42 GMT-0400 (Eastern Daylight Time)
+347,W9ed8295732,condition,"{""objective"":""utility"",""trial_type"":""slider"",""horizon"":""ambiguous""}"
+348,W9ed8295732,trialDataFile,exp2_split1
+349,W9ed8295732,featureRandomization,"{""Green"":""Blue"",""Red"":""Green"",""Blue"":""Red"",""Spotted"":""Spotted"",""Solid"":""Solid"",""Striped"":""Striped""}"
+350,W9ed8295732,quizAttempt-1,"{""attempt"":1,""correct"":12,""total"":16}"
+351,W9ed8295732,quizAttempt-2,"{""attempt"":2,""correct"":6,""total"":6}"
+352,W9ed8295732,quizPassed,"{""attempt"":2,""correct"":6,""total"":6}"
+353,W9ed8295732,bonus,2
+354,W46f9dc76ce,startTime,Sat Apr 16 2022 03:43:49 GMT-0700 (Pacific Daylight Time)
+355,W46f9dc76ce,condition,"{""objective"":""ambiguous"",""trial_type"":""slider"",""horizon"":""ambiguous""}"
+356,W46f9dc76ce,trialDataFile,exp2_split2
+357,W46f9dc76ce,featureRandomization,"{""Green"":""Green"",""Red"":""Blue"",""Blue"":""Red"",""Spotted"":""Spotted"",""Solid"":""Solid"",""Striped"":""Striped""}"
+358,W46f9dc76ce,quizAttempt-1,"{""attempt"":1,""correct"":13,""total"":16}"
+359,W46f9dc76ce,quizAttempt-2,"{""attempt"":2,""correct"":9,""total"":10}"
+360,W46f9dc76ce,quizAttempt-3,"{""attempt"":3,""correct"":4,""total"":4}"
+361,W46f9dc76ce,quizPassed,"{""attempt"":3,""correct"":4,""total"":4}"
+362,W46f9dc76ce,bonus,2
+363,Wbed2a185d6,startTime,Fri Apr 15 2022 15:25:01 GMT-0400 (Eastern Daylight Time)
+364,Wbed2a185d6,condition,"{""objective"":""belief"",""trial_type"":""slider"",""horizon"":""ambiguous""}"
+365,Wbed2a185d6,trialDataFile,exp2_split2
+366,Wbed2a185d6,featureRandomization,"{""Green"":""Red"",""Red"":""Blue"",""Blue"":""Green"",""Spotted"":""Striped"",""Solid"":""Solid"",""Striped"":""Spotted""}"
+367,Wbed2a185d6,quizAttempt-1,"{""attempt"":1,""correct"":15,""total"":16}"
+368,Wbed2a185d6,quizAttempt-2,"{""attempt"":2,""correct"":3,""total"":3}"
+369,Wbed2a185d6,quizPassed,"{""attempt"":2,""correct"":3,""total"":3}"
+370,Wbed2a185d6,bonus,2
+371,Wf23a7bc0bb,startTime,Fri Apr 15 2022 15:24:47 GMT-0400 (Eastern Daylight Time)
+372,Wf23a7bc0bb,condition,"{""objective"":""ambiguous"",""trial_type"":""slider"",""horizon"":""ambiguous""}"
+373,Wf23a7bc0bb,trialDataFile,exp2_split1
+374,Wf23a7bc0bb,featureRandomization,"{""Green"":""Striped"",""Red"":""Solid"",""Blue"":""Spotted"",""Spotted"":""Green"",""Solid"":""Red"",""Striped"":""Blue""}"
+375,Wf23a7bc0bb,quizAttempt-1,"{""attempt"":1,""correct"":16,""total"":16}"
+376,Wf23a7bc0bb,quizPassed,"{""attempt"":1,""correct"":16,""total"":16}"
+377,Wf23a7bc0bb,bonus,2
+378,Wc5df8218e8,startTime,Fri Apr 15 2022 20:27:19 GMT+0100 (British Summer Time)
+379,Wc5df8218e8,condition,"{""objective"":""ambiguous"",""trial_type"":""slider"",""horizon"":""ambiguous""}"
+380,Wc5df8218e8,trialDataFile,exp2_split2
+381,Wc5df8218e8,featureRandomization,"{""Green"":""Striped"",""Red"":""Spotted"",""Blue"":""Solid"",""Spotted"":""Red"",""Solid"":""Blue"",""Striped"":""Green""}"
+382,Wc5df8218e8,quizAttempt-1,"{""attempt"":1,""correct"":8,""total"":16}"
+383,Wc5df8218e8,quizAttempt-2,"{""attempt"":2,""correct"":10,""total"":13}"
+384,Wc5df8218e8,quizAttempt-3,"{""attempt"":3,""correct"":2,""total"":7}"
+385,Wc5df8218e8,quizFailed,"{""attempt"":3,""correct"":2,""total"":7}"
+386,W42ee39db4f,startTime,Fri Apr 15 2022 15:24:28 GMT-0400 (Eastern Daylight Time)
+387,W42ee39db4f,condition,"{""objective"":""belief"",""trial_type"":""slider"",""horizon"":""ambiguous""}"
+388,W42ee39db4f,trialDataFile,exp2_split1
+389,W42ee39db4f,featureRandomization,"{""Green"":""Striped"",""Red"":""Solid"",""Blue"":""Spotted"",""Spotted"":""Red"",""Solid"":""Blue"",""Striped"":""Green""}"
+390,W42ee39db4f,quizAttempt-1,"{""attempt"":1,""correct"":16,""total"":16}"
+391,W42ee39db4f,quizPassed,"{""attempt"":1,""correct"":16,""total"":16}"
+392,W42ee39db4f,bonus,2
+393,Wc08053db61,startTime,Fri Apr 15 2022 14:24:15 GMT-0500 (Central Daylight Time)
+394,Wc08053db61,condition,"{""objective"":""utility"",""trial_type"":""slider"",""horizon"":""ambiguous""}"
+395,Wc08053db61,trialDataFile,exp2_split3
+396,Wc08053db61,featureRandomization,"{""Green"":""Red"",""Red"":""Green"",""Blue"":""Blue"",""Spotted"":""Solid"",""Solid"":""Striped"",""Striped"":""Spotted""}"
+397,Wc08053db61,quizAttempt-1,"{""attempt"":1,""correct"":16,""total"":16}"
+398,Wc08053db61,quizPassed,"{""attempt"":1,""correct"":16,""total"":16}"
+399,Wc08053db61,bonus,2
+400,Wd1e7ac5830,startTime,Sat Apr 16 2022 11:40:59 GMT+0100 (British Summer Time)
+401,W24b3b4f7f7,startTime,Sat Apr 16 2022 11:44:42 GMT+0100 (British Summer Time)
+402,W3a9183459a,startTime,Sat Apr 16 2022 11:45:33 GMT+0100 (British Summer Time)
+403,W2280ea6fe6,startTime,Sat Apr 16 2022 05:39:04 GMT-0500 (Central Daylight Time)
+404,W2280ea6fe6,condition,"{""objective"":""belief"",""trial_type"":""slider"",""horizon"":""ambiguous""}"
+405,W2280ea6fe6,trialDataFile,exp2_split1
+406,W2280ea6fe6,featureRandomization,"{""Green"":""Green"",""Red"":""Red"",""Blue"":""Blue"",""Spotted"":""Spotted"",""Solid"":""Solid"",""Striped"":""Striped""}"
+407,W2280ea6fe6,quizAttempt-1,"{""attempt"":1,""correct"":15,""total"":16}"
+408,W2280ea6fe6,quizAttempt-2,"{""attempt"":2,""correct"":3,""total"":3}"
+409,W2280ea6fe6,quizPassed,"{""attempt"":2,""correct"":3,""total"":3}"
+410,W2280ea6fe6,bonus,2
+411,W993099cdaf,startTime,Sat Apr 16 2022 08:04:44 GMT-0400 (EDT)
+412,W993099cdaf,condition,"{""objective"":""ambiguous"",""trial_type"":""slider"",""horizon"":""ambiguous""}"
+413,W993099cdaf,trialDataFile,exp2_split3
+414,W993099cdaf,featureRandomization,"{""Green"":""Striped"",""Red"":""Solid"",""Blue"":""Spotted"",""Spotted"":""Red"",""Solid"":""Blue"",""Striped"":""Green""}"
+415,W993099cdaf,quizAttempt-1,"{""attempt"":1,""correct"":12,""total"":16}"
+416,W993099cdaf,quizAttempt-2,"{""attempt"":2,""correct"":7,""total"":7}"
+417,W993099cdaf,quizPassed,"{""attempt"":2,""correct"":7,""total"":7}"
+418,W993099cdaf,bonus,2
+419,W5e459487b7,startTime,Sat Apr 16 2022 06:39:30 GMT-0400 (Eastern Daylight Time)
+420,W5e459487b7,condition,"{""objective"":""ambiguous"",""trial_type"":""slider"",""horizon"":""ambiguous""}"
+421,W5e459487b7,trialDataFile,exp2_split4
+422,W5e459487b7,featureRandomization,"{""Green"":""Striped"",""Red"":""Spotted"",""Blue"":""Solid"",""Spotted"":""Red"",""Solid"":""Blue"",""Striped"":""Green""}"
+423,W5e459487b7,quizAttempt-1,"{""attempt"":1,""correct"":16,""total"":16}"
+424,W5e459487b7,quizPassed,"{""attempt"":1,""correct"":16,""total"":16}"
+425,W5e459487b7,bonus,2
+426,W07ecd061ea,startTime,Sat Apr 16 2022 03:44:59 GMT-0700 (Pacific Daylight Time)
+427,W07ecd061ea,condition,"{""objective"":""utility"",""trial_type"":""slider"",""horizon"":""ambiguous""}"
+428,W07ecd061ea,trialDataFile,exp2_split4
+429,W07ecd061ea,featureRandomization,"{""Green"":""Solid"",""Red"":""Spotted"",""Blue"":""Striped"",""Spotted"":""Red"",""Solid"":""Blue"",""Striped"":""Green""}"
+430,W07ecd061ea,quizAttempt-1,"{""attempt"":1,""correct"":16,""total"":16}"
+431,W07ecd061ea,quizPassed,"{""attempt"":1,""correct"":16,""total"":16}"
+432,W07ecd061ea,bonus,2
+433,W96190611e9,startTime,Sat Apr 16 2022 07:29:10 GMT-0700 (PDT)
+434,W5ab95c6e61,startTime,Sat Apr 16 2022 13:04:31 GMT+0100 (BST)
+435,W5ab95c6e61,condition,"{""objective"":""ambiguous"",""trial_type"":""slider"",""horizon"":""ambiguous""}"
+436,W5ab95c6e61,trialDataFile,exp2_split2
+437,W5ab95c6e61,featureRandomization,"{""Green"":""Solid"",""Red"":""Striped"",""Blue"":""Spotted"",""Spotted"":""Blue"",""Solid"":""Green"",""Striped"":""Red""}"
+438,W5ab95c6e61,quizAttempt-1,"{""attempt"":1,""correct"":16,""total"":16}"
+439,W5ab95c6e61,quizPassed,"{""attempt"":1,""correct"":16,""total"":16}"
+440,W5ab95c6e61,bonus,2
+441,We6e4dd341c,startTime,Sat Apr 16 2022 13:04:40 GMT+0100 (British Summer Time)
+442,We6e4dd341c,condition,"{""objective"":""belief"",""trial_type"":""slider"",""horizon"":""ambiguous""}"
+443,We6e4dd341c,trialDataFile,exp2_split1
+444,We6e4dd341c,featureRandomization,"{""Green"":""Solid"",""Red"":""Spotted"",""Blue"":""Striped"",""Spotted"":""Green"",""Solid"":""Blue"",""Striped"":""Red""}"
+445,We6e4dd341c,quizAttempt-1,"{""attempt"":1,""correct"":10,""total"":16}"
+446,We6e4dd341c,quizAttempt-2,"{""attempt"":2,""correct"":11,""total"":13}"
+447,We6e4dd341c,quizAttempt-3,"{""attempt"":3,""correct"":7,""total"":7}"
+448,We6e4dd341c,quizPassed,"{""attempt"":3,""correct"":7,""total"":7}"
+449,We6e4dd341c,bonus,2
+450,W697b8d0f54,startTime,Sat Apr 16 2022 15:29:32 GMT+0100 (British Summer Time)
+451,W697b8d0f54,condition,"{""objective"":""utility"",""trial_type"":""slider"",""horizon"":""ambiguous""}"
+452,W697b8d0f54,trialDataFile,exp2_split3
+453,W697b8d0f54,featureRandomization,"{""Green"":""Blue"",""Red"":""Red"",""Blue"":""Green"",""Spotted"":""Spotted"",""Solid"":""Striped"",""Striped"":""Solid""}"
+454,W697b8d0f54,quizAttempt-1,"{""attempt"":1,""correct"":16,""total"":16}"
+455,W697b8d0f54,quizPassed,"{""attempt"":1,""correct"":16,""total"":16}"
+456,W697b8d0f54,bonus,2
+457,W6697f77b1a,startTime,Fri Apr 15 2022 15:48:40 GMT-0400 (EDT)
+458,W6697f77b1a,condition,"{""objective"":""utility"",""trial_type"":""slider"",""horizon"":""ambiguous""}"
+459,W6697f77b1a,trialDataFile,exp2_split1
+460,W6697f77b1a,featureRandomization,"{""Green"":""Striped"",""Red"":""Solid"",""Blue"":""Spotted"",""Spotted"":""Green"",""Solid"":""Blue"",""Striped"":""Red""}"
+461,W6697f77b1a,quizAttempt-1,"{""attempt"":1,""correct"":14,""total"":16}"
+462,W6697f77b1a,quizAttempt-2,"{""attempt"":2,""correct"":3,""total"":3}"
+463,W6697f77b1a,quizPassed,"{""attempt"":2,""correct"":3,""total"":3}"
+464,W6697f77b1a,bonus,2
+465,W20f9648c4b,startTime,Fri Apr 15 2022 20:26:34 GMT+0100 (British Summer Time)
+466,Wf4f0c2c601,startTime,Fri Apr 15 2022 14:48:35 GMT-0500 (Central Daylight Time)
+467,Wf4f0c2c601,condition,"{""objective"":""belief"",""trial_type"":""slider"",""horizon"":""ambiguous""}"
+468,Wf4f0c2c601,trialDataFile,exp2_split3
+469,Wf4f0c2c601,featureRandomization,"{""Green"":""Spotted"",""Red"":""Solid"",""Blue"":""Striped"",""Spotted"":""Red"",""Solid"":""Green"",""Striped"":""Blue""}"
+470,Wf4f0c2c601,quizAttempt-1,"{""attempt"":1,""correct"":16,""total"":16}"
+471,Wf4f0c2c601,quizPassed,"{""attempt"":1,""correct"":16,""total"":16}"
+472,Wf4f0c2c601,bonus,2
+473,W770f11e277,startTime,Fri Apr 15 2022 14:26:37 GMT-0500 (Central Daylight Time)
+474,W770f11e277,condition,"{""objective"":""ambiguous"",""trial_type"":""slider"",""horizon"":""ambiguous""}"
+475,W770f11e277,trialDataFile,exp2_split1
+476,W770f11e277,featureRandomization,"{""Green"":""Spotted"",""Red"":""Solid"",""Blue"":""Striped"",""Spotted"":""Blue"",""Solid"":""Red"",""Striped"":""Green""}"
+477,W770f11e277,quizAttempt-1,"{""attempt"":1,""correct"":16,""total"":16}"
+478,W770f11e277,quizPassed,"{""attempt"":1,""correct"":16,""total"":16}"
+479,W770f11e277,bonus,2
+480,W0e68c2297b,startTime,Fri Apr 15 2022 20:24:46 GMT+0100 (British Summer Time)
+481,W0e68c2297b,condition,"{""objective"":""utility"",""trial_type"":""slider"",""horizon"":""ambiguous""}"
+482,W0e68c2297b,trialDataFile,exp2_split1
+483,W0e68c2297b,featureRandomization,"{""Green"":""Spotted"",""Red"":""Striped"",""Blue"":""Solid"",""Spotted"":""Blue"",""Solid"":""Red"",""Striped"":""Green""}"
+484,W0e68c2297b,quizAttempt-1,"{""attempt"":1,""correct"":15,""total"":16}"
+485,W0e68c2297b,quizAttempt-2,"{""attempt"":2,""correct"":3,""total"":3}"
+486,W0e68c2297b,quizPassed,"{""attempt"":2,""correct"":3,""total"":3}"
+487,W0e68c2297b,bonus,2
+488,W6bd440659f,startTime,Fri Apr 15 2022 15:26:30 GMT-0400 (Eastern Daylight Time)
+489,W6bd440659f,condition,"{""objective"":""utility"",""trial_type"":""slider"",""horizon"":""ambiguous""}"
+490,W6bd440659f,trialDataFile,exp2_split2
+491,W6bd440659f,featureRandomization,"{""Green"":""Blue"",""Red"":""Green"",""Blue"":""Red"",""Spotted"":""Striped"",""Solid"":""Spotted"",""Striped"":""Solid""}"
+492,W6bd440659f,quizAttempt-1,"{""attempt"":1,""correct"":16,""total"":16}"
+493,W6bd440659f,quizPassed,"{""attempt"":1,""correct"":16,""total"":16}"
+494,W6bd440659f,bonus,2
+495,Wf0ff485c4d,startTime,Fri Apr 15 2022 14:26:14 GMT-0500 (Central Daylight Time)
+496,Wf0ff485c4d,condition,"{""objective"":""belief"",""trial_type"":""slider"",""horizon"":""ambiguous""}"
+497,Wf0ff485c4d,trialDataFile,exp2_split3
+498,Wf0ff485c4d,featureRandomization,"{""Green"":""Blue"",""Red"":""Green"",""Blue"":""Red"",""Spotted"":""Striped"",""Solid"":""Solid"",""Striped"":""Spotted""}"
+499,Wf0ff485c4d,quizAttempt-1,"{""attempt"":1,""correct"":11,""total"":16}"
+500,Wf0ff485c4d,quizAttempt-2,"{""attempt"":2,""correct"":6,""total"":10}"
+501,Wf0ff485c4d,quizAttempt-3,"{""attempt"":3,""correct"":7,""total"":7}"
+502,Wf0ff485c4d,quizPassed,"{""attempt"":3,""correct"":7,""total"":7}"
+503,Wf0ff485c4d,bonus,2
+504,Wa7db587779,startTime,Fri Apr 15 2022 13:32:21 GMT-0600 (Mountain Daylight Time)
+505,Wa7db587779,condition,"{""objective"":""ambiguous"",""trial_type"":""slider"",""horizon"":""ambiguous""}"
+506,Wa7db587779,trialDataFile,exp2_split2
+507,Wa7db587779,featureRandomization,"{""Green"":""Red"",""Red"":""Blue"",""Blue"":""Green"",""Spotted"":""Solid"",""Solid"":""Striped"",""Striped"":""Spotted""}"
+508,Wa7db587779,quizAttempt-1,"{""attempt"":1,""correct"":16,""total"":16}"
+509,Wa7db587779,quizPassed,"{""attempt"":1,""correct"":16,""total"":16}"
+510,Wa7db587779,bonus,2
+511,Wa284d1459b,startTime,Fri Apr 15 2022 20:49:08 GMT+0100 (British Summer Time)
+512,W1bca0bd689,startTime,Sat Apr 16 2022 11:47:09 GMT+0100 (British Summer Time)
+513,W1bca0bd689,condition,"{""objective"":""belief"",""trial_type"":""slider"",""horizon"":""ambiguous""}"
+514,W1bca0bd689,trialDataFile,exp2_split2
+515,W1bca0bd689,featureRandomization,"{""Green"":""Spotted"",""Red"":""Solid"",""Blue"":""Striped"",""Spotted"":""Blue"",""Solid"":""Red"",""Striped"":""Green""}"
+516,W1bca0bd689,quizAttempt-1,"{""attempt"":1,""correct"":16,""total"":16}"
+517,W1bca0bd689,quizPassed,"{""attempt"":1,""correct"":16,""total"":16}"
+518,W1bca0bd689,bonus,2
+519,W159f3a80dd,startTime,Sat Apr 16 2022 11:46:28 GMT+0100 (British Summer Time)
+520,W159f3a80dd,condition,"{""objective"":""belief"",""trial_type"":""slider"",""horizon"":""ambiguous""}"
+521,W159f3a80dd,trialDataFile,exp2_split1
+522,W159f3a80dd,featureRandomization,"{""Green"":""Red"",""Red"":""Green"",""Blue"":""Blue"",""Spotted"":""Solid"",""Solid"":""Spotted"",""Striped"":""Striped""}"
+523,W159f3a80dd,quizAttempt-1,"{""attempt"":1,""correct"":16,""total"":16}"
+524,W159f3a80dd,quizPassed,"{""attempt"":1,""correct"":16,""total"":16}"
+525,W159f3a80dd,bonus,2
+526,W25a5a2023f,startTime,Fri Apr 15 2022 12:48:26 GMT-0700 (Pacific Daylight Time)
+527,W25a5a2023f,condition,"{""objective"":""ambiguous"",""trial_type"":""slider"",""horizon"":""ambiguous""}"
+528,W25a5a2023f,trialDataFile,exp2_split1
+529,W25a5a2023f,featureRandomization,"{""Green"":""Spotted"",""Red"":""Solid"",""Blue"":""Striped"",""Spotted"":""Blue"",""Solid"":""Green"",""Striped"":""Red""}"
+530,W25a5a2023f,quizAttempt-1,"{""attempt"":1,""correct"":16,""total"":16}"
+531,W25a5a2023f,quizPassed,"{""attempt"":1,""correct"":16,""total"":16}"
+532,W25a5a2023f,bonus,2
+533,Wc94c307428,startTime,Fri Apr 15 2022 15:48:30 GMT-0400 (GMT-04:00)
+534,Wc94c307428,condition,"{""objective"":""utility"",""trial_type"":""slider"",""horizon"":""ambiguous""}"
+535,Wc94c307428,trialDataFile,exp2_split2
+536,Wc94c307428,featureRandomization,"{""Green"":""Green"",""Red"":""Red"",""Blue"":""Blue"",""Spotted"":""Solid"",""Solid"":""Spotted"",""Striped"":""Striped""}"
+537,Wc94c307428,quizAttempt-1,"{""attempt"":1,""correct"":16,""total"":16}"
+538,Wc94c307428,quizPassed,"{""attempt"":1,""correct"":16,""total"":16}"
+539,Wc94c307428,bonus,2
+540,Wa8493f63c7,startTime,Fri Apr 15 2022 12:49:46 GMT-0700 (Pacific Daylight Time)
+541,Wa8493f63c7,condition,"{""objective"":""ambiguous"",""trial_type"":""slider"",""horizon"":""ambiguous""}"
+542,Wa8493f63c7,trialDataFile,exp2_split2
+543,Wa8493f63c7,featureRandomization,"{""Green"":""Green"",""Red"":""Red"",""Blue"":""Blue"",""Spotted"":""Solid"",""Solid"":""Spotted"",""Striped"":""Striped""}"
+544,Wa8493f63c7,quizAttempt-1,"{""attempt"":1,""correct"":14,""total"":16}"
+545,Wa8493f63c7,quizAttempt-2,"{""attempt"":2,""correct"":2,""total"":4}"
+546,Wa8493f63c7,quizAttempt-3,"{""attempt"":3,""correct"":4,""total"":4}"
+547,Wa8493f63c7,quizPassed,"{""attempt"":3,""correct"":4,""total"":4}"
+548,Wa8493f63c7,bonus,2
+549,Wcf1dac71fc,startTime,Sat Apr 16 2022 13:05:53 GMT+0100 (British Summer Time)
+550,Wcf1dac71fc,condition,"{""objective"":""utility"",""trial_type"":""slider"",""horizon"":""ambiguous""}"
+551,Wcf1dac71fc,trialDataFile,exp2_split3
+552,Wcf1dac71fc,featureRandomization,"{""Green"":""Red"",""Red"":""Blue"",""Blue"":""Green"",""Spotted"":""Striped"",""Solid"":""Solid"",""Striped"":""Spotted""}"
+553,Wcf1dac71fc,quizAttempt-1,"{""attempt"":1,""correct"":14,""total"":16}"
+554,Wcf1dac71fc,quizAttempt-2,"{""attempt"":2,""correct"":4,""total"":4}"
+555,Wcf1dac71fc,quizPassed,"{""attempt"":2,""correct"":4,""total"":4}"
+556,Wcf1dac71fc,bonus,2
+557,Wd1a6f8f6bc,startTime,Sat Apr 16 2022 08:05:52 GMT-0400 (Eastern Daylight Time)
+558,W48950a11e3,startTime,Sat Apr 16 2022 08:05:41 GMT-0400 (Eastern Daylight Time)
+559,W48950a11e3,condition,"{""objective"":""utility"",""trial_type"":""slider"",""horizon"":""ambiguous""}"
+560,W48950a11e3,trialDataFile,exp2_split1
+561,W48950a11e3,featureRandomization,"{""Green"":""Green"",""Red"":""Blue"",""Blue"":""Red"",""Spotted"":""Solid"",""Solid"":""Striped"",""Striped"":""Spotted""}"
+562,W48950a11e3,quizAttempt-1,"{""attempt"":1,""correct"":16,""total"":16}"
+563,W48950a11e3,quizPassed,"{""attempt"":1,""correct"":16,""total"":16}"
+564,W48950a11e3,bonus,2
+565,W15320b82ed,startTime,Sat Apr 16 2022 15:34:55 GMT+0100 (British Summer Time)
+566,W15320b82ed,condition,"{""objective"":""utility"",""trial_type"":""slider"",""horizon"":""ambiguous""}"
+567,W15320b82ed,trialDataFile,exp2_split1
+568,W15320b82ed,featureRandomization,"{""Green"":""Green"",""Red"":""Blue"",""Blue"":""Red"",""Spotted"":""Striped"",""Solid"":""Spotted"",""Striped"":""Solid""}"
+569,W15320b82ed,quizAttempt-1,"{""attempt"":1,""correct"":15,""total"":16}"
+570,W15320b82ed,quizAttempt-2,"{""attempt"":2,""correct"":3,""total"":3}"
+571,W15320b82ed,quizPassed,"{""attempt"":2,""correct"":3,""total"":3}"
+572,W15320b82ed,bonus,2
+573,W4a38275d17,startTime,Sat Apr 16 2022 15:34:02 GMT+0100 (British Summer Time)
+574,W4a38275d17,condition,"{""objective"":""belief"",""trial_type"":""slider"",""horizon"":""ambiguous""}"
+575,W4a38275d17,trialDataFile,exp2_split1
+576,W4a38275d17,featureRandomization,"{""Green"":""Blue"",""Red"":""Red"",""Blue"":""Green"",""Spotted"":""Solid"",""Solid"":""Spotted"",""Striped"":""Striped""}"
+577,W4a38275d17,quizAttempt-1,"{""attempt"":1,""correct"":9,""total"":16}"
+578,W4a38275d17,quizAttempt-2,"{""attempt"":2,""correct"":13,""total"":13}"
+579,W4a38275d17,quizPassed,"{""attempt"":2,""correct"":13,""total"":13}"
+580,W4a38275d17,bonus,2
+581,W83fb404dfc,startTime,Fri Apr 15 2022 15:49:52 GMT-0400 (Eastern Daylight Time)
+582,W83fb404dfc,condition,"{""objective"":""ambiguous"",""trial_type"":""slider"",""horizon"":""ambiguous""}"
+583,W83fb404dfc,trialDataFile,exp2_split3
+584,W83fb404dfc,featureRandomization,"{""Green"":""Spotted"",""Red"":""Striped"",""Blue"":""Solid"",""Spotted"":""Green"",""Solid"":""Red"",""Striped"":""Blue""}"
+585,W83fb404dfc,quizAttempt-1,"{""attempt"":1,""correct"":16,""total"":16}"
+586,W83fb404dfc,quizPassed,"{""attempt"":1,""correct"":16,""total"":16}"
+587,W83fb404dfc,bonus,2
+588,Wc7c3d8b840,startTime,Sat Apr 16 2022 12:15:40 GMT+0100 (British Summer Time)
+589,Wc7c3d8b840,condition,"{""objective"":""belief"",""trial_type"":""slider"",""horizon"":""ambiguous""}"
+590,Wc7c3d8b840,trialDataFile,exp2_split3
+591,Wc7c3d8b840,featureRandomization,"{""Green"":""Spotted"",""Red"":""Striped"",""Blue"":""Solid"",""Spotted"":""Green"",""Solid"":""Red"",""Striped"":""Blue""}"
+592,Wc7c3d8b840,quizAttempt-1,"{""attempt"":1,""correct"":16,""total"":16}"
+593,Wc7c3d8b840,quizPassed,"{""attempt"":1,""correct"":16,""total"":16}"
+594,Wc7c3d8b840,bonus,2
+595,Wc01a637266,startTime,Sat Apr 16 2022 04:47:36 GMT-0600 (Mountain Daylight Time)
+596,Wcd5a365311,startTime,Sat Apr 16 2022 11:54:47 GMT+0100 (British Summer Time)
+597,W02b773cfa3,startTime,Sat Apr 16 2022 11:57:11 GMT+0100 (British Summer Time)
+598,W02b773cfa3,condition,"{""objective"":""belief"",""trial_type"":""slider"",""horizon"":""ambiguous""}"
+599,W02b773cfa3,trialDataFile,exp2_split1
+600,W02b773cfa3,featureRandomization,"{""Green"":""Blue"",""Red"":""Red"",""Blue"":""Green"",""Spotted"":""Spotted"",""Solid"":""Solid"",""Striped"":""Striped""}"
+601,W02b773cfa3,quizAttempt-1,"{""attempt"":1,""correct"":16,""total"":16}"
+602,W02b773cfa3,quizPassed,"{""attempt"":1,""correct"":16,""total"":16}"
+603,W02b773cfa3,bonus,2
+604,W2d7880e3f5,startTime,Sat Apr 16 2022 11:55:50 GMT+0100 (British Summer Time)
+605,W2d7880e3f5,condition,"{""objective"":""utility"",""trial_type"":""slider"",""horizon"":""ambiguous""}"
+606,W2d7880e3f5,trialDataFile,exp2_split3
+607,W2d7880e3f5,featureRandomization,"{""Green"":""Blue"",""Red"":""Green"",""Blue"":""Red"",""Spotted"":""Spotted"",""Solid"":""Striped"",""Striped"":""Solid""}"
+608,W2d7880e3f5,quizAttempt-1,"{""attempt"":1,""correct"":15,""total"":16}"
+609,W2d7880e3f5,quizAttempt-2,"{""attempt"":2,""correct"":1,""total"":3}"
+610,W2d7880e3f5,quizAttempt-3,"{""attempt"":3,""correct"":3,""total"":3}"
+611,W2d7880e3f5,quizPassed,"{""attempt"":3,""correct"":3,""total"":3}"
+612,W2d7880e3f5,bonus,2
+613,Wbfc891d235,startTime,Sat Apr 16 2022 11:47:17 GMT+0100 (British Summer Time)
+614,Wbfc891d235,condition,"{""objective"":""utility"",""trial_type"":""slider"",""horizon"":""ambiguous""}"
+615,Wbfc891d235,trialDataFile,exp2_split4
+616,Wbfc891d235,featureRandomization,"{""Green"":""Blue"",""Red"":""Red"",""Blue"":""Green"",""Spotted"":""Solid"",""Solid"":""Striped"",""Striped"":""Spotted""}"
+617,Wbfc891d235,quizAttempt-1,"{""attempt"":1,""correct"":13,""total"":16}"
+618,Wbfc891d235,quizAttempt-2,"{""attempt"":2,""correct"":6,""total"":6}"
+619,Wbfc891d235,quizPassed,"{""attempt"":2,""correct"":6,""total"":6}"
+620,Wbfc891d235,bonus,2
+621,We701b75684,startTime,Sat Apr 16 2022 13:06:58 GMT+0100 (BST)
+622,W870fc8d462,startTime,Sat Apr 16 2022 13:06:14 GMT+0100 (BST)
+623,W870fc8d462,condition,"{""objective"":""ambiguous"",""trial_type"":""slider"",""horizon"":""ambiguous""}"
+624,W870fc8d462,trialDataFile,exp2_split4
+625,W870fc8d462,featureRandomization,"{""Green"":""Solid"",""Red"":""Striped"",""Blue"":""Spotted"",""Spotted"":""Blue"",""Solid"":""Red"",""Striped"":""Green""}"
+626,W870fc8d462,quizAttempt-1,"{""attempt"":1,""correct"":16,""total"":16}"
+627,W870fc8d462,quizPassed,"{""attempt"":1,""correct"":16,""total"":16}"
+628,W870fc8d462,bonus,2
+629,Wb9643bd8c4,startTime,Sat Apr 16 2022 08:06:19 GMT-0400 (Eastern Daylight Time)
+630,Wb9643bd8c4,condition,"{""objective"":""belief"",""trial_type"":""slider"",""horizon"":""ambiguous""}"
+631,Wb9643bd8c4,trialDataFile,exp2_split3
+632,Wb9643bd8c4,featureRandomization,"{""Green"":""Striped"",""Red"":""Solid"",""Blue"":""Spotted"",""Spotted"":""Green"",""Solid"":""Red"",""Striped"":""Blue""}"
+633,Wb9643bd8c4,quizAttempt-1,"{""attempt"":1,""correct"":16,""total"":16}"
+634,Wb9643bd8c4,quizPassed,"{""attempt"":1,""correct"":16,""total"":16}"
+635,Wb9643bd8c4,bonus,2
+636,W60fc50bef7,startTime,Sat Apr 16 2022 08:08:00 GMT-0400 (Eastern Daylight Time)
+637,W60fc50bef7,condition,"{""objective"":""ambiguous"",""trial_type"":""slider"",""horizon"":""ambiguous""}"
+638,W60fc50bef7,trialDataFile,exp2_split4
+639,W60fc50bef7,featureRandomization,"{""Green"":""Solid"",""Red"":""Spotted"",""Blue"":""Striped"",""Spotted"":""Blue"",""Solid"":""Red"",""Striped"":""Green""}"
+640,W60fc50bef7,quizAttempt-1,"{""attempt"":1,""correct"":15,""total"":16}"
+641,W60fc50bef7,quizAttempt-2,"{""attempt"":2,""correct"":3,""total"":3}"
+642,W60fc50bef7,quizPassed,"{""attempt"":2,""correct"":3,""total"":3}"
+643,W60fc50bef7,bonus,2
+644,Wbcb03972d3,startTime,Sat Apr 16 2022 08:08:31 GMT-0400 (Eastern Daylight Time)
+645,Wbcb03972d3,condition,"{""objective"":""belief"",""trial_type"":""slider"",""horizon"":""ambiguous""}"
+646,Wbcb03972d3,trialDataFile,exp2_split4
+647,Wbcb03972d3,featureRandomization,"{""Green"":""Blue"",""Red"":""Red"",""Blue"":""Green"",""Spotted"":""Striped"",""Solid"":""Solid"",""Striped"":""Spotted""}"
+648,Wbcb03972d3,quizAttempt-1,"{""attempt"":1,""correct"":16,""total"":16}"
+649,Wbcb03972d3,quizPassed,"{""attempt"":1,""correct"":16,""total"":16}"
+650,Wbcb03972d3,bonus,2
+651,Wbd06efbe71,startTime,Sat Apr 16 2022 12:58:14 GMT+0000 (London Standard Time)
+652,Wbd06efbe71,condition,"{""objective"":""ambiguous"",""trial_type"":""slider"",""horizon"":""ambiguous""}"
+653,Wbd06efbe71,trialDataFile,exp2_split4
+654,Wbd06efbe71,featureRandomization,"{""Green"":""Solid"",""Red"":""Striped"",""Blue"":""Spotted"",""Spotted"":""Green"",""Solid"":""Red"",""Striped"":""Blue""}"
+655,Wbd06efbe71,quizAttempt-1,"{""attempt"":1,""correct"":8,""total"":16}"
+656,Wbd06efbe71,quizAttempt-2,"{""attempt"":2,""correct"":11,""total"":13}"
+657,Wbd06efbe71,quizAttempt-3,"{""attempt"":3,""correct"":2,""total"":4}"
+658,Wbd06efbe71,quizFailed,"{""attempt"":3,""correct"":2,""total"":4}"
+659,W4f78ceb579,startTime,Sat Apr 16 2022 09:00:03 GMT-0400 (EDT)
+660,W4f78ceb579,condition,"{""objective"":""ambiguous"",""trial_type"":""slider"",""horizon"":""ambiguous""}"
+661,W4f78ceb579,trialDataFile,exp2_split3
+662,W4f78ceb579,featureRandomization,"{""Green"":""Spotted"",""Red"":""Striped"",""Blue"":""Solid"",""Spotted"":""Blue"",""Solid"":""Green"",""Striped"":""Red""}"
+663,W4f78ceb579,quizAttempt-1,"{""attempt"":1,""correct"":16,""total"":16}"
+664,W4f78ceb579,quizPassed,"{""attempt"":1,""correct"":16,""total"":16}"
+665,W4f78ceb579,bonus,2
+666,W1fc4375177,startTime,Sat Apr 16 2022 08:57:43 GMT-0400 (Eastern Daylight Time)
+667,W1fc4375177,condition,"{""objective"":""utility"",""trial_type"":""slider"",""horizon"":""ambiguous""}"
+668,W1fc4375177,trialDataFile,exp2_split4
+669,W1fc4375177,featureRandomization,"{""Green"":""Striped"",""Red"":""Solid"",""Blue"":""Spotted"",""Spotted"":""Red"",""Solid"":""Blue"",""Striped"":""Green""}"
+670,W1fc4375177,quizAttempt-1,"{""attempt"":1,""correct"":16,""total"":16}"
+671,W1fc4375177,quizPassed,"{""attempt"":1,""correct"":16,""total"":16}"
+672,W1fc4375177,bonus,2
+673,Wdd6a637975,startTime,Sat Apr 16 2022 15:54:59 GMT+0100 (BST)
+674,Wdd6a637975,condition,"{""objective"":""ambiguous"",""trial_type"":""slider"",""horizon"":""ambiguous""}"
+675,Wdd6a637975,trialDataFile,exp2_split4
+676,Wdd6a637975,featureRandomization,"{""Green"":""Striped"",""Red"":""Spotted"",""Blue"":""Solid"",""Spotted"":""Green"",""Solid"":""Red"",""Striped"":""Blue""}"
+677,Wdd6a637975,quizAttempt-1,"{""attempt"":1,""correct"":14,""total"":16}"
+678,Wdd6a637975,quizAttempt-2,"{""attempt"":2,""correct"":4,""total"":4}"
+679,Wdd6a637975,quizPassed,"{""attempt"":2,""correct"":4,""total"":4}"
+680,Wdd6a637975,bonus,2
+681,We8e30633f4,startTime,Sat Apr 16 2022 15:34:08 GMT+0100 (British Summer Time)
+682,We8e30633f4,condition,"{""objective"":""utility"",""trial_type"":""slider"",""horizon"":""ambiguous""}"
+683,We8e30633f4,trialDataFile,exp2_split2
+684,We8e30633f4,featureRandomization,"{""Green"":""Green"",""Red"":""Red"",""Blue"":""Blue"",""Spotted"":""Solid"",""Solid"":""Spotted"",""Striped"":""Striped""}"
+685,We8e30633f4,quizAttempt-1,"{""attempt"":1,""correct"":9,""total"":16}"
+686,We8e30633f4,quizAttempt-2,"{""attempt"":2,""correct"":7,""total"":10}"
+687,We8e30633f4,quizAttempt-3,"{""attempt"":3,""correct"":3,""total"":3}"
+688,We8e30633f4,quizPassed,"{""attempt"":3,""correct"":3,""total"":3}"
+689,We8e30633f4,bonus,2
+690,W36da0953f6,startTime,Fri Apr 15 2022 15:50:30 GMT-0400 (Eastern Daylight Time)
+691,W0697489184,startTime,Fri Apr 15 2022 20:53:57 GMT+0100 (British Summer Time)
+692,W0697489184,condition,"{""objective"":""belief"",""trial_type"":""slider"",""horizon"":""ambiguous""}"
+693,W0697489184,trialDataFile,exp2_split4
+694,W0697489184,featureRandomization,"{""Green"":""Solid"",""Red"":""Striped"",""Blue"":""Spotted"",""Spotted"":""Red"",""Solid"":""Green"",""Striped"":""Blue""}"
+695,W0697489184,quizAttempt-1,"{""attempt"":1,""correct"":16,""total"":16}"
+696,W0697489184,quizPassed,"{""attempt"":1,""correct"":16,""total"":16}"
+697,W0697489184,bonus,2
+698,Wccb41716d0,startTime,Fri Apr 15 2022 14:51:16 GMT-0500 (Central Daylight Time)
+699,W1e02eab43b,startTime,Fri Apr 15 2022 15:50:50 GMT-0400 (Eastern Daylight Time)
+700,W1e02eab43b,condition,"{""objective"":""belief"",""trial_type"":""slider"",""horizon"":""ambiguous""}"
+701,W1e02eab43b,trialDataFile,exp2_split4
+702,W1e02eab43b,featureRandomization,"{""Green"":""Blue"",""Red"":""Red"",""Blue"":""Green"",""Spotted"":""Striped"",""Solid"":""Spotted"",""Striped"":""Solid""}"
+703,W1e02eab43b,quizAttempt-1,"{""attempt"":1,""correct"":16,""total"":16}"
+704,W1e02eab43b,quizPassed,"{""attempt"":1,""correct"":16,""total"":16}"
+705,W1e02eab43b,bonus,2
+706,W64fce9f56e,startTime,Sat Apr 16 2022 11:54:11 GMT+0100 (British Summer Time)
+707,W64fce9f56e,condition,"{""objective"":""utility"",""trial_type"":""slider"",""horizon"":""ambiguous""}"
+708,W64fce9f56e,trialDataFile,exp2_split1
+709,W64fce9f56e,featureRandomization,"{""Green"":""Solid"",""Red"":""Striped"",""Blue"":""Spotted"",""Spotted"":""Green"",""Solid"":""Red"",""Striped"":""Blue""}"
+710,W64fce9f56e,quizAttempt-1,"{""attempt"":1,""correct"":16,""total"":16}"
+711,W64fce9f56e,quizPassed,"{""attempt"":1,""correct"":16,""total"":16}"
+712,W64fce9f56e,bonus,2
+713,Wc22dd61390,startTime,Fri Apr 15 2022 12:55:40 GMT-0700 (Pacific Daylight Time)
+714,W9d1afe97dc,startTime,Sat Apr 16 2022 11:53:21 GMT+0100 (British Summer Time)
+715,W9d1afe97dc,condition,"{""objective"":""belief"",""trial_type"":""slider"",""horizon"":""ambiguous""}"
+716,W9d1afe97dc,trialDataFile,exp2_split4
+717,W9d1afe97dc,featureRandomization,"{""Green"":""Striped"",""Red"":""Solid"",""Blue"":""Spotted"",""Spotted"":""Green"",""Solid"":""Red"",""Striped"":""Blue""}"
+718,W9d1afe97dc,quizAttempt-1,"{""attempt"":1,""correct"":16,""total"":16}"
+719,W9d1afe97dc,quizPassed,"{""attempt"":1,""correct"":16,""total"":16}"
+720,W9d1afe97dc,bonus,2
+721,Wc6c4d3a13e,startTime,Fri Apr 15 2022 12:52:18 GMT-0700 (MST)
+722,Wc6c4d3a13e,condition,"{""objective"":""utility"",""trial_type"":""slider"",""horizon"":""ambiguous""}"
+723,Wc6c4d3a13e,trialDataFile,exp2_split2
+724,Wc6c4d3a13e,featureRandomization,"{""Green"":""Red"",""Red"":""Blue"",""Blue"":""Green"",""Spotted"":""Striped"",""Solid"":""Spotted"",""Striped"":""Solid""}"
+725,Wc6c4d3a13e,quizAttempt-1,"{""attempt"":1,""correct"":14,""total"":16}"
+726,Wc6c4d3a13e,quizAttempt-2,"{""attempt"":2,""correct"":4,""total"":4}"
+727,Wc6c4d3a13e,quizPassed,"{""attempt"":2,""correct"":4,""total"":4}"
+728,Wc6c4d3a13e,bonus,2
+729,W1071a19392,startTime,Fri Apr 15 2022 12:51:25 GMT-0700 (Pacific Daylight Time)
+730,W1071a19392,condition,"{""objective"":""belief"",""trial_type"":""slider"",""horizon"":""ambiguous""}"
+731,W1071a19392,trialDataFile,exp2_split3
+732,W1071a19392,featureRandomization,"{""Green"":""Green"",""Red"":""Blue"",""Blue"":""Red"",""Spotted"":""Solid"",""Solid"":""Spotted"",""Striped"":""Striped""}"
+733,W1071a19392,quizAttempt-1,"{""attempt"":1,""correct"":11,""total"":16}"
+734,W1071a19392,quizAttempt-2,"{""attempt"":2,""correct"":9,""total"":9}"
+735,W1071a19392,quizPassed,"{""attempt"":2,""correct"":9,""total"":9}"
+736,W1071a19392,bonus,2
+737,W18ea8cadc1,startTime,Fri Apr 15 2022 12:54:17 GMT-0700 (Pacific Daylight Time)
+738,W18ea8cadc1,condition,"{""objective"":""ambiguous"",""trial_type"":""slider"",""horizon"":""ambiguous""}"
+739,W18ea8cadc1,trialDataFile,exp2_split2
+740,W18ea8cadc1,featureRandomization,"{""Green"":""Blue"",""Red"":""Red"",""Blue"":""Green"",""Spotted"":""Striped"",""Solid"":""Spotted"",""Striped"":""Solid""}"
+741,W18ea8cadc1,quizAttempt-1,"{""attempt"":1,""correct"":16,""total"":16}"
+742,W18ea8cadc1,quizPassed,"{""attempt"":1,""correct"":16,""total"":16}"
+743,W18ea8cadc1,bonus,2
+744,W4b709fc424,startTime,Fri Apr 15 2022 13:52:07 GMT-0600 (Mountain Daylight Time)
+745,W4b709fc424,condition,"{""objective"":""belief"",""trial_type"":""slider"",""horizon"":""ambiguous""}"
+746,W4b709fc424,trialDataFile,exp2_split2
+747,W4b709fc424,featureRandomization,"{""Green"":""Green"",""Red"":""Red"",""Blue"":""Blue"",""Spotted"":""Solid"",""Solid"":""Spotted"",""Striped"":""Striped""}"
+748,W4b709fc424,quizAttempt-1,"{""attempt"":1,""correct"":16,""total"":16}"
+749,W4b709fc424,quizPassed,"{""attempt"":1,""correct"":16,""total"":16}"
+750,W4b709fc424,bonus,2
+751,W668abb6e62,startTime,Sat Apr 16 2022 06:43:20 GMT-0400 (Eastern Daylight Time)
+752,W668abb6e62,condition,"{""objective"":""belief"",""trial_type"":""slider"",""horizon"":""ambiguous""}"
+753,W668abb6e62,trialDataFile,exp2_split2
+754,W668abb6e62,featureRandomization,"{""Green"":""Striped"",""Red"":""Solid"",""Blue"":""Spotted"",""Spotted"":""Green"",""Solid"":""Red"",""Striped"":""Blue""}"
+755,W668abb6e62,quizAttempt-1,"{""attempt"":1,""correct"":16,""total"":16}"
+756,W668abb6e62,quizPassed,"{""attempt"":1,""correct"":16,""total"":16}"
+757,W668abb6e62,bonus,2
+758,W60e1b0c3d7,startTime,Sat Apr 16 2022 05:53:43 GMT-0500 (Central Daylight Time)
+759,W60e1b0c3d7,condition,"{""objective"":""utility"",""trial_type"":""slider"",""horizon"":""ambiguous""}"
+760,W60e1b0c3d7,trialDataFile,exp2_split1
+761,W60e1b0c3d7,featureRandomization,"{""Green"":""Green"",""Red"":""Red"",""Blue"":""Blue"",""Spotted"":""Spotted"",""Solid"":""Striped"",""Striped"":""Solid""}"
+762,W60e1b0c3d7,quizAttempt-1,"{""attempt"":1,""correct"":16,""total"":16}"
+763,W60e1b0c3d7,quizPassed,"{""attempt"":1,""correct"":16,""total"":16}"
+764,W60e1b0c3d7,bonus,2
+765,W32791a70a3,startTime,Sat Apr 16 2022 11:52:34 GMT+0100 (British Summer Time)
+766,W32791a70a3,condition,"{""objective"":""ambiguous"",""trial_type"":""slider"",""horizon"":""ambiguous""}"
+767,W32791a70a3,trialDataFile,exp2_split2
+768,W32791a70a3,featureRandomization,"{""Green"":""Red"",""Red"":""Blue"",""Blue"":""Green"",""Spotted"":""Solid"",""Solid"":""Striped"",""Striped"":""Spotted""}"
+769,W32791a70a3,quizAttempt-1,"{""attempt"":1,""correct"":12,""total"":16}"
+770,W32791a70a3,quizAttempt-2,"{""attempt"":2,""correct"":10,""total"":10}"
+771,W32791a70a3,quizPassed,"{""attempt"":2,""correct"":10,""total"":10}"
+772,W32791a70a3,bonus,2
+773,W20ae112870,startTime,Sat Apr 16 2022 05:06:29 GMT-0700 (Pacific Daylight Time)
+774,W20ae112870,condition,"{""objective"":""utility"",""trial_type"":""slider"",""horizon"":""ambiguous""}"
+775,W20ae112870,trialDataFile,exp2_split3
+776,W20ae112870,featureRandomization,"{""Green"":""Blue"",""Red"":""Red"",""Blue"":""Green"",""Spotted"":""Spotted"",""Solid"":""Solid"",""Striped"":""Striped""}"
+777,W20ae112870,quizAttempt-1,"{""attempt"":1,""correct"":14,""total"":16}"
+778,W20ae112870,quizAttempt-2,"{""attempt"":2,""correct"":3,""total"":3}"
+779,W20ae112870,quizPassed,"{""attempt"":2,""correct"":3,""total"":3}"
+780,W20ae112870,bonus,2
+781,Wc806283778,startTime,Sat Apr 16 2022 08:07:47 GMT-0400 (Eastern Daylight Time)
+782,Wc806283778,condition,"{""objective"":""utility"",""trial_type"":""slider"",""horizon"":""ambiguous""}"
+783,Wc806283778,trialDataFile,exp2_split2
+784,Wc806283778,featureRandomization,"{""Green"":""Blue"",""Red"":""Red"",""Blue"":""Green"",""Spotted"":""Striped"",""Solid"":""Spotted"",""Striped"":""Solid""}"
+785,Wc806283778,quizAttempt-1,"{""attempt"":1,""correct"":16,""total"":16}"
+786,Wc806283778,quizPassed,"{""attempt"":1,""correct"":16,""total"":16}"
+787,Wc806283778,bonus,2
+788,Wd020213f67,startTime,Sat Apr 16 2022 13:07:36 GMT+0100 (British Summer Time)
+789,Wd020213f67,condition,"{""objective"":""belief"",""trial_type"":""slider"",""horizon"":""ambiguous""}"
+790,Wd020213f67,trialDataFile,exp2_split2
+791,Wd020213f67,featureRandomization,"{""Green"":""Red"",""Red"":""Green"",""Blue"":""Blue"",""Spotted"":""Striped"",""Solid"":""Solid"",""Striped"":""Spotted""}"
+792,Wd020213f67,quizAttempt-1,"{""attempt"":1,""correct"":13,""total"":16}"
+793,Wd020213f67,quizAttempt-2,"{""attempt"":2,""correct"":7,""total"":7}"
+794,Wd020213f67,quizPassed,"{""attempt"":2,""correct"":7,""total"":7}"
+795,Wd020213f67,bonus,2
+796,W8fd5e190c0,startTime,Fri Apr 15 2022 14:58:09 GMT-0500 (Central Daylight Time)
+797,W8fd5e190c0,condition,"{""objective"":""utility"",""trial_type"":""slider"",""horizon"":""ambiguous""}"
+798,W8fd5e190c0,trialDataFile,exp2_split1
+799,W8fd5e190c0,featureRandomization,"{""Green"":""Red"",""Red"":""Green"",""Blue"":""Blue"",""Spotted"":""Spotted"",""Solid"":""Solid"",""Striped"":""Striped""}"
+800,W8fd5e190c0,quizAttempt-1,"{""attempt"":1,""correct"":16,""total"":16}"
+801,W8fd5e190c0,quizPassed,"{""attempt"":1,""correct"":16,""total"":16}"
+802,W8fd5e190c0,bonus,2
+803,W7c640aea0a,startTime,Fri Apr 15 2022 16:06:46 GMT-0400 (Eastern Daylight Time)
+804,W7c640aea0a,condition,"{""objective"":""utility"",""trial_type"":""slider"",""horizon"":""ambiguous""}"
+805,W7c640aea0a,trialDataFile,exp2_split3
+806,W7c640aea0a,featureRandomization,"{""Green"":""Blue"",""Red"":""Green"",""Blue"":""Red"",""Spotted"":""Striped"",""Solid"":""Spotted"",""Striped"":""Solid""}"
+807,W7c640aea0a,quizAttempt-1,"{""attempt"":1,""correct"":16,""total"":16}"
+808,W7c640aea0a,quizPassed,"{""attempt"":1,""correct"":16,""total"":16}"
+809,W7c640aea0a,bonus,2
+810,Wa9a4b35ffd,startTime,Fri Apr 15 2022 15:03:18 GMT-0500 (Central Daylight Time)
+811,Wa9a4b35ffd,condition,"{""objective"":""ambiguous"",""trial_type"":""slider"",""horizon"":""ambiguous""}"
+812,Wa9a4b35ffd,trialDataFile,exp2_split1
+813,Wa9a4b35ffd,featureRandomization,"{""Green"":""Red"",""Red"":""Blue"",""Blue"":""Green"",""Spotted"":""Striped"",""Solid"":""Spotted"",""Striped"":""Solid""}"
+814,Wa9a4b35ffd,quizAttempt-1,"{""attempt"":1,""correct"":16,""total"":16}"
+815,Wa9a4b35ffd,quizPassed,"{""attempt"":1,""correct"":16,""total"":16}"
+816,Wa9a4b35ffd,bonus,2
+817,Wbd43551442,startTime,Fri Apr 15 2022 16:04:11 GMT-0400 (Eastern Daylight Time)
+818,Wbd43551442,condition,"{""objective"":""utility"",""trial_type"":""slider"",""horizon"":""ambiguous""}"
+819,Wbd43551442,trialDataFile,exp2_split3
+820,Wbd43551442,featureRandomization,"{""Green"":""Green"",""Red"":""Blue"",""Blue"":""Red"",""Spotted"":""Striped"",""Solid"":""Spotted"",""Striped"":""Solid""}"
+821,Wbd43551442,quizAttempt-1,"{""attempt"":1,""correct"":11,""total"":16}"
+822,Wbd43551442,quizAttempt-2,"{""attempt"":2,""correct"":8,""total"":10}"
+823,Wbd43551442,quizAttempt-3,"{""attempt"":3,""correct"":4,""total"":4}"
+824,Wbd43551442,quizPassed,"{""attempt"":3,""correct"":4,""total"":4}"
+825,Wbd43551442,bonus,2
+826,Wfefcdeb75f,startTime,Sat Apr 16 2022 12:47:30 GMT+0100 (British Summer Time)
+827,Wfefcdeb75f,condition,"{""objective"":""ambiguous"",""trial_type"":""slider"",""horizon"":""ambiguous""}"
+828,Wfefcdeb75f,trialDataFile,exp2_split1
+829,Wfefcdeb75f,featureRandomization,"{""Green"":""Solid"",""Red"":""Striped"",""Blue"":""Spotted"",""Spotted"":""Blue"",""Solid"":""Green"",""Striped"":""Red""}"
+830,Wfefcdeb75f,quizAttempt-1,"{""attempt"":1,""correct"":16,""total"":16}"
+831,Wfefcdeb75f,quizPassed,"{""attempt"":1,""correct"":16,""total"":16}"
+832,Wfefcdeb75f,bonus,2
+833,W65fa56bf35,startTime,Fri Apr 15 2022 15:57:09 GMT-0400 (Eastern Daylight Time)
+834,W65fa56bf35,condition,"{""objective"":""ambiguous"",""trial_type"":""slider"",""horizon"":""ambiguous""}"
+835,W65fa56bf35,trialDataFile,exp2_split4
+836,W65fa56bf35,featureRandomization,"{""Green"":""Green"",""Red"":""Blue"",""Blue"":""Red"",""Spotted"":""Solid"",""Solid"":""Spotted"",""Striped"":""Striped""}"
+837,W65fa56bf35,quizAttempt-1,"{""attempt"":1,""correct"":16,""total"":16}"
+838,W65fa56bf35,quizPassed,"{""attempt"":1,""correct"":16,""total"":16}"
+839,W65fa56bf35,bonus,2
+840,Wd6611a5bf9,startTime,Fri Apr 15 2022 15:56:59 GMT-0400 (Eastern Daylight Time)
+841,Wd6611a5bf9,condition,"{""objective"":""belief"",""trial_type"":""slider"",""horizon"":""ambiguous""}"
+842,Wd6611a5bf9,trialDataFile,exp2_split2
+843,Wd6611a5bf9,featureRandomization,"{""Green"":""Red"",""Red"":""Blue"",""Blue"":""Green"",""Spotted"":""Striped"",""Solid"":""Solid"",""Striped"":""Spotted""}"
+844,Wd6611a5bf9,quizAttempt-1,"{""attempt"":1,""correct"":16,""total"":16}"
+845,Wd6611a5bf9,quizPassed,"{""attempt"":1,""correct"":16,""total"":16}"
+846,Wd6611a5bf9,bonus,2
+847,W409a814cfa,startTime,Fri Apr 15 2022 16:03:58 GMT-0400 (Eastern Daylight Time)
+848,W409a814cfa,condition,"{""objective"":""ambiguous"",""trial_type"":""slider"",""horizon"":""ambiguous""}"
+849,W409a814cfa,trialDataFile,exp2_split1
+850,W409a814cfa,featureRandomization,"{""Green"":""Striped"",""Red"":""Spotted"",""Blue"":""Solid"",""Spotted"":""Blue"",""Solid"":""Green"",""Striped"":""Red""}"
+851,W409a814cfa,quizAttempt-1,"{""attempt"":1,""correct"":16,""total"":16}"
+852,W409a814cfa,quizPassed,"{""attempt"":1,""correct"":16,""total"":16}"
+853,W409a814cfa,bonus,2
+854,Wb7f72d181c,startTime,Fri Apr 15 2022 12:57:35 GMT-0700 (Pacific Daylight Time)
+855,Wb7f72d181c,condition,"{""objective"":""ambiguous"",""trial_type"":""slider"",""horizon"":""ambiguous""}"
+856,Wb7f72d181c,trialDataFile,exp2_split3
+857,Wb7f72d181c,featureRandomization,"{""Green"":""Spotted"",""Red"":""Solid"",""Blue"":""Striped"",""Spotted"":""Red"",""Solid"":""Green"",""Striped"":""Blue""}"
+858,Wb7f72d181c,quizAttempt-1,"{""attempt"":1,""correct"":16,""total"":16}"
+859,Wb7f72d181c,quizPassed,"{""attempt"":1,""correct"":16,""total"":16}"
+860,Wb7f72d181c,bonus,2
+861,W7101334dfd,startTime,Sat Apr 16 2022 12:46:54 GMT+0100 (British Summer Time)
+862,W7101334dfd,condition,"{""objective"":""belief"",""trial_type"":""slider"",""horizon"":""ambiguous""}"
+863,W7101334dfd,trialDataFile,exp2_split4
+864,W7101334dfd,featureRandomization,"{""Green"":""Striped"",""Red"":""Solid"",""Blue"":""Spotted"",""Spotted"":""Green"",""Solid"":""Blue"",""Striped"":""Red""}"
+865,W7101334dfd,quizAttempt-1,"{""attempt"":1,""correct"":15,""total"":16}"
+866,W7101334dfd,quizAttempt-2,"{""attempt"":2,""correct"":3,""total"":3}"
+867,W7101334dfd,quizPassed,"{""attempt"":2,""correct"":3,""total"":3}"
+868,W7101334dfd,bonus,2
+869,W06064f26d2,startTime,Sat Apr 16 2022 12:48:43 GMT+0100 (British Summer Time)
+870,Wb0b58dfc06,startTime,Sat Apr 16 2022 12:47:17 GMT+0100 (British Summer Time)
+871,Wb0b58dfc06,condition,"{""objective"":""utility"",""trial_type"":""slider"",""horizon"":""ambiguous""}"
+872,Wb0b58dfc06,trialDataFile,exp2_split3
+873,Wb0b58dfc06,featureRandomization,"{""Green"":""Green"",""Red"":""Red"",""Blue"":""Blue"",""Spotted"":""Spotted"",""Solid"":""Solid"",""Striped"":""Striped""}"
+874,Wb0b58dfc06,quizAttempt-1,"{""attempt"":1,""correct"":16,""total"":16}"
+875,Wb0b58dfc06,quizPassed,"{""attempt"":1,""correct"":16,""total"":16}"
+876,Wb0b58dfc06,bonus,2
+877,W628571475d,bonus,2
+878,W628571475d,condition,"{""objective"":""ambiguous"",""trial_type"":""slider"",""horizon"":""ambiguous""}"
+879,W628571475d,featureRandomization,"{""Green"":""Green"",""Red"":""Red"",""Blue"":""Blue"",""Spotted"":""Solid"",""Solid"":""Spotted"",""Striped"":""Striped""}"
+880,W628571475d,quizAttempt-1,"{""attempt"":1,""correct"":12,""total"":16}"
+881,W628571475d,quizAttempt-2,"{""attempt"":2,""correct"":6,""total"":6}"
+882,W628571475d,quizPassed,"{""attempt"":2,""correct"":6,""total"":6}"
+883,W628571475d,startTime,Sat Apr 16 2022 13:05:00 GMT+0100 (British Summer Time)
+884,W628571475d,trialDataFile,exp2_split3
+885,Wc8717d74fb,startTime,Sat Apr 16 2022 07:49:17 GMT-0400 (Eastern Daylight Time)
+886,Wc8717d74fb,condition,"{""objective"":""belief"",""trial_type"":""slider"",""horizon"":""ambiguous""}"
+887,Wc8717d74fb,trialDataFile,exp2_split2
+888,Wc8717d74fb,featureRandomization,"{""Green"":""Red"",""Red"":""Green"",""Blue"":""Blue"",""Spotted"":""Spotted"",""Solid"":""Solid"",""Striped"":""Striped""}"
+889,Wc8717d74fb,quizAttempt-1,"{""attempt"":1,""correct"":15,""total"":16}"
+890,Wc8717d74fb,quizAttempt-2,"{""attempt"":2,""correct"":3,""total"":3}"
+891,Wc8717d74fb,quizPassed,"{""attempt"":2,""correct"":3,""total"":3}"
+892,Wc8717d74fb,bonus,2
+893,W66c0ff35a8,startTime,Fri Apr 15 2022 16:01:25 GMT-0400 (EDT)
+894,W48e8ff26ba,startTime,Fri Apr 15 2022 16:24:13 GMT-0400 (Eastern Daylight Time)
+895,W48e8ff26ba,condition,"{""objective"":""utility"",""trial_type"":""slider"",""horizon"":""ambiguous""}"
+896,W48e8ff26ba,trialDataFile,exp2_split2
+897,W48e8ff26ba,featureRandomization,"{""Green"":""Spotted"",""Red"":""Striped"",""Blue"":""Solid"",""Spotted"":""Blue"",""Solid"":""Red"",""Striped"":""Green""}"
+898,W48e8ff26ba,quizAttempt-1,"{""attempt"":1,""correct"":16,""total"":16}"
+899,W48e8ff26ba,quizPassed,"{""attempt"":1,""correct"":16,""total"":16}"
+900,W48e8ff26ba,bonus,2
+901,W1b6d7028a6,startTime,Sat Apr 16 2022 07:48:46 GMT-0400 (Eastern Daylight Time)
+902,W1b6d7028a6,condition,"{""objective"":""utility"",""trial_type"":""slider"",""horizon"":""ambiguous""}"
+903,W1b6d7028a6,trialDataFile,exp2_split3
+904,W1b6d7028a6,featureRandomization,"{""Green"":""Red"",""Red"":""Green"",""Blue"":""Blue"",""Spotted"":""Spotted"",""Solid"":""Striped"",""Striped"":""Solid""}"
+905,W1b6d7028a6,quizAttempt-1,"{""attempt"":1,""correct"":16,""total"":16}"
+906,W1b6d7028a6,quizPassed,"{""attempt"":1,""correct"":16,""total"":16}"
+907,W1b6d7028a6,bonus,2
+908,Wcb1aa86736,startTime,Fri Apr 15 2022 16:23:13 GMT-0400 (Eastern Daylight Time)
+909,Wcb1aa86736,condition,"{""objective"":""belief"",""trial_type"":""slider"",""horizon"":""ambiguous""}"
+910,Wcb1aa86736,trialDataFile,exp2_split1
+911,Wcb1aa86736,featureRandomization,"{""Green"":""Solid"",""Red"":""Spotted"",""Blue"":""Striped"",""Spotted"":""Blue"",""Solid"":""Red"",""Striped"":""Green""}"
+912,Wcb1aa86736,quizAttempt-1,"{""attempt"":1,""correct"":16,""total"":16}"
+913,Wcb1aa86736,quizPassed,"{""attempt"":1,""correct"":16,""total"":16}"
+914,Wcb1aa86736,bonus,2
+915,Wba4149e360,startTime,Fri Apr 15 2022 16:24:37 GMT-0400 (Eastern Daylight Time)
+916,Wba4149e360,condition,"{""objective"":""belief"",""trial_type"":""slider"",""horizon"":""ambiguous""}"
+917,Wba4149e360,trialDataFile,exp2_split3
+918,Wba4149e360,featureRandomization,"{""Green"":""Red"",""Red"":""Blue"",""Blue"":""Green"",""Spotted"":""Solid"",""Solid"":""Spotted"",""Striped"":""Striped""}"
+919,Wba4149e360,quizAttempt-1,"{""attempt"":1,""correct"":16,""total"":16}"
+920,Wba4149e360,quizPassed,"{""attempt"":1,""correct"":16,""total"":16}"
+921,Wba4149e360,bonus,2
+922,Wdf087fec7f,startTime,Sat Apr 16 2022 07:49:40 GMT-0400 (Eastern Daylight Time)
+923,Wdf087fec7f,condition,"{""objective"":""utility"",""trial_type"":""slider"",""horizon"":""ambiguous""}"
+924,Wdf087fec7f,trialDataFile,exp2_split2
+925,Wdf087fec7f,featureRandomization,"{""Green"":""Blue"",""Red"":""Green"",""Blue"":""Red"",""Spotted"":""Striped"",""Solid"":""Spotted"",""Striped"":""Solid""}"
+926,Wdf087fec7f,quizAttempt-1,"{""attempt"":1,""correct"":16,""total"":16}"
+927,Wdf087fec7f,quizPassed,"{""attempt"":1,""correct"":16,""total"":16}"
+928,Wdf087fec7f,bonus,2
+929,W0ae64bdd69,startTime,Fri Apr 15 2022 13:24:20 GMT-0700 (Mountain Standard Time)
+930,W0ae64bdd69,condition,"{""objective"":""ambiguous"",""trial_type"":""slider"",""horizon"":""ambiguous""}"
+931,W0ae64bdd69,trialDataFile,exp2_split1
+932,W0ae64bdd69,featureRandomization,"{""Green"":""Red"",""Red"":""Blue"",""Blue"":""Green"",""Spotted"":""Spotted"",""Solid"":""Solid"",""Striped"":""Striped""}"
+933,W0ae64bdd69,quizAttempt-1,"{""attempt"":1,""correct"":16,""total"":16}"
+934,W0ae64bdd69,quizPassed,"{""attempt"":1,""correct"":16,""total"":16}"
+935,W0ae64bdd69,bonus,2
+936,Waa3bc3238d,startTime,Fri Apr 15 2022 16:29:36 GMT-0400 (Eastern Daylight Time)
+937,Waa3bc3238d,condition,"{""objective"":""belief"",""trial_type"":""slider"",""horizon"":""ambiguous""}"
+938,Waa3bc3238d,trialDataFile,exp2_split3
+939,Waa3bc3238d,featureRandomization,"{""Green"":""Spotted"",""Red"":""Striped"",""Blue"":""Solid"",""Spotted"":""Red"",""Solid"":""Blue"",""Striped"":""Green""}"
+940,Waa3bc3238d,quizAttempt-1,"{""attempt"":1,""correct"":16,""total"":16}"
+941,Waa3bc3238d,quizPassed,"{""attempt"":1,""correct"":16,""total"":16}"
+942,Waa3bc3238d,bonus,2
+943,Wf4db3403b4,startTime,Fri Apr 15 2022 16:25:18 GMT-0400 (Eastern Daylight Time)
+944,Wf4db3403b4,condition,"{""objective"":""utility"",""trial_type"":""slider"",""horizon"":""ambiguous""}"
+945,Wf4db3403b4,trialDataFile,exp2_split2
+946,Wf4db3403b4,featureRandomization,"{""Green"":""Solid"",""Red"":""Striped"",""Blue"":""Spotted"",""Spotted"":""Green"",""Solid"":""Blue"",""Striped"":""Red""}"
+947,Wf4db3403b4,quizAttempt-1,"{""attempt"":1,""correct"":16,""total"":16}"
+948,Wf4db3403b4,quizPassed,"{""attempt"":1,""correct"":16,""total"":16}"
+949,Wf4db3403b4,bonus,2
+950,W1c16a0744d,startTime,Fri Apr 15 2022 15:23:53 GMT-0500 (Central Daylight Time)
+951,W1c16a0744d,condition,"{""objective"":""belief"",""trial_type"":""slider"",""horizon"":""ambiguous""}"
+952,W1c16a0744d,trialDataFile,exp2_split4
+953,W1c16a0744d,featureRandomization,"{""Green"":""Striped"",""Red"":""Spotted"",""Blue"":""Solid"",""Spotted"":""Blue"",""Solid"":""Green"",""Striped"":""Red""}"
+954,W1c16a0744d,quizAttempt-1,"{""attempt"":1,""correct"":14,""total"":16}"
+955,W1c16a0744d,quizAttempt-2,"{""attempt"":2,""correct"":4,""total"":6}"
+956,W1c16a0744d,quizAttempt-3,"{""attempt"":3,""correct"":1,""total"":3}"
+957,W1c16a0744d,quizFailed,"{""attempt"":3,""correct"":1,""total"":3}"
+958,W0e595e8e50,startTime,Sat Apr 16 2022 04:48:45 GMT-0700 (Pacific Daylight Time)
+959,W0e595e8e50,condition,"{""objective"":""belief"",""trial_type"":""slider"",""horizon"":""ambiguous""}"
+960,W0e595e8e50,trialDataFile,exp2_split4
+961,W0e595e8e50,featureRandomization,"{""Green"":""Solid"",""Red"":""Spotted"",""Blue"":""Striped"",""Spotted"":""Red"",""Solid"":""Green"",""Striped"":""Blue""}"
+962,W0e595e8e50,quizAttempt-1,"{""attempt"":1,""correct"":16,""total"":16}"
+963,W0e595e8e50,quizPassed,"{""attempt"":1,""correct"":16,""total"":16}"
+964,W0e595e8e50,bonus,2
+965,W2609f51a5c,startTime,Sat Apr 16 2022 12:50:03 GMT+0100 (British Summer Time)
+966,W2609f51a5c,condition,"{""objective"":""ambiguous"",""trial_type"":""slider"",""horizon"":""ambiguous""}"
+967,W2609f51a5c,trialDataFile,exp2_split3
+968,W2609f51a5c,featureRandomization,"{""Green"":""Solid"",""Red"":""Spotted"",""Blue"":""Striped"",""Spotted"":""Green"",""Solid"":""Blue"",""Striped"":""Red""}"
+969,W2609f51a5c,quizAttempt-1,"{""attempt"":1,""correct"":16,""total"":16}"
+970,W2609f51a5c,quizPassed,"{""attempt"":1,""correct"":16,""total"":16}"
+971,W2609f51a5c,bonus,2
+972,W7a54c56869,startTime,Sat Apr 16 2022 12:51:15 GMT+0100 (British Summer Time)
+973,W7a54c56869,condition,"{""objective"":""belief"",""trial_type"":""slider"",""horizon"":""ambiguous""}"
+974,W7a54c56869,trialDataFile,exp2_split3
+975,W7a54c56869,featureRandomization,"{""Green"":""Solid"",""Red"":""Spotted"",""Blue"":""Striped"",""Spotted"":""Blue"",""Solid"":""Red"",""Striped"":""Green""}"
+976,W7a54c56869,quizAttempt-1,"{""attempt"":1,""correct"":15,""total"":16}"
+977,W7a54c56869,quizAttempt-2,"{""attempt"":2,""correct"":4,""total"":4}"
+978,W7a54c56869,quizPassed,"{""attempt"":2,""correct"":4,""total"":4}"
+979,W7a54c56869,bonus,2
+980,W5d5a371da6,startTime,Sat Apr 16 2022 12:47:41 GMT+0100 (British Summer Time)
+981,W5d5a371da6,condition,"{""objective"":""utility"",""trial_type"":""slider"",""horizon"":""ambiguous""}"
+982,W5d5a371da6,trialDataFile,exp2_split2
+983,W5d5a371da6,featureRandomization,"{""Green"":""Striped"",""Red"":""Spotted"",""Blue"":""Solid"",""Spotted"":""Blue"",""Solid"":""Green"",""Striped"":""Red""}"
+984,W5d5a371da6,quizAttempt-1,"{""attempt"":1,""correct"":16,""total"":16}"
+985,W5d5a371da6,quizPassed,"{""attempt"":1,""correct"":16,""total"":16}"
+986,W5d5a371da6,bonus,2
+987,W291940edbc,startTime,Sat Apr 16 2022 12:51:18 GMT+0100 (BST)
+988,W3d5267be6a,startTime,Fri Apr 15 2022 15:26:15 GMT-0500 (Central Daylight Time)
+989,W3d5267be6a,condition,"{""objective"":""belief"",""trial_type"":""slider"",""horizon"":""ambiguous""}"
+990,W3d5267be6a,trialDataFile,exp2_split3
+991,W3d5267be6a,featureRandomization,"{""Green"":""Solid"",""Red"":""Spotted"",""Blue"":""Striped"",""Spotted"":""Green"",""Solid"":""Red"",""Striped"":""Blue""}"
+992,W3d5267be6a,quizAttempt-1,"{""attempt"":1,""correct"":16,""total"":16}"
+993,W3d5267be6a,quizPassed,"{""attempt"":1,""correct"":16,""total"":16}"
+994,W3d5267be6a,bonus,2
+995,Wfbe715d70f,startTime,Fri Apr 15 2022 16:25:33 GMT-0400 (Eastern Daylight Time)
+996,Wfbe715d70f,condition,"{""objective"":""belief"",""trial_type"":""slider"",""horizon"":""ambiguous""}"
+997,Wfbe715d70f,trialDataFile,exp2_split4
+998,Wfbe715d70f,featureRandomization,"{""Green"":""Blue"",""Red"":""Green"",""Blue"":""Red"",""Spotted"":""Spotted"",""Solid"":""Solid"",""Striped"":""Striped""}"
+999,Wfbe715d70f,quizAttempt-1,"{""attempt"":1,""correct"":11,""total"":16}"
+1000,Wfbe715d70f,quizAttempt-2,"{""attempt"":2,""correct"":5,""total"":7}"
+1001,Wfbe715d70f,quizAttempt-3,"{""attempt"":3,""correct"":4,""total"":4}"
+1002,Wfbe715d70f,quizPassed,"{""attempt"":3,""correct"":4,""total"":4}"
+1003,Wfbe715d70f,bonus,2
+1004,Wd7cee80d72,startTime,Fri Apr 15 2022 16:25:22 GMT-0400 (Eastern Daylight Time)
+1005,Wd7cee80d72,condition,"{""objective"":""ambiguous"",""trial_type"":""slider"",""horizon"":""ambiguous""}"
+1006,Wd7cee80d72,trialDataFile,exp2_split1
+1007,Wd7cee80d72,featureRandomization,"{""Green"":""Red"",""Red"":""Blue"",""Blue"":""Green"",""Spotted"":""Solid"",""Solid"":""Spotted"",""Striped"":""Striped""}"
+1008,Wd7cee80d72,quizAttempt-1,"{""attempt"":1,""correct"":14,""total"":16}"
+1009,Wd7cee80d72,quizAttempt-2,"{""attempt"":2,""correct"":4,""total"":4}"
+1010,Wd7cee80d72,quizPassed,"{""attempt"":2,""correct"":4,""total"":4}"
+1011,Wd7cee80d72,bonus,2
+1012,W28a88f598c,startTime,Fri Apr 15 2022 15:25:39 GMT-0500 (Central Daylight Time)
+1013,W28a88f598c,condition,"{""objective"":""utility"",""trial_type"":""slider"",""horizon"":""ambiguous""}"
+1014,W28a88f598c,trialDataFile,exp2_split1
+1015,W28a88f598c,featureRandomization,"{""Green"":""Blue"",""Red"":""Red"",""Blue"":""Green"",""Spotted"":""Striped"",""Solid"":""Solid"",""Striped"":""Spotted""}"
+1016,W28a88f598c,quizAttempt-1,"{""attempt"":1,""correct"":16,""total"":16}"
+1017,W28a88f598c,quizPassed,"{""attempt"":1,""correct"":16,""total"":16}"
+1018,W28a88f598c,bonus,2
+1019,W7f8c9a833d,startTime,Fri Apr 15 2022 13:25:27 GMT-0700 (Pacific Daylight Time)
+1020,W7f8c9a833d,condition,"{""objective"":""utility"",""trial_type"":""slider"",""horizon"":""ambiguous""}"
+1021,W7f8c9a833d,trialDataFile,exp2_split3
+1022,W7f8c9a833d,featureRandomization,"{""Green"":""Spotted"",""Red"":""Solid"",""Blue"":""Striped"",""Spotted"":""Blue"",""Solid"":""Red"",""Striped"":""Green""}"
+1023,W7f8c9a833d,quizAttempt-1,"{""attempt"":1,""correct"":16,""total"":16}"
+1024,W7f8c9a833d,quizPassed,"{""attempt"":1,""correct"":16,""total"":16}"
+1025,W7f8c9a833d,bonus,2
+1026,W2dd4d25396,startTime,Sat Apr 16 2022 12:52:09 GMT+0100 (British Summer Time)
+1027,W2dd4d25396,condition,"{""objective"":""ambiguous"",""trial_type"":""slider"",""horizon"":""ambiguous""}"
+1028,W2dd4d25396,trialDataFile,exp2_split4
+1029,W2dd4d25396,featureRandomization,"{""Green"":""Striped"",""Red"":""Spotted"",""Blue"":""Solid"",""Spotted"":""Red"",""Solid"":""Green"",""Striped"":""Blue""}"
+1030,W2dd4d25396,quizAttempt-1,"{""attempt"":1,""correct"":8,""total"":16}"
+1031,W2dd4d25396,quizAttempt-2,"{""attempt"":2,""correct"":3,""total"":10}"
+1032,W2dd4d25396,quizAttempt-3,"{""attempt"":3,""correct"":2,""total"":10}"
+1033,W2dd4d25396,quizFailed,"{""attempt"":3,""correct"":2,""total"":10}"
+1034,W58b99a2724,startTime,Sat Apr 16 2022 12:49:43 GMT+0100 (British Summer Time)
+1035,W58b99a2724,condition,"{""objective"":""belief"",""trial_type"":""slider"",""horizon"":""ambiguous""}"
+1036,W58b99a2724,trialDataFile,exp2_split4
+1037,W58b99a2724,featureRandomization,"{""Green"":""Striped"",""Red"":""Spotted"",""Blue"":""Solid"",""Spotted"":""Green"",""Solid"":""Blue"",""Striped"":""Red""}"
+1038,W58b99a2724,quizAttempt-1,"{""attempt"":1,""correct"":16,""total"":16}"
+1039,W58b99a2724,quizPassed,"{""attempt"":1,""correct"":16,""total"":16}"
+1040,W58b99a2724,bonus,2
+1041,W4958aaaf93,startTime,Sat Apr 16 2022 13:12:00 GMT+0100 (British Summer Time)
+1042,W4958aaaf93,condition,"{""objective"":""ambiguous"",""trial_type"":""slider"",""horizon"":""ambiguous""}"
+1043,W4958aaaf93,trialDataFile,exp2_split1
+1044,W4958aaaf93,featureRandomization,"{""Green"":""Solid"",""Red"":""Striped"",""Blue"":""Spotted"",""Spotted"":""Blue"",""Solid"":""Green"",""Striped"":""Red""}"
+1045,W4958aaaf93,quizAttempt-1,"{""attempt"":1,""correct"":16,""total"":16}"
+1046,W4958aaaf93,quizPassed,"{""attempt"":1,""correct"":16,""total"":16}"
+1047,W4958aaaf93,bonus,2
+1048,W474900fc56,startTime,Sat Apr 16 2022 05:51:52 GMT-0600 (Mountain Daylight Time)
+1049,W474900fc56,condition,"{""objective"":""utility"",""trial_type"":""slider"",""horizon"":""ambiguous""}"
+1050,W474900fc56,trialDataFile,exp2_split3
+1051,W474900fc56,featureRandomization,"{""Green"":""Red"",""Red"":""Green"",""Blue"":""Blue"",""Spotted"":""Spotted"",""Solid"":""Solid"",""Striped"":""Striped""}"
+1052,W474900fc56,quizAttempt-1,"{""attempt"":1,""correct"":16,""total"":16}"
+1053,W474900fc56,quizPassed,"{""attempt"":1,""correct"":16,""total"":16}"
+1054,W474900fc56,bonus,2
+1055,W7f0546e79f,startTime,Sat Apr 16 2022 07:16:55 GMT-0500 (Central Daylight Time)
+1056,W66b5e55310,startTime,Sat Apr 16 2022 13:09:12 GMT+0100 (British Summer Time)
+1057,W66b5e55310,condition,"{""objective"":""belief"",""trial_type"":""slider"",""horizon"":""ambiguous""}"
+1058,W66b5e55310,trialDataFile,exp2_split4
+1059,W66b5e55310,featureRandomization,"{""Green"":""Green"",""Red"":""Blue"",""Blue"":""Red"",""Spotted"":""Spotted"",""Solid"":""Striped"",""Striped"":""Solid""}"
+1060,W66b5e55310,quizAttempt-1,"{""attempt"":1,""correct"":16,""total"":16}"
+1061,W66b5e55310,quizPassed,"{""attempt"":1,""correct"":16,""total"":16}"
+1062,W66b5e55310,bonus,2
+1063,W5466eda696,startTime,Sat Apr 16 2022 13:08:27 GMT+0100 (British Summer Time)
+1064,W5466eda696,condition,"{""objective"":""utility"",""trial_type"":""slider"",""horizon"":""ambiguous""}"
+1065,W5466eda696,trialDataFile,exp2_split4
+1066,W5466eda696,featureRandomization,"{""Green"":""Spotted"",""Red"":""Striped"",""Blue"":""Solid"",""Spotted"":""Green"",""Solid"":""Red"",""Striped"":""Blue""}"
+1067,W5466eda696,quizAttempt-1,"{""attempt"":1,""correct"":16,""total"":16}"
+1068,W5466eda696,quizPassed,"{""attempt"":1,""correct"":16,""total"":16}"
+1069,W5466eda696,bonus,2
+1070,Web39017634,startTime,Sat Apr 16 2022 08:12:44 GMT-0400 (Eastern Daylight Time)
+1071,Web39017634,condition,"{""objective"":""ambiguous"",""trial_type"":""slider"",""horizon"":""ambiguous""}"
+1072,Web39017634,trialDataFile,exp2_split2
+1073,Web39017634,featureRandomization,"{""Green"":""Red"",""Red"":""Green"",""Blue"":""Blue"",""Spotted"":""Spotted"",""Solid"":""Striped"",""Striped"":""Solid""}"
+1074,Web39017634,quizAttempt-1,"{""attempt"":1,""correct"":16,""total"":16}"
+1075,Web39017634,quizPassed,"{""attempt"":1,""correct"":16,""total"":16}"
+1076,Web39017634,bonus,2
+1077,Wcd8bbd6c48,startTime,Sat Apr 16 2022 06:00:36 GMT-0700 (Mountain Standard Time)
+1078,Wcd8bbd6c48,condition,"{""objective"":""ambiguous"",""trial_type"":""slider"",""horizon"":""ambiguous""}"
+1079,Wcd8bbd6c48,trialDataFile,exp2_split2
+1080,Wcd8bbd6c48,featureRandomization,"{""Green"":""Striped"",""Red"":""Solid"",""Blue"":""Spotted"",""Spotted"":""Green"",""Solid"":""Blue"",""Striped"":""Red""}"
+1081,Wcd8bbd6c48,quizAttempt-1,"{""attempt"":1,""correct"":14,""total"":16}"
+1082,Wcd8bbd6c48,quizAttempt-2,"{""attempt"":2,""correct"":4,""total"":4}"
+1083,Wcd8bbd6c48,quizPassed,"{""attempt"":2,""correct"":4,""total"":4}"
+1084,Wcd8bbd6c48,bonus,2
+1085,Wb8972d54ce,startTime,Sat Apr 16 2022 06:00:53 GMT-0700 (Pacific Daylight Time)
+1086,Wb8972d54ce,condition,"{""objective"":""utility"",""trial_type"":""slider"",""horizon"":""ambiguous""}"
+1087,Wb8972d54ce,trialDataFile,exp2_split1
+1088,Wb8972d54ce,featureRandomization,"{""Green"":""Green"",""Red"":""Red"",""Blue"":""Blue"",""Spotted"":""Spotted"",""Solid"":""Striped"",""Striped"":""Solid""}"
+1089,Wb8972d54ce,quizAttempt-1,"{""attempt"":1,""correct"":14,""total"":16}"
+1090,Wb8972d54ce,quizAttempt-2,"{""attempt"":2,""correct"":4,""total"":6}"
+1091,Wb8972d54ce,quizAttempt-3,"{""attempt"":3,""correct"":3,""total"":3}"
+1092,Wb8972d54ce,quizPassed,"{""attempt"":3,""correct"":3,""total"":3}"
+1093,Wb8972d54ce,bonus,2
+1094,W4fe9c3a198,startTime,Sat Apr 16 2022 14:00:39 GMT+0100 (British Summer Time)
+1095,W4fe9c3a198,condition,"{""objective"":""belief"",""trial_type"":""slider"",""horizon"":""ambiguous""}"
+1096,W4fe9c3a198,trialDataFile,exp2_split2
+1097,W4fe9c3a198,featureRandomization,"{""Green"":""Red"",""Red"":""Green"",""Blue"":""Blue"",""Spotted"":""Solid"",""Solid"":""Spotted"",""Striped"":""Striped""}"
+1098,W4fe9c3a198,quizAttempt-1,"{""attempt"":1,""correct"":12,""total"":16}"
+1099,W4fe9c3a198,quizAttempt-2,"{""attempt"":2,""correct"":7,""total"":10}"
+1100,W4fe9c3a198,quizAttempt-3,"{""attempt"":3,""correct"":7,""total"":7}"
+1101,W4fe9c3a198,quizPassed,"{""attempt"":3,""correct"":7,""total"":7}"
+1102,W4fe9c3a198,bonus,2
+1103,Wd47b8499a2,startTime,Fri Apr 15 2022 13:26:23 GMT-0700 (Pacific Daylight Time)
+1104,Wd47b8499a2,condition,"{""objective"":""utility"",""trial_type"":""slider"",""horizon"":""ambiguous""}"
+1105,Wd47b8499a2,trialDataFile,exp2_split3
+1106,Wd47b8499a2,featureRandomization,"{""Green"":""Striped"",""Red"":""Spotted"",""Blue"":""Solid"",""Spotted"":""Blue"",""Solid"":""Red"",""Striped"":""Green""}"
+1107,Wd47b8499a2,quizAttempt-1,"{""attempt"":1,""correct"":8,""total"":16}"
+1108,Wd47b8499a2,quizAttempt-2,"{""attempt"":2,""correct"":7,""total"":13}"
+1109,Wd47b8499a2,quizAttempt-3,"{""attempt"":3,""correct"":10,""total"":10}"
+1110,Wd47b8499a2,quizPassed,"{""attempt"":3,""correct"":10,""total"":10}"
+1111,Wd47b8499a2,bonus,2
+1112,We5f2e35304,startTime,Fri Apr 15 2022 16:25:54 GMT-0400 (Eastern Daylight Time)
+1113,W16b51ae22b,startTime,Fri Apr 15 2022 15:25:42 GMT-0500 (Central Daylight Time)
+1114,W16b51ae22b,condition,"{""objective"":""utility"",""trial_type"":""slider"",""horizon"":""ambiguous""}"
+1115,W16b51ae22b,trialDataFile,exp2_split3
+1116,W16b51ae22b,featureRandomization,"{""Green"":""Green"",""Red"":""Blue"",""Blue"":""Red"",""Spotted"":""Striped"",""Solid"":""Solid"",""Striped"":""Spotted""}"
+1117,W16b51ae22b,quizAttempt-1,"{""attempt"":1,""correct"":15,""total"":16}"
+1118,W16b51ae22b,quizAttempt-2,"{""attempt"":2,""correct"":3,""total"":3}"
+1119,W16b51ae22b,quizPassed,"{""attempt"":2,""correct"":3,""total"":3}"
+1120,W16b51ae22b,bonus,2
+1121,Wdf5420991b,startTime,Sat Apr 16 2022 07:52:16 GMT-0400 (Eastern Daylight Time)
+1122,W61121cfb69,startTime,Sat Apr 16 2022 14:01:22 GMT+0100 (British Summer Time)
+1123,W61121cfb69,condition,"{""objective"":""belief"",""trial_type"":""slider"",""horizon"":""ambiguous""}"
+1124,W61121cfb69,trialDataFile,exp2_split2
+1125,W61121cfb69,featureRandomization,"{""Green"":""Striped"",""Red"":""Spotted"",""Blue"":""Solid"",""Spotted"":""Red"",""Solid"":""Blue"",""Striped"":""Green""}"
+1126,W61121cfb69,quizAttempt-1,"{""attempt"":1,""correct"":16,""total"":16}"
+1127,W61121cfb69,quizPassed,"{""attempt"":1,""correct"":16,""total"":16}"
+1128,W61121cfb69,bonus,2
+1129,W7197078c59,startTime,Fri Apr 15 2022 16:25:47 GMT-0400 (Eastern Daylight Time)
+1130,W7197078c59,condition,"{""objective"":""ambiguous"",""trial_type"":""slider"",""horizon"":""ambiguous""}"
+1131,W7197078c59,trialDataFile,exp2_split3
+1132,W7197078c59,featureRandomization,"{""Green"":""Striped"",""Red"":""Solid"",""Blue"":""Spotted"",""Spotted"":""Blue"",""Solid"":""Red"",""Striped"":""Green""}"
+1133,W7197078c59,quizAttempt-1,"{""attempt"":1,""correct"":16,""total"":16}"
+1134,W7197078c59,quizPassed,"{""attempt"":1,""correct"":16,""total"":16}"
+1135,W7197078c59,bonus,2
+1136,W2326ba5e0e,startTime,Fri Apr 15 2022 15:26:33 GMT-0500 (Central Daylight Time)
+1137,Wffeb261eed,startTime,Fri Apr 15 2022 15:26:07 GMT-0500 (Central Daylight Time)
+1138,Wffeb261eed,condition,"{""objective"":""ambiguous"",""trial_type"":""slider"",""horizon"":""ambiguous""}"
+1139,Wffeb261eed,trialDataFile,exp2_split2
+1140,Wffeb261eed,featureRandomization,"{""Green"":""Solid"",""Red"":""Spotted"",""Blue"":""Striped"",""Spotted"":""Red"",""Solid"":""Blue"",""Striped"":""Green""}"
+1141,Wffeb261eed,quizAttempt-1,"{""attempt"":1,""correct"":16,""total"":16}"
+1142,Wffeb261eed,quizPassed,"{""attempt"":1,""correct"":16,""total"":16}"
+1143,Wffeb261eed,bonus,2
+1144,W6dfdadb961,startTime,Sat Apr 16 2022 08:20:23 GMT-0400 (Eastern Daylight Time)
+1145,W6dfdadb961,condition,"{""objective"":""belief"",""trial_type"":""slider"",""horizon"":""ambiguous""}"
+1146,W6dfdadb961,trialDataFile,exp2_split3
+1147,W6dfdadb961,featureRandomization,"{""Green"":""Striped"",""Red"":""Solid"",""Blue"":""Spotted"",""Spotted"":""Blue"",""Solid"":""Green"",""Striped"":""Red""}"
+1148,W6dfdadb961,quizAttempt-1,"{""attempt"":1,""correct"":13,""total"":16}"
+1149,W6dfdadb961,quizAttempt-2,"{""attempt"":2,""correct"":5,""total"":7}"
+1150,W6dfdadb961,quizAttempt-3,"{""attempt"":3,""correct"":3,""total"":3}"
+1151,W6dfdadb961,quizPassed,"{""attempt"":3,""correct"":3,""total"":3}"
+1152,W6dfdadb961,bonus,2
+1153,Wfeca185c44,startTime,Fri Apr 15 2022 15:26:37 GMT-0500 (Central Daylight Time)
+1154,Wfeca185c44,condition,"{""objective"":""utility"",""trial_type"":""slider"",""horizon"":""ambiguous""}"
+1155,Wfeca185c44,trialDataFile,exp2_split1
+1156,Wfeca185c44,featureRandomization,"{""Green"":""Red"",""Red"":""Green"",""Blue"":""Blue"",""Spotted"":""Spotted"",""Solid"":""Solid"",""Striped"":""Striped""}"
+1157,Wfeca185c44,quizAttempt-1,"{""attempt"":1,""correct"":12,""total"":16}"
+1158,Wfeca185c44,quizAttempt-2,"{""attempt"":2,""correct"":13,""total"":13}"
+1159,Wfeca185c44,quizPassed,"{""attempt"":2,""correct"":13,""total"":13}"
+1160,Wfeca185c44,bonus,2
+1161,Wdb4b9379dc,startTime,Fri Apr 15 2022 16:26:08 GMT-0400 (Eastern Daylight Time)
+1162,Wdb4b9379dc,condition,"{""objective"":""utility"",""trial_type"":""slider"",""horizon"":""ambiguous""}"
+1163,Wdb4b9379dc,trialDataFile,exp2_split4
+1164,Wdb4b9379dc,featureRandomization,"{""Green"":""Solid"",""Red"":""Spotted"",""Blue"":""Striped"",""Spotted"":""Green"",""Solid"":""Blue"",""Striped"":""Red""}"
+1165,Wdb4b9379dc,quizAttempt-1,"{""attempt"":1,""correct"":9,""total"":16}"
+1166,Wdb4b9379dc,quizAttempt-2,"{""attempt"":2,""correct"":11,""total"":13}"
+1167,Wdb4b9379dc,quizAttempt-3,"{""attempt"":3,""correct"":3,""total"":4}"
+1168,Wdb4b9379dc,quizFailed,"{""attempt"":3,""correct"":3,""total"":4}"
+1169,W3af4c836f7,startTime,Sat Apr 16 2022 08:01:54 GMT-0500 (Central Daylight Time)
+1170,W720ad76f6f,startTime,Sat Apr 16 2022 09:01:29 GMT-0400 (Eastern Daylight Time)
+1171,W720ad76f6f,condition,"{""objective"":""belief"",""trial_type"":""slider"",""horizon"":""ambiguous""}"
+1172,W720ad76f6f,trialDataFile,exp2_split4
+1173,W720ad76f6f,featureRandomization,"{""Green"":""Red"",""Red"":""Blue"",""Blue"":""Green"",""Spotted"":""Solid"",""Solid"":""Striped"",""Striped"":""Spotted""}"
+1174,W720ad76f6f,quizAttempt-1,"{""attempt"":1,""correct"":16,""total"":16}"
+1175,W720ad76f6f,quizPassed,"{""attempt"":1,""correct"":16,""total"":16}"
+1176,W720ad76f6f,bonus,2
+1177,W2ab6199449,startTime,Sat Apr 16 2022 14:02:30 GMT+0100 (hora de verano de Europa occidental)
+1178,W2ab6199449,condition,"{""objective"":""ambiguous"",""trial_type"":""slider"",""horizon"":""ambiguous""}"
+1179,W2ab6199449,trialDataFile,exp2_split2
+1180,W2ab6199449,featureRandomization,"{""Green"":""Spotted"",""Red"":""Striped"",""Blue"":""Solid"",""Spotted"":""Green"",""Solid"":""Blue"",""Striped"":""Red""}"
+1181,W2ab6199449,quizAttempt-1,"{""attempt"":1,""correct"":16,""total"":16}"
+1182,W2ab6199449,quizPassed,"{""attempt"":1,""correct"":16,""total"":16}"
+1183,W2ab6199449,bonus,2
+1184,Wab66df44b6,startTime,Fri Apr 15 2022 16:27:13 GMT-0400 (Eastern Daylight Time)
+1185,Wab66df44b6,condition,"{""objective"":""ambiguous"",""trial_type"":""slider"",""horizon"":""ambiguous""}"
+1186,Wab66df44b6,trialDataFile,exp2_split2
+1187,Wab66df44b6,featureRandomization,"{""Green"":""Solid"",""Red"":""Striped"",""Blue"":""Spotted"",""Spotted"":""Green"",""Solid"":""Red"",""Striped"":""Blue""}"
+1188,Wab66df44b6,quizAttempt-1,"{""attempt"":1,""correct"":16,""total"":16}"
+1189,Wab66df44b6,quizPassed,"{""attempt"":1,""correct"":16,""total"":16}"
+1190,Wab66df44b6,bonus,2
+1191,Wd929c7b604,startTime,Fri Apr 15 2022 15:26:42 GMT-0500 (Central Daylight Time)
+1192,Wd2ded0a50a,startTime,Fri Apr 15 2022 16:27:29 GMT-0400 (Eastern Daylight Time)
+1193,Wd2ded0a50a,condition,"{""objective"":""utility"",""trial_type"":""slider"",""horizon"":""ambiguous""}"
+1194,Wd2ded0a50a,trialDataFile,exp2_split4
+1195,Wd2ded0a50a,featureRandomization,"{""Green"":""Blue"",""Red"":""Red"",""Blue"":""Green"",""Spotted"":""Striped"",""Solid"":""Solid"",""Striped"":""Spotted""}"
+1196,Wd2ded0a50a,quizAttempt-1,"{""attempt"":1,""correct"":16,""total"":16}"
+1197,Wd2ded0a50a,quizPassed,"{""attempt"":1,""correct"":16,""total"":16}"
+1198,Wd2ded0a50a,bonus,2
+1199,We233e17209,startTime,Sat Apr 16 2022 08:46:01 GMT-0400 (Eastern Daylight Time)
+1200,We233e17209,condition,"{""objective"":""utility"",""trial_type"":""slider"",""horizon"":""ambiguous""}"
+1201,We233e17209,trialDataFile,exp2_split2
+1202,We233e17209,featureRandomization,"{""Green"":""Red"",""Red"":""Blue"",""Blue"":""Green"",""Spotted"":""Solid"",""Solid"":""Spotted"",""Striped"":""Striped""}"
+1203,We233e17209,quizAttempt-1,"{""attempt"":1,""correct"":16,""total"":16}"
+1204,We233e17209,quizPassed,"{""attempt"":1,""correct"":16,""total"":16}"
+1205,We233e17209,bonus,2
+1206,W3c3939f2fd,startTime,Fri Apr 15 2022 16:27:08 GMT-0400 (Eastern Daylight Time)
+1207,W3c3939f2fd,condition,"{""objective"":""ambiguous"",""trial_type"":""slider"",""horizon"":""ambiguous""}"
+1208,W3c3939f2fd,trialDataFile,exp2_split3
+1209,W3c3939f2fd,featureRandomization,"{""Green"":""Solid"",""Red"":""Striped"",""Blue"":""Spotted"",""Spotted"":""Green"",""Solid"":""Red"",""Striped"":""Blue""}"
+1210,W3c3939f2fd,quizAttempt-1,"{""attempt"":1,""correct"":16,""total"":16}"
+1211,W3c3939f2fd,quizPassed,"{""attempt"":1,""correct"":16,""total"":16}"
+1212,W3c3939f2fd,bonus,2
+1213,Wbb01463ce1,startTime,Fri Apr 15 2022 16:27:21 GMT-0400 (Eastern Daylight Time)
+1214,Wbb01463ce1,condition,"{""objective"":""ambiguous"",""trial_type"":""slider"",""horizon"":""ambiguous""}"
+1215,Wbb01463ce1,trialDataFile,exp2_split4
+1216,Wbb01463ce1,featureRandomization,"{""Green"":""Green"",""Red"":""Blue"",""Blue"":""Red"",""Spotted"":""Spotted"",""Solid"":""Striped"",""Striped"":""Solid""}"
+1217,Wbb01463ce1,quizAttempt-1,"{""attempt"":1,""correct"":16,""total"":16}"
+1218,Wbb01463ce1,quizPassed,"{""attempt"":1,""correct"":16,""total"":16}"
+1219,Wbb01463ce1,bonus,2
+1220,Wbdb0dc6cef,startTime,Fri Apr 15 2022 16:27:02 GMT-0400 (Eastern Daylight Time)
+1221,Wbdb0dc6cef,condition,"{""objective"":""belief"",""trial_type"":""slider"",""horizon"":""ambiguous""}"
+1222,Wbdb0dc6cef,trialDataFile,exp2_split3
+1223,Wbdb0dc6cef,featureRandomization,"{""Green"":""Striped"",""Red"":""Solid"",""Blue"":""Spotted"",""Spotted"":""Blue"",""Solid"":""Red"",""Striped"":""Green""}"
+1224,Wbdb0dc6cef,quizAttempt-1,"{""attempt"":1,""correct"":16,""total"":16}"
+1225,Wbdb0dc6cef,quizPassed,"{""attempt"":1,""correct"":16,""total"":16}"
+1226,Wbdb0dc6cef,bonus,2
+1227,W0a93ab7757,startTime,Fri Apr 15 2022 15:27:30 GMT-0500 (Central Daylight Time)
+1228,W0a93ab7757,condition,"{""objective"":""utility"",""trial_type"":""slider"",""horizon"":""ambiguous""}"
+1229,W0a93ab7757,trialDataFile,exp2_split2
+1230,W0a93ab7757,featureRandomization,"{""Green"":""Solid"",""Red"":""Spotted"",""Blue"":""Striped"",""Spotted"":""Blue"",""Solid"":""Green"",""Striped"":""Red""}"
+1231,W0a93ab7757,quizAttempt-1,"{""attempt"":1,""correct"":14,""total"":16}"
+1232,W0a93ab7757,quizAttempt-2,"{""attempt"":2,""correct"":4,""total"":4}"
+1233,W0a93ab7757,quizPassed,"{""attempt"":2,""correct"":4,""total"":4}"
+1234,W0a93ab7757,bonus,2
+1235,W3a300707ca,startTime,Fri Apr 15 2022 15:27:12 GMT-0500 (Central Daylight Time)
+1236,W3a300707ca,condition,"{""objective"":""belief"",""trial_type"":""slider"",""horizon"":""ambiguous""}"
+1237,W3a300707ca,trialDataFile,exp2_split1
+1238,W3a300707ca,featureRandomization,"{""Green"":""Striped"",""Red"":""Solid"",""Blue"":""Spotted"",""Spotted"":""Red"",""Solid"":""Green"",""Striped"":""Blue""}"
+1239,W3a300707ca,quizAttempt-1,"{""attempt"":1,""correct"":13,""total"":16}"
+1240,W3a300707ca,quizAttempt-2,"{""attempt"":2,""correct"":7,""total"":7}"
+1241,W3a300707ca,quizPassed,"{""attempt"":2,""correct"":7,""total"":7}"
+1242,W3a300707ca,bonus,2
+1243,W8bd81f9fe9,startTime,Sat Apr 16 2022 07:54:32 GMT-0400 (EDT)
+1244,W8bd81f9fe9,condition,"{""objective"":""ambiguous"",""trial_type"":""slider"",""horizon"":""ambiguous""}"
+1245,W8bd81f9fe9,trialDataFile,exp2_split4
+1246,W8bd81f9fe9,featureRandomization,"{""Green"":""Solid"",""Red"":""Spotted"",""Blue"":""Striped"",""Spotted"":""Green"",""Solid"":""Blue"",""Striped"":""Red""}"
+1247,W8bd81f9fe9,quizAttempt-1,"{""attempt"":1,""correct"":16,""total"":16}"
+1248,W8bd81f9fe9,quizPassed,"{""attempt"":1,""correct"":16,""total"":16}"
+1249,W8bd81f9fe9,bonus,2
+1250,Wec74d88a48,startTime,Sat Apr 16 2022 12:52:26 GMT+0100 (British Summer Time)
+1251,Wec74d88a48,condition,"{""objective"":""belief"",""trial_type"":""slider"",""horizon"":""ambiguous""}"
+1252,Wec74d88a48,trialDataFile,exp2_split1
+1253,Wec74d88a48,featureRandomization,"{""Green"":""Red"",""Red"":""Green"",""Blue"":""Blue"",""Spotted"":""Solid"",""Solid"":""Striped"",""Striped"":""Spotted""}"
+1254,Wec74d88a48,quizAttempt-1,"{""attempt"":1,""correct"":15,""total"":16}"
+1255,Wec74d88a48,quizAttempt-2,"{""attempt"":2,""correct"":3,""total"":3}"
+1256,Wec74d88a48,quizPassed,"{""attempt"":2,""correct"":3,""total"":3}"
+1257,Wec74d88a48,bonus,2
+1258,W3ada4bbf91,startTime,Sat Apr 16 2022 12:53:43 GMT+0100 (British Summer Time)
+1259,W3ada4bbf91,condition,"{""objective"":""belief"",""trial_type"":""slider"",""horizon"":""ambiguous""}"
+1260,W3ada4bbf91,trialDataFile,exp2_split2
+1261,W3ada4bbf91,featureRandomization,"{""Green"":""Spotted"",""Red"":""Solid"",""Blue"":""Striped"",""Spotted"":""Blue"",""Solid"":""Red"",""Striped"":""Green""}"
+1262,W3ada4bbf91,quizAttempt-1,"{""attempt"":1,""correct"":12,""total"":16}"
+1263,W3ada4bbf91,quizAttempt-2,"{""attempt"":2,""correct"":10,""total"":10}"
+1264,W3ada4bbf91,quizPassed,"{""attempt"":2,""correct"":10,""total"":10}"
+1265,W3ada4bbf91,bonus,2
+1266,W2304446436,startTime,Sat Apr 16 2022 07:53:42 GMT-0400 (Eastern Daylight Time)
+1267,W2304446436,condition,"{""objective"":""utility"",""trial_type"":""slider"",""horizon"":""ambiguous""}"
+1268,W2304446436,trialDataFile,exp2_split3
+1269,W2304446436,featureRandomization,"{""Green"":""Red"",""Red"":""Green"",""Blue"":""Blue"",""Spotted"":""Spotted"",""Solid"":""Striped"",""Striped"":""Solid""}"
+1270,W2304446436,quizAttempt-1,"{""attempt"":1,""correct"":7,""total"":16}"
+1271,W2304446436,quizAttempt-2,"{""attempt"":2,""correct"":11,""total"":13}"
+1272,W2304446436,quizAttempt-3,"{""attempt"":3,""correct"":4,""total"":4}"
+1273,W2304446436,quizPassed,"{""attempt"":3,""correct"":4,""total"":4}"
+1274,W2304446436,bonus,2
+1275,Wbfce6551dd,startTime,Sat Apr 16 2022 12:52:32 GMT+0100 (British Summer Time)
+1276,Wbfce6551dd,condition,"{""objective"":""utility"",""trial_type"":""slider"",""horizon"":""ambiguous""}"
+1277,Wbfce6551dd,trialDataFile,exp2_split2
+1278,Wbfce6551dd,featureRandomization,"{""Green"":""Spotted"",""Red"":""Striped"",""Blue"":""Solid"",""Spotted"":""Blue"",""Solid"":""Red"",""Striped"":""Green""}"
+1279,Wbfce6551dd,quizAttempt-1,"{""attempt"":1,""correct"":15,""total"":16}"
+1280,Wbfce6551dd,quizAttempt-2,"{""attempt"":2,""correct"":2,""total"":3}"
+1281,Wbfce6551dd,quizAttempt-3,"{""attempt"":3,""correct"":3,""total"":3}"
+1282,Wbfce6551dd,quizPassed,"{""attempt"":3,""correct"":3,""total"":3}"
+1283,Wbfce6551dd,bonus,2
+1284,W0930fbf3bd,startTime,Sat Apr 16 2022 08:09:26 GMT-0500 (Central Daylight Time)
+1285,W0930fbf3bd,condition,"{""objective"":""utility"",""trial_type"":""slider"",""horizon"":""ambiguous""}"
+1286,W0930fbf3bd,trialDataFile,exp2_split1
+1287,W0930fbf3bd,featureRandomization,"{""Green"":""Green"",""Red"":""Blue"",""Blue"":""Red"",""Spotted"":""Striped"",""Solid"":""Solid"",""Striped"":""Spotted""}"
+1288,W0930fbf3bd,quizAttempt-1,"{""attempt"":1,""correct"":14,""total"":16}"
+1289,W0930fbf3bd,quizAttempt-2,"{""attempt"":2,""correct"":6,""total"":6}"
+1290,W0930fbf3bd,quizPassed,"{""attempt"":2,""correct"":6,""total"":6}"
+1291,W0930fbf3bd,bonus,2
+1292,We3edb78c37,startTime,Sat Apr 16 2022 09:06:08 GMT-0400 (Eastern Daylight Time)
+1293,We3edb78c37,condition,"{""objective"":""ambiguous"",""trial_type"":""slider"",""horizon"":""ambiguous""}"
+1294,We3edb78c37,trialDataFile,exp2_split1
+1295,We3edb78c37,featureRandomization,"{""Green"":""Blue"",""Red"":""Green"",""Blue"":""Red"",""Spotted"":""Solid"",""Solid"":""Striped"",""Striped"":""Spotted""}"
+1296,We3edb78c37,quizAttempt-1,"{""attempt"":1,""correct"":10,""total"":16}"
+1297,We3edb78c37,quizAttempt-2,"{""attempt"":2,""correct"":5,""total"":9}"
+1298,We3edb78c37,quizAttempt-3,"{""attempt"":3,""correct"":6,""total"":6}"
+1299,We3edb78c37,quizPassed,"{""attempt"":3,""correct"":6,""total"":6}"
+1300,We3edb78c37,bonus,2
+1301,W70333eee51,bonus,2
+1302,W70333eee51,condition,"{""objective"":""ambiguous"",""trial_type"":""slider"",""horizon"":""ambiguous""}"
+1303,W70333eee51,featureRandomization,"{""Green"":""Blue"",""Red"":""Green"",""Blue"":""Red"",""Spotted"":""Striped"",""Solid"":""Solid"",""Striped"":""Spotted""}"
+1304,W70333eee51,quizAttempt-1,"{""attempt"":1,""correct"":16,""total"":16}"
+1305,W70333eee51,quizPassed,"{""attempt"":1,""correct"":16,""total"":16}"
+1306,W70333eee51,startTime,Sat Apr 16 2022 07:21:21 GMT-0600 (MDT)
+1307,W70333eee51,trialDataFile,exp2_split1
+1308,W8224474c71,startTime,Sat Apr 16 2022 08:13:51 GMT-0500 (Central Daylight Time)
+1309,W8224474c71,condition,"{""objective"":""ambiguous"",""trial_type"":""slider"",""horizon"":""ambiguous""}"
+1310,W8224474c71,trialDataFile,exp2_split3
+1311,W8224474c71,featureRandomization,"{""Green"":""Spotted"",""Red"":""Striped"",""Blue"":""Solid"",""Spotted"":""Red"",""Solid"":""Blue"",""Striped"":""Green""}"
+1312,W8224474c71,quizAttempt-1,"{""attempt"":1,""correct"":16,""total"":16}"
+1313,W8224474c71,quizPassed,"{""attempt"":1,""correct"":16,""total"":16}"
+1314,W8224474c71,bonus,2
+1315,W0b43f7f8f5,startTime,Fri Apr 15 2022 16:27:43 GMT-0400 (Eastern Daylight Time)
+1316,W1ecba22ebe,startTime,Fri Apr 15 2022 16:27:57 GMT-0400 (Eastern Daylight Time)
+1317,Wef06bb5d68,startTime,Fri Apr 15 2022 13:28:37 GMT-0700 (Pacific Daylight Time)
+1318,Wef06bb5d68,condition,"{""objective"":""ambiguous"",""trial_type"":""slider"",""horizon"":""ambiguous""}"
+1319,Wef06bb5d68,trialDataFile,exp2_split2
+1320,Wef06bb5d68,featureRandomization,"{""Green"":""Red"",""Red"":""Green"",""Blue"":""Blue"",""Spotted"":""Solid"",""Solid"":""Spotted"",""Striped"":""Striped""}"
+1321,Wef06bb5d68,quizAttempt-1,"{""attempt"":1,""correct"":16,""total"":16}"
+1322,Wef06bb5d68,quizPassed,"{""attempt"":1,""correct"":16,""total"":16}"
+1323,Wef06bb5d68,bonus,2
+1324,W6bf2c61f53,startTime,Fri Apr 15 2022 16:28:05 GMT-0400 (Eastern Daylight Time)
+1325,W6bf2c61f53,condition,"{""objective"":""belief"",""trial_type"":""slider"",""horizon"":""ambiguous""}"
+1326,W6bf2c61f53,trialDataFile,exp2_split1
+1327,W6bf2c61f53,featureRandomization,"{""Green"":""Blue"",""Red"":""Red"",""Blue"":""Green"",""Spotted"":""Solid"",""Solid"":""Spotted"",""Striped"":""Striped""}"
+1328,W6bf2c61f53,quizAttempt-1,"{""attempt"":1,""correct"":15,""total"":16}"
+1329,W6bf2c61f53,quizAttempt-2,"{""attempt"":2,""correct"":3,""total"":3}"
+1330,W6bf2c61f53,quizPassed,"{""attempt"":2,""correct"":3,""total"":3}"
+1331,W6bf2c61f53,bonus,2
+1332,Wdaef293176,startTime,Fri Apr 15 2022 16:28:22 GMT-0400 (Eastern Daylight Time)
+1333,Wdaef293176,condition,"{""objective"":""belief"",""trial_type"":""slider"",""horizon"":""ambiguous""}"
+1334,Wdaef293176,trialDataFile,exp2_split2
+1335,Wdaef293176,featureRandomization,"{""Green"":""Solid"",""Red"":""Spotted"",""Blue"":""Striped"",""Spotted"":""Blue"",""Solid"":""Red"",""Striped"":""Green""}"
+1336,Wdaef293176,quizAttempt-1,"{""attempt"":1,""correct"":9,""total"":16}"
+1337,Wdaef293176,quizAttempt-2,"{""attempt"":2,""correct"":6,""total"":12}"
+1338,Wdaef293176,quizAttempt-3,"{""attempt"":3,""correct"":7,""total"":12}"
+1339,Wdaef293176,quizFailed,"{""attempt"":3,""correct"":7,""total"":12}"
+1340,Wb3a01ff3ab,startTime,Fri Apr 15 2022 15:24:14 GMT-0500 (Central Daylight Time)
+1341,Wb3a01ff3ab,condition,"{""objective"":""ambiguous"",""trial_type"":""slider"",""horizon"":""ambiguous""}"
+1342,Wb3a01ff3ab,trialDataFile,exp2_split2
+1343,Wb3a01ff3ab,featureRandomization,"{""Green"":""Striped"",""Red"":""Solid"",""Blue"":""Spotted"",""Spotted"":""Blue"",""Solid"":""Red"",""Striped"":""Green""}"
+1344,Wb3a01ff3ab,quizAttempt-1,"{""attempt"":1,""correct"":16,""total"":16}"
+1345,Wb3a01ff3ab,quizPassed,"{""attempt"":1,""correct"":16,""total"":16}"
+1346,Wb3a01ff3ab,bonus,2
+1347,W252a810351,startTime,Fri Apr 15 2022 15:27:43 GMT-0500 (Central Daylight Time)
+1348,W252a810351,condition,"{""objective"":""ambiguous"",""trial_type"":""slider"",""horizon"":""ambiguous""}"
+1349,W252a810351,trialDataFile,exp2_split3
+1350,W252a810351,featureRandomization,"{""Green"":""Green"",""Red"":""Red"",""Blue"":""Blue"",""Spotted"":""Spotted"",""Solid"":""Solid"",""Striped"":""Striped""}"
+1351,W252a810351,quizAttempt-1,"{""attempt"":1,""correct"":13,""total"":16}"
+1352,W252a810351,quizAttempt-2,"{""attempt"":2,""correct"":8,""total"":10}"
+1353,W252a810351,quizAttempt-3,"{""attempt"":3,""correct"":6,""total"":7}"
+1354,W252a810351,quizFailed,"{""attempt"":3,""correct"":6,""total"":7}"
+1355,W51fd1a6735,startTime,Fri Apr 15 2022 16:27:56 GMT-0400 (Eastern Daylight Time)
+1356,W51fd1a6735,condition,"{""objective"":""ambiguous"",""trial_type"":""slider"",""horizon"":""ambiguous""}"
+1357,W51fd1a6735,trialDataFile,exp2_split1
+1358,W51fd1a6735,featureRandomization,"{""Green"":""Spotted"",""Red"":""Solid"",""Blue"":""Striped"",""Spotted"":""Red"",""Solid"":""Green"",""Striped"":""Blue""}"
+1359,W51fd1a6735,quizAttempt-1,"{""attempt"":1,""correct"":15,""total"":16}"
+1360,W51fd1a6735,quizAttempt-2,"{""attempt"":2,""correct"":4,""total"":4}"
+1361,W51fd1a6735,quizPassed,"{""attempt"":2,""correct"":4,""total"":4}"
+1362,W51fd1a6735,bonus,2
+1363,W895540aaab,startTime,Sat Apr 16 2022 12:52:47 GMT+0100 (British Summer Time)
+1364,W895540aaab,condition,"{""objective"":""ambiguous"",""trial_type"":""slider"",""horizon"":""ambiguous""}"
+1365,W895540aaab,trialDataFile,exp2_split1
+1366,W895540aaab,featureRandomization,"{""Green"":""Green"",""Red"":""Red"",""Blue"":""Blue"",""Spotted"":""Solid"",""Solid"":""Spotted"",""Striped"":""Striped""}"
+1367,W895540aaab,quizAttempt-1,"{""attempt"":1,""correct"":16,""total"":16}"
+1368,W895540aaab,quizPassed,"{""attempt"":1,""correct"":16,""total"":16}"
+1369,W895540aaab,bonus,2
+1370,W8fa524950b,startTime,Sat Apr 16 2022 12:52:45 GMT+0100 (British Summer Time)
+1371,W8fa524950b,condition,"{""objective"":""belief"",""trial_type"":""slider"",""horizon"":""ambiguous""}"
+1372,W8fa524950b,trialDataFile,exp2_split1
+1373,W8fa524950b,featureRandomization,"{""Green"":""Green"",""Red"":""Red"",""Blue"":""Blue"",""Spotted"":""Striped"",""Solid"":""Solid"",""Striped"":""Spotted""}"
+1374,W8fa524950b,quizAttempt-1,"{""attempt"":1,""correct"":15,""total"":16}"
+1375,W8fa524950b,quizAttempt-2,"{""attempt"":2,""correct"":3,""total"":3}"
+1376,W8fa524950b,quizPassed,"{""attempt"":2,""correct"":3,""total"":3}"
+1377,W8fa524950b,bonus,2
+1378,W30d6b9745b,startTime,Sat Apr 16 2022 12:54:58 GMT+0100 (British Summer Time)
+1379,W30d6b9745b,condition,"{""objective"":""belief"",""trial_type"":""slider"",""horizon"":""ambiguous""}"
+1380,W30d6b9745b,trialDataFile,exp2_split4
+1381,W30d6b9745b,featureRandomization,"{""Green"":""Solid"",""Red"":""Striped"",""Blue"":""Spotted"",""Spotted"":""Red"",""Solid"":""Blue"",""Striped"":""Green""}"
+1382,W30d6b9745b,quizAttempt-1,"{""attempt"":1,""correct"":11,""total"":16}"
+1383,W30d6b9745b,quizAttempt-2,"{""attempt"":2,""correct"":10,""total"":10}"
+1384,W30d6b9745b,quizPassed,"{""attempt"":2,""correct"":10,""total"":10}"
+1385,W30d6b9745b,bonus,2
+1386,Wdba6d53de7,startTime,Sat Apr 16 2022 07:52:58 GMT-0400 (Eastern Daylight Time)
+1387,Wdba6d53de7,condition,"{""objective"":""ambiguous"",""trial_type"":""slider"",""horizon"":""ambiguous""}"
+1388,Wdba6d53de7,trialDataFile,exp2_split2
+1389,Wdba6d53de7,featureRandomization,"{""Green"":""Striped"",""Red"":""Solid"",""Blue"":""Spotted"",""Spotted"":""Green"",""Solid"":""Blue"",""Striped"":""Red""}"
+1390,Wdba6d53de7,quizAttempt-1,"{""attempt"":1,""correct"":16,""total"":16}"
+1391,Wdba6d53de7,quizPassed,"{""attempt"":1,""correct"":16,""total"":16}"
+1392,Wdba6d53de7,bonus,2
+1393,W43f5cd4164,startTime,Sat Apr 16 2022 12:54:28 GMT+0100 (BST)
+1394,W43f5cd4164,condition,"{""objective"":""belief"",""trial_type"":""slider"",""horizon"":""ambiguous""}"
+1395,W43f5cd4164,trialDataFile,exp2_split3
+1396,W43f5cd4164,featureRandomization,"{""Green"":""Solid"",""Red"":""Spotted"",""Blue"":""Striped"",""Spotted"":""Green"",""Solid"":""Red"",""Striped"":""Blue""}"
+1397,W43f5cd4164,quizAttempt-1,"{""attempt"":1,""correct"":9,""total"":16}"
+1398,W43f5cd4164,quizAttempt-2,"{""attempt"":2,""correct"":10,""total"":13}"
+1399,W43f5cd4164,quizAttempt-3,"{""attempt"":3,""correct"":2,""total"":4}"
+1400,W43f5cd4164,quizFailed,"{""attempt"":3,""correct"":2,""total"":4}"
+1401,W0b57cacf93,startTime,Sat Apr 16 2022 08:55:08 GMT-0400 (Eastern Daylight Time)
+1402,W18b636bd69,startTime,Sat Apr 16 2022 08:54:08 GMT-0400 (Eastern Daylight Time)
+1403,W18b636bd69,condition,"{""objective"":""belief"",""trial_type"":""slider"",""horizon"":""ambiguous""}"
+1404,W18b636bd69,trialDataFile,exp2_split4
+1405,W18b636bd69,featureRandomization,"{""Green"":""Spotted"",""Red"":""Striped"",""Blue"":""Solid"",""Spotted"":""Red"",""Solid"":""Green"",""Striped"":""Blue""}"
+1406,W18b636bd69,quizAttempt-1,"{""attempt"":1,""correct"":15,""total"":16}"
+1407,W18b636bd69,quizAttempt-2,"{""attempt"":2,""correct"":3,""total"":3}"
+1408,W18b636bd69,quizPassed,"{""attempt"":2,""correct"":3,""total"":3}"
+1409,W18b636bd69,bonus,2
+1410,W2c6cdb2a47,startTime,Sat Apr 16 2022 07:55:16 GMT-0500 (Central Daylight Time)
+1411,W2c6cdb2a47,condition,"{""objective"":""utility"",""trial_type"":""slider"",""horizon"":""ambiguous""}"
+1412,W2c6cdb2a47,trialDataFile,exp2_split3
+1413,W2c6cdb2a47,featureRandomization,"{""Green"":""Solid"",""Red"":""Spotted"",""Blue"":""Striped"",""Spotted"":""Green"",""Solid"":""Blue"",""Striped"":""Red""}"
+1414,W2c6cdb2a47,quizAttempt-1,"{""attempt"":1,""correct"":14,""total"":16}"
+1415,W2c6cdb2a47,quizAttempt-2,"{""attempt"":2,""correct"":7,""total"":7}"
+1416,W2c6cdb2a47,quizPassed,"{""attempt"":2,""correct"":7,""total"":7}"
+1417,W2c6cdb2a47,bonus,2
+1418,W84ff376475,startTime,Sat Apr 16 2022 09:06:19 GMT-0400 (Eastern Daylight Time)
+1419,W84ff376475,condition,"{""objective"":""belief"",""trial_type"":""slider"",""horizon"":""ambiguous""}"
+1420,W84ff376475,trialDataFile,exp2_split1
+1421,W84ff376475,featureRandomization,"{""Green"":""Red"",""Red"":""Green"",""Blue"":""Blue"",""Spotted"":""Spotted"",""Solid"":""Striped"",""Striped"":""Solid""}"
+1422,W84ff376475,quizAttempt-1,"{""attempt"":1,""correct"":16,""total"":16}"
+1423,W84ff376475,quizPassed,"{""attempt"":1,""correct"":16,""total"":16}"
+1424,W84ff376475,bonus,2
+1425,W4a461e3183,startTime,Fri Apr 15 2022 16:31:20 GMT-0400 (Eastern Daylight Time)
+1426,W4a461e3183,condition,"{""objective"":""belief"",""trial_type"":""slider"",""horizon"":""ambiguous""}"
+1427,W4a461e3183,trialDataFile,exp2_split4
+1428,W4a461e3183,featureRandomization,"{""Green"":""Green"",""Red"":""Blue"",""Blue"":""Red"",""Spotted"":""Solid"",""Solid"":""Spotted"",""Striped"":""Striped""}"
+1429,W4a461e3183,quizAttempt-1,"{""attempt"":1,""correct"":14,""total"":16}"
+1430,W4a461e3183,quizAttempt-2,"{""attempt"":2,""correct"":2,""total"":3}"
+1431,W4a461e3183,quizAttempt-3,"{""attempt"":3,""correct"":3,""total"":3}"
+1432,W4a461e3183,quizPassed,"{""attempt"":3,""correct"":3,""total"":3}"
+1433,W4a461e3183,bonus,2
+1434,W27e9f72eeb,startTime,Fri Apr 15 2022 13:29:02 GMT-0700 (Pacific Daylight Time)
+1435,W3608f4525c,startTime,Fri Apr 15 2022 16:29:07 GMT-0400 (Eastern Daylight Time)
+1436,We49a978e10,startTime,Fri Apr 15 2022 16:34:50 GMT-0400 (Eastern Daylight Time)
+1437,We49a978e10,condition,"{""objective"":""belief"",""trial_type"":""slider"",""horizon"":""ambiguous""}"
+1438,We49a978e10,trialDataFile,exp2_split4
+1439,We49a978e10,featureRandomization,"{""Green"":""Red"",""Red"":""Green"",""Blue"":""Blue"",""Spotted"":""Solid"",""Solid"":""Spotted"",""Striped"":""Striped""}"
+1440,We49a978e10,quizAttempt-1,"{""attempt"":1,""correct"":16,""total"":16}"
+1441,We49a978e10,quizPassed,"{""attempt"":1,""correct"":16,""total"":16}"
+1442,We49a978e10,bonus,2
+1443,Wffb45f6366,startTime,Fri Apr 15 2022 16:30:30 GMT-0400 (Eastern Daylight Time)
+1444,Wffb45f6366,condition,"{""objective"":""ambiguous"",""trial_type"":""slider"",""horizon"":""ambiguous""}"
+1445,Wffb45f6366,trialDataFile,exp2_split1
+1446,Wffb45f6366,featureRandomization,"{""Green"":""Spotted"",""Red"":""Striped"",""Blue"":""Solid"",""Spotted"":""Green"",""Solid"":""Blue"",""Striped"":""Red""}"
+1447,Wffb45f6366,quizAttempt-1,"{""attempt"":1,""correct"":13,""total"":16}"
+1448,Wffb45f6366,quizAttempt-2,"{""attempt"":2,""correct"":3,""total"":4}"
+1449,Wffb45f6366,quizAttempt-3,"{""attempt"":3,""correct"":4,""total"":4}"
+1450,Wffb45f6366,quizPassed,"{""attempt"":3,""correct"":4,""total"":4}"
+1451,Wffb45f6366,bonus,2
+1452,W42d56f9eda,startTime,Sat Apr 16 2022 12:58:38 GMT+0100 (BST)
+1453,W42d56f9eda,condition,"{""objective"":""ambiguous"",""trial_type"":""slider"",""horizon"":""ambiguous""}"
+1454,W42d56f9eda,trialDataFile,exp2_split4
+1455,W42d56f9eda,featureRandomization,"{""Green"":""Blue"",""Red"":""Green"",""Blue"":""Red"",""Spotted"":""Spotted"",""Solid"":""Striped"",""Striped"":""Solid""}"
+1456,W42d56f9eda,quizAttempt-1,"{""attempt"":1,""correct"":16,""total"":16}"
+1457,W42d56f9eda,quizPassed,"{""attempt"":1,""correct"":16,""total"":16}"
+1458,W42d56f9eda,bonus,2
+1459,Wad00440b0c,startTime,Fri Apr 15 2022 13:28:11 GMT-0700 (Pacific Daylight Time)
+1460,Wad00440b0c,condition,"{""objective"":""utility"",""trial_type"":""slider"",""horizon"":""ambiguous""}"
+1461,Wad00440b0c,trialDataFile,exp2_split1
+1462,Wad00440b0c,featureRandomization,"{""Green"":""Blue"",""Red"":""Green"",""Blue"":""Red"",""Spotted"":""Spotted"",""Solid"":""Striped"",""Striped"":""Solid""}"
+1463,Wad00440b0c,quizAttempt-1,"{""attempt"":1,""correct"":16,""total"":16}"
+1464,Wad00440b0c,quizPassed,"{""attempt"":1,""correct"":16,""total"":16}"
+1465,Wad00440b0c,bonus,2
+1466,W64448c3a06,startTime,Fri Apr 15 2022 16:30:48 GMT-0400 (Eastern Daylight Time)
+1467,W64448c3a06,condition,"{""objective"":""utility"",""trial_type"":""slider"",""horizon"":""ambiguous""}"
+1468,W64448c3a06,trialDataFile,exp2_split2
+1469,W64448c3a06,featureRandomization,"{""Green"":""Spotted"",""Red"":""Striped"",""Blue"":""Solid"",""Spotted"":""Blue"",""Solid"":""Red"",""Striped"":""Green""}"
+1470,W64448c3a06,quizAttempt-1,"{""attempt"":1,""correct"":16,""total"":16}"
+1471,W64448c3a06,quizPassed,"{""attempt"":1,""correct"":16,""total"":16}"
+1472,W64448c3a06,bonus,2
+1473,W3ffe6059b8,startTime,Fri Apr 15 2022 14:31:02 GMT-0600 (Mountain Daylight Time)
+1474,W3ffe6059b8,condition,"{""objective"":""belief"",""trial_type"":""slider"",""horizon"":""ambiguous""}"
+1475,W3ffe6059b8,trialDataFile,exp2_split1
+1476,W3ffe6059b8,featureRandomization,"{""Green"":""Green"",""Red"":""Blue"",""Blue"":""Red"",""Spotted"":""Striped"",""Solid"":""Solid"",""Striped"":""Spotted""}"
+1477,W3ffe6059b8,quizAttempt-1,"{""attempt"":1,""correct"":14,""total"":16}"
+1478,W3ffe6059b8,quizAttempt-2,"{""attempt"":2,""correct"":4,""total"":4}"
+1479,W3ffe6059b8,quizPassed,"{""attempt"":2,""correct"":4,""total"":4}"
+1480,W3ffe6059b8,bonus,2
+1481,Wf3f319da4c,startTime,Fri Apr 15 2022 16:28:07 GMT-0400 (Eastern Daylight Time)
+1482,Wf3f319da4c,condition,"{""objective"":""ambiguous"",""trial_type"":""slider"",""horizon"":""ambiguous""}"
+1483,Wf3f319da4c,trialDataFile,exp2_split2
+1484,Wf3f319da4c,featureRandomization,"{""Green"":""Red"",""Red"":""Green"",""Blue"":""Blue"",""Spotted"":""Striped"",""Solid"":""Spotted"",""Striped"":""Solid""}"
+1485,Wf3f319da4c,quizAttempt-1,"{""attempt"":1,""correct"":16,""total"":16}"
+1486,Wf3f319da4c,quizPassed,"{""attempt"":1,""correct"":16,""total"":16}"
+1487,Wf3f319da4c,bonus,2
+1488,W7cf5207c3d,startTime,Sat Apr 16 2022 12:58:35 GMT+0100 (British Summer Time)
+1489,W7cf5207c3d,condition,"{""objective"":""belief"",""trial_type"":""slider"",""horizon"":""ambiguous""}"
+1490,W7cf5207c3d,trialDataFile,exp2_split1
+1491,W7cf5207c3d,featureRandomization,"{""Green"":""Red"",""Red"":""Blue"",""Blue"":""Green"",""Spotted"":""Striped"",""Solid"":""Solid"",""Striped"":""Spotted""}"
+1492,W7cf5207c3d,quizAttempt-1,"{""attempt"":1,""correct"":16,""total"":16}"
+1493,W7cf5207c3d,quizPassed,"{""attempt"":1,""correct"":16,""total"":16}"
+1494,W7cf5207c3d,bonus,2
+1495,W9d4f90ec79,startTime,Sat Apr 16 2022 12:55:13 GMT+0100 (British Summer Time)
+1496,W9d4f90ec79,condition,"{""objective"":""utility"",""trial_type"":""slider"",""horizon"":""ambiguous""}"
+1497,W9d4f90ec79,trialDataFile,exp2_split1
+1498,W9d4f90ec79,featureRandomization,"{""Green"":""Spotted"",""Red"":""Solid"",""Blue"":""Striped"",""Spotted"":""Blue"",""Solid"":""Green"",""Striped"":""Red""}"
+1499,W9d4f90ec79,quizAttempt-1,"{""attempt"":1,""correct"":16,""total"":16}"
+1500,W9d4f90ec79,quizPassed,"{""attempt"":1,""correct"":16,""total"":16}"
+1501,W9d4f90ec79,bonus,2
+1502,Wea5b2df3b6,startTime,Sat Apr 16 2022 12:55:08 GMT+0100 (British Summer Time)
+1503,Wea5b2df3b6,condition,"{""objective"":""ambiguous"",""trial_type"":""slider"",""horizon"":""ambiguous""}"
+1504,Wea5b2df3b6,trialDataFile,exp2_split4
+1505,Wea5b2df3b6,featureRandomization,"{""Green"":""Blue"",""Red"":""Red"",""Blue"":""Green"",""Spotted"":""Solid"",""Solid"":""Spotted"",""Striped"":""Striped""}"
+1506,Wea5b2df3b6,quizAttempt-1,"{""attempt"":1,""correct"":13,""total"":16}"
+1507,Wea5b2df3b6,quizAttempt-2,"{""attempt"":2,""correct"":6,""total"":6}"
+1508,Wea5b2df3b6,quizPassed,"{""attempt"":2,""correct"":6,""total"":6}"
+1509,Wea5b2df3b6,bonus,2
+1510,Wa4821b898a,startTime,Sat Apr 16 2022 12:55:20 GMT+0100 (British Summer Time)
+1511,Wa4821b898a,condition,"{""objective"":""utility"",""trial_type"":""slider"",""horizon"":""ambiguous""}"
+1512,Wa4821b898a,trialDataFile,exp2_split2
+1513,Wa4821b898a,featureRandomization,"{""Green"":""Green"",""Red"":""Blue"",""Blue"":""Red"",""Spotted"":""Solid"",""Solid"":""Spotted"",""Striped"":""Striped""}"
+1514,Wa4821b898a,quizAttempt-1,"{""attempt"":1,""correct"":14,""total"":16}"
+1515,Wa4821b898a,quizAttempt-2,"{""attempt"":2,""correct"":7,""total"":7}"
+1516,Wa4821b898a,quizPassed,"{""attempt"":2,""correct"":7,""total"":7}"
+1517,Wa4821b898a,bonus,2
+1518,W015d392c3d,startTime,Sat Apr 16 2022 12:58:46 GMT+0100 (British Summer Time)
+1519,W015d392c3d,condition,"{""objective"":""utility"",""trial_type"":""slider"",""horizon"":""ambiguous""}"
+1520,W015d392c3d,trialDataFile,exp2_split4
+1521,W015d392c3d,featureRandomization,"{""Green"":""Striped"",""Red"":""Spotted"",""Blue"":""Solid"",""Spotted"":""Red"",""Solid"":""Blue"",""Striped"":""Green""}"
+1522,W015d392c3d,quizAttempt-1,"{""attempt"":1,""correct"":16,""total"":16}"
+1523,W015d392c3d,quizPassed,"{""attempt"":1,""correct"":16,""total"":16}"
+1524,W015d392c3d,bonus,2
+1525,Wc2bab48afa,startTime,Fri Apr 15 2022 15:32:24 GMT-0500 (Central Daylight Time)
+1526,W504de13bb7,startTime,Fri Apr 15 2022 13:32:28 GMT-0700 (Pacific Daylight Time)
+1527,Wcdc93677fa,startTime,Fri Apr 15 2022 15:31:13 GMT-0500 (Central Daylight Time)
+1528,Wcdc93677fa,condition,"{""objective"":""utility"",""trial_type"":""slider"",""horizon"":""ambiguous""}"
+1529,Wcdc93677fa,trialDataFile,exp2_split3
+1530,Wcdc93677fa,featureRandomization,"{""Green"":""Striped"",""Red"":""Spotted"",""Blue"":""Solid"",""Spotted"":""Red"",""Solid"":""Green"",""Striped"":""Blue""}"
+1531,Wcdc93677fa,quizAttempt-1,"{""attempt"":1,""correct"":16,""total"":16}"
+1532,Wcdc93677fa,quizPassed,"{""attempt"":1,""correct"":16,""total"":16}"
+1533,Wcdc93677fa,bonus,2
+1534,W079b44d2b6,startTime,Fri Apr 15 2022 16:37:06 GMT-0400 (Eastern Daylight Time)
+1535,W079b44d2b6,condition,"{""objective"":""ambiguous"",""trial_type"":""slider"",""horizon"":""ambiguous""}"
+1536,W079b44d2b6,trialDataFile,exp2_split1
+1537,W079b44d2b6,featureRandomization,"{""Green"":""Spotted"",""Red"":""Solid"",""Blue"":""Striped"",""Spotted"":""Red"",""Solid"":""Blue"",""Striped"":""Green""}"
+1538,W079b44d2b6,quizAttempt-1,"{""attempt"":1,""correct"":15,""total"":16}"
+1539,W079b44d2b6,quizAttempt-2,"{""attempt"":2,""correct"":3,""total"":3}"
+1540,W079b44d2b6,quizPassed,"{""attempt"":2,""correct"":3,""total"":3}"
+1541,W079b44d2b6,bonus,2
+1542,Wda1478ae8d,startTime,Fri Apr 15 2022 15:32:42 GMT-0500 (Central Daylight Time)
+1543,Wda1478ae8d,condition,"{""objective"":""ambiguous"",""trial_type"":""slider"",""horizon"":""ambiguous""}"
+1544,Wda1478ae8d,trialDataFile,exp2_split4
+1545,Wda1478ae8d,featureRandomization,"{""Green"":""Green"",""Red"":""Red"",""Blue"":""Blue"",""Spotted"":""Solid"",""Solid"":""Spotted"",""Striped"":""Striped""}"
+1546,Wda1478ae8d,quizAttempt-1,"{""attempt"":1,""correct"":16,""total"":16}"
+1547,Wda1478ae8d,quizPassed,"{""attempt"":1,""correct"":16,""total"":16}"
+1548,Wda1478ae8d,bonus,2
+1549,W3f040390f6,startTime,Fri Apr 15 2022 16:31:40 GMT-0400 (Eastern Daylight Time)
+1550,W3f040390f6,condition,"{""objective"":""utility"",""trial_type"":""slider"",""horizon"":""ambiguous""}"
+1551,W3f040390f6,trialDataFile,exp2_split1
+1552,W3f040390f6,featureRandomization,"{""Green"":""Blue"",""Red"":""Green"",""Blue"":""Red"",""Spotted"":""Spotted"",""Solid"":""Striped"",""Striped"":""Solid""}"
+1553,W3f040390f6,quizAttempt-1,"{""attempt"":1,""correct"":15,""total"":16}"
+1554,W3f040390f6,quizAttempt-2,"{""attempt"":2,""correct"":4,""total"":4}"
+1555,W3f040390f6,quizPassed,"{""attempt"":2,""correct"":4,""total"":4}"
+1556,W3f040390f6,bonus,2
+1557,W79f98bb51b,startTime,Fri Apr 15 2022 16:42:34 GMT-0400 (Eastern Daylight Time)
+1558,W79f98bb51b,condition,"{""objective"":""utility"",""trial_type"":""slider"",""horizon"":""ambiguous""}"
+1559,W79f98bb51b,trialDataFile,exp2_split3
+1560,W79f98bb51b,featureRandomization,"{""Green"":""Striped"",""Red"":""Spotted"",""Blue"":""Solid"",""Spotted"":""Green"",""Solid"":""Red"",""Striped"":""Blue""}"
+1561,W79f98bb51b,quizAttempt-1,"{""attempt"":1,""correct"":16,""total"":16}"
+1562,W79f98bb51b,quizPassed,"{""attempt"":1,""correct"":16,""total"":16}"
+1563,W79f98bb51b,bonus,2
+1564,W8f28807238,startTime,Sat Apr 16 2022 12:59:27 GMT+0100 (British Summer Time)
+1565,W4a15d8aa06,startTime,Sat Apr 16 2022 14:27:35 GMT+0100 (Irish Standard Time)
+1566,W4a15d8aa06,condition,"{""objective"":""utility"",""trial_type"":""slider"",""horizon"":""ambiguous""}"
+1567,W4a15d8aa06,trialDataFile,exp2_split1
+1568,W4a15d8aa06,featureRandomization,"{""Green"":""Blue"",""Red"":""Red"",""Blue"":""Green"",""Spotted"":""Solid"",""Solid"":""Spotted"",""Striped"":""Striped""}"
+1569,W4a15d8aa06,quizAttempt-1,"{""attempt"":1,""correct"":13,""total"":16}"
+1570,W4a15d8aa06,quizAttempt-2,"{""attempt"":2,""correct"":7,""total"":7}"
+1571,W4a15d8aa06,quizPassed,"{""attempt"":2,""correct"":7,""total"":7}"
+1572,W4a15d8aa06,bonus,2
+1573,Waff459e8f5,startTime,Sat Apr 16 2022 07:56:41 GMT-0400 (Eastern Daylight Time)
+1574,Waff459e8f5,condition,"{""objective"":""ambiguous"",""trial_type"":""slider"",""horizon"":""ambiguous""}"
+1575,Waff459e8f5,trialDataFile,exp2_split1
+1576,Waff459e8f5,featureRandomization,"{""Green"":""Striped"",""Red"":""Solid"",""Blue"":""Spotted"",""Spotted"":""Red"",""Solid"":""Green"",""Striped"":""Blue""}"
+1577,Waff459e8f5,quizAttempt-1,"{""attempt"":1,""correct"":15,""total"":16}"
+1578,Waff459e8f5,quizAttempt-2,"{""attempt"":2,""correct"":3,""total"":3}"
+1579,Waff459e8f5,quizPassed,"{""attempt"":2,""correct"":3,""total"":3}"
+1580,Waff459e8f5,bonus,2
+1581,Wae2265e357,startTime,Sat Apr 16 2022 13:00:02 GMT+0100 (British Summer Time)
+1582,Wae2265e357,condition,"{""objective"":""ambiguous"",""trial_type"":""slider"",""horizon"":""ambiguous""}"
+1583,Wae2265e357,trialDataFile,exp2_split4
+1584,Wae2265e357,featureRandomization,"{""Green"":""Spotted"",""Red"":""Solid"",""Blue"":""Striped"",""Spotted"":""Green"",""Solid"":""Red"",""Striped"":""Blue""}"
+1585,Wae2265e357,quizAttempt-1,"{""attempt"":1,""correct"":16,""total"":16}"
+1586,Wae2265e357,quizPassed,"{""attempt"":1,""correct"":16,""total"":16}"
+1587,Wae2265e357,bonus,2
+1588,W3e2d824e2a,startTime,Sat Apr 16 2022 07:56:18 GMT-0400 (Eastern Daylight Time)
+1589,W3e2d824e2a,condition,"{""objective"":""belief"",""trial_type"":""slider"",""horizon"":""ambiguous""}"
+1590,W3e2d824e2a,trialDataFile,exp2_split3
+1591,W3e2d824e2a,featureRandomization,"{""Green"":""Striped"",""Red"":""Solid"",""Blue"":""Spotted"",""Spotted"":""Blue"",""Solid"":""Red"",""Striped"":""Green""}"
+1592,W3e2d824e2a,quizAttempt-1,"{""attempt"":1,""correct"":15,""total"":16}"
+1593,W3e2d824e2a,quizAttempt-2,"{""attempt"":2,""correct"":4,""total"":4}"
+1594,W3e2d824e2a,quizPassed,"{""attempt"":2,""correct"":4,""total"":4}"
+1595,W3e2d824e2a,bonus,2
+1596,Wb4dc5f63b5,startTime,Sat Apr 16 2022 08:25:13 GMT-0500 (Central Daylight Time)
+1597,Wb4dc5f63b5,condition,"{""objective"":""ambiguous"",""trial_type"":""slider"",""horizon"":""ambiguous""}"
+1598,Wb4dc5f63b5,trialDataFile,exp2_split3
+1599,Wb4dc5f63b5,featureRandomization,"{""Green"":""Green"",""Red"":""Blue"",""Blue"":""Red"",""Spotted"":""Solid"",""Solid"":""Spotted"",""Striped"":""Striped""}"
+1600,Wb4dc5f63b5,quizAttempt-1,"{""attempt"":1,""correct"":15,""total"":16}"
+1601,Wb4dc5f63b5,quizAttempt-2,"{""attempt"":2,""correct"":3,""total"":3}"
+1602,Wb4dc5f63b5,quizPassed,"{""attempt"":2,""correct"":3,""total"":3}"
+1603,Wb4dc5f63b5,bonus,2
+1604,Wa5cde49852,startTime,Sat Apr 16 2022 09:26:51 GMT-0400 (Eastern Daylight Time)
+1605,Wa5cde49852,condition,"{""objective"":""ambiguous"",""trial_type"":""slider"",""horizon"":""ambiguous""}"
+1606,Wa5cde49852,trialDataFile,exp2_split1
+1607,Wa5cde49852,featureRandomization,"{""Green"":""Red"",""Red"":""Blue"",""Blue"":""Green"",""Spotted"":""Striped"",""Solid"":""Solid"",""Striped"":""Spotted""}"
+1608,Wa5cde49852,quizAttempt-1,"{""attempt"":1,""correct"":16,""total"":16}"
+1609,Wa5cde49852,quizPassed,"{""attempt"":1,""correct"":16,""total"":16}"
+1610,Wa5cde49852,bonus,2
+1611,Wb49205025b,startTime,Sat Apr 16 2022 13:00:10 GMT+0100 (British Summer Time)
+1612,Wb49205025b,condition,"{""objective"":""belief"",""trial_type"":""slider"",""horizon"":""ambiguous""}"
+1613,Wb49205025b,trialDataFile,exp2_split2
+1614,Wb49205025b,featureRandomization,"{""Green"":""Green"",""Red"":""Blue"",""Blue"":""Red"",""Spotted"":""Striped"",""Solid"":""Spotted"",""Striped"":""Solid""}"
+1615,Wb49205025b,quizAttempt-1,"{""attempt"":1,""correct"":15,""total"":16}"
+1616,Wb49205025b,quizAttempt-2,"{""attempt"":2,""correct"":3,""total"":3}"
+1617,Wb49205025b,quizPassed,"{""attempt"":2,""correct"":3,""total"":3}"
+1618,Wb49205025b,bonus,2
+1619,Wd2d363b16a,startTime,Fri Apr 15 2022 16:41:19 GMT-0400 (Eastern Daylight Time)
+1620,Wd2d363b16a,condition,"{""objective"":""utility"",""trial_type"":""slider"",""horizon"":""ambiguous""}"
+1621,Wd2d363b16a,trialDataFile,exp2_split1
+1622,Wd2d363b16a,featureRandomization,"{""Green"":""Solid"",""Red"":""Spotted"",""Blue"":""Striped"",""Spotted"":""Blue"",""Solid"":""Green"",""Striped"":""Red""}"
+1623,Wd2d363b16a,quizAttempt-1,"{""attempt"":1,""correct"":14,""total"":16}"
+1624,Wd2d363b16a,quizAttempt-2,"{""attempt"":2,""correct"":4,""total"":4}"
+1625,Wd2d363b16a,quizPassed,"{""attempt"":2,""correct"":4,""total"":4}"
+1626,Wd2d363b16a,bonus,2
+1627,Wa279fc6d6c,startTime,Fri Apr 15 2022 15:43:24 GMT-0500 (Central Daylight Time)
+1628,Wa279fc6d6c,condition,"{""objective"":""ambiguous"",""trial_type"":""slider"",""horizon"":""ambiguous""}"
+1629,Wa279fc6d6c,trialDataFile,exp2_split1
+1630,Wa279fc6d6c,featureRandomization,"{""Green"":""Green"",""Red"":""Red"",""Blue"":""Blue"",""Spotted"":""Solid"",""Solid"":""Spotted"",""Striped"":""Striped""}"
+1631,Wa279fc6d6c,quizAttempt-1,"{""attempt"":1,""correct"":16,""total"":16}"
+1632,Wa279fc6d6c,quizPassed,"{""attempt"":1,""correct"":16,""total"":16}"
+1633,Wa279fc6d6c,bonus,2
+1634,W6ebd57c757,startTime,Fri Apr 15 2022 15:45:45 GMT-0500 (Central Daylight Time)
+1635,W6ebd57c757,condition,"{""objective"":""belief"",""trial_type"":""slider"",""horizon"":""ambiguous""}"
+1636,W6ebd57c757,trialDataFile,exp2_split4
+1637,W6ebd57c757,featureRandomization,"{""Green"":""Green"",""Red"":""Blue"",""Blue"":""Red"",""Spotted"":""Spotted"",""Solid"":""Striped"",""Striped"":""Solid""}"
+1638,W6ebd57c757,quizAttempt-1,"{""attempt"":1,""correct"":16,""total"":16}"
+1639,W6ebd57c757,quizPassed,"{""attempt"":1,""correct"":16,""total"":16}"
+1640,W6ebd57c757,bonus,2
+1641,W62d4443223,startTime,Fri Apr 15 2022 16:45:22 GMT-0400 (Eastern Daylight Time)
+1642,W62d4443223,condition,"{""objective"":""utility"",""trial_type"":""slider"",""horizon"":""ambiguous""}"
+1643,W62d4443223,trialDataFile,exp2_split4
+1644,W62d4443223,featureRandomization,"{""Green"":""Solid"",""Red"":""Striped"",""Blue"":""Spotted"",""Spotted"":""Green"",""Solid"":""Blue"",""Striped"":""Red""}"
+1645,W62d4443223,quizAttempt-1,"{""attempt"":1,""correct"":12,""total"":16}"
+1646,W62d4443223,quizAttempt-2,"{""attempt"":2,""correct"":3,""total"":7}"
+1647,W62d4443223,quizAttempt-3,"{""attempt"":3,""correct"":4,""total"":7}"
+1648,W62d4443223,quizFailed,"{""attempt"":3,""correct"":4,""total"":7}"
+1649,W1628c7ed8d,startTime,Sat Apr 16 2022 12:59:43 GMT+0100 (British Summer Time)
+1650,W1628c7ed8d,condition,"{""objective"":""utility"",""trial_type"":""slider"",""horizon"":""ambiguous""}"
+1651,W1628c7ed8d,trialDataFile,exp2_split1
+1652,W1628c7ed8d,featureRandomization,"{""Green"":""Spotted"",""Red"":""Striped"",""Blue"":""Solid"",""Spotted"":""Green"",""Solid"":""Red"",""Striped"":""Blue""}"
+1653,W1628c7ed8d,quizAttempt-1,"{""attempt"":1,""correct"":16,""total"":16}"
+1654,W1628c7ed8d,quizPassed,"{""attempt"":1,""correct"":16,""total"":16}"
+1655,W1628c7ed8d,bonus,2
+1656,W1fae3eda94,startTime,Sat Apr 16 2022 08:02:42 GMT-0400 (Eastern Daylight Time)
+1657,W1fae3eda94,condition,"{""objective"":""utility"",""trial_type"":""slider"",""horizon"":""ambiguous""}"
+1658,W1fae3eda94,trialDataFile,exp2_split4
+1659,W1fae3eda94,featureRandomization,"{""Green"":""Solid"",""Red"":""Spotted"",""Blue"":""Striped"",""Spotted"":""Blue"",""Solid"":""Red"",""Striped"":""Green""}"
+1660,W1fae3eda94,quizAttempt-1,"{""attempt"":1,""correct"":16,""total"":16}"
+1661,W1fae3eda94,quizPassed,"{""attempt"":1,""correct"":16,""total"":16}"
+1662,W1fae3eda94,bonus,2
+1663,Wfb3243c771,startTime,Sat Apr 16 2022 13:00:29 GMT+0100 (British Summer Time)
+1664,Wfb3243c771,condition,"{""objective"":""utility"",""trial_type"":""slider"",""horizon"":""ambiguous""}"
+1665,Wfb3243c771,trialDataFile,exp2_split1
+1666,Wfb3243c771,featureRandomization,"{""Green"":""Striped"",""Red"":""Solid"",""Blue"":""Spotted"",""Spotted"":""Red"",""Solid"":""Blue"",""Striped"":""Green""}"
+1667,Wfb3243c771,quizAttempt-1,"{""attempt"":1,""correct"":16,""total"":16}"
+1668,Wfb3243c771,quizPassed,"{""attempt"":1,""correct"":16,""total"":16}"
+1669,Wfb3243c771,bonus,2
+1670,W61c0b5581d,startTime,Sat Apr 16 2022 13:01:11 GMT+0100 (British Summer Time)
+1671,W61c0b5581d,condition,"{""objective"":""belief"",""trial_type"":""slider"",""horizon"":""ambiguous""}"
+1672,W61c0b5581d,trialDataFile,exp2_split4
+1673,W61c0b5581d,featureRandomization,"{""Green"":""Green"",""Red"":""Blue"",""Blue"":""Red"",""Spotted"":""Striped"",""Solid"":""Spotted"",""Striped"":""Solid""}"
+1674,W61c0b5581d,quizAttempt-1,"{""attempt"":1,""correct"":16,""total"":16}"
+1675,W61c0b5581d,quizPassed,"{""attempt"":1,""correct"":16,""total"":16}"
+1676,W61c0b5581d,bonus,2
+1677,W4aae851134,startTime,Sat Apr 16 2022 08:01:31 GMT-0400 (EDT)
+1678,W4aae851134,condition,"{""objective"":""belief"",""trial_type"":""slider"",""horizon"":""ambiguous""}"
+1679,W4aae851134,trialDataFile,exp2_split1
+1680,W4aae851134,featureRandomization,"{""Green"":""Striped"",""Red"":""Spotted"",""Blue"":""Solid"",""Spotted"":""Red"",""Solid"":""Green"",""Striped"":""Blue""}"
+1681,W4aae851134,quizAttempt-1,"{""attempt"":1,""correct"":16,""total"":16}"
+1682,W4aae851134,quizPassed,"{""attempt"":1,""correct"":16,""total"":16}"
+1683,W4aae851134,bonus,2
+1684,W5017bd81a7,startTime,Sat Apr 16 2022 13:01:13 GMT+0100 (British Summer Time)
+1685,W5017bd81a7,condition,"{""objective"":""ambiguous"",""trial_type"":""slider"",""horizon"":""ambiguous""}"
+1686,W5017bd81a7,trialDataFile,exp2_split3
+1687,W5017bd81a7,featureRandomization,"{""Green"":""Solid"",""Red"":""Striped"",""Blue"":""Spotted"",""Spotted"":""Green"",""Solid"":""Red"",""Striped"":""Blue""}"
+1688,W5017bd81a7,quizAttempt-1,"{""attempt"":1,""correct"":16,""total"":16}"
+1689,W5017bd81a7,quizPassed,"{""attempt"":1,""correct"":16,""total"":16}"
+1690,W5017bd81a7,bonus,2
+1691,W79beb75909,startTime,Sat Apr 16 2022 13:54:52 GMT+0100 (British Summer Time)
+1692,W79beb75909,condition,"{""objective"":""belief"",""trial_type"":""slider"",""horizon"":""ambiguous""}"
+1693,W79beb75909,trialDataFile,exp2_split3
+1694,W79beb75909,featureRandomization,"{""Green"":""Striped"",""Red"":""Solid"",""Blue"":""Spotted"",""Spotted"":""Blue"",""Solid"":""Green"",""Striped"":""Red""}"
+1695,W79beb75909,quizAttempt-1,"{""attempt"":1,""correct"":16,""total"":16}"
+1696,W79beb75909,quizPassed,"{""attempt"":1,""correct"":16,""total"":16}"
+1697,W79beb75909,bonus,2
+1698,W3c5b786cec,startTime,Sat Apr 16 2022 13:56:11 GMT+0100 (British Summer Time)
+1699,Wa0da3f3630,startTime,Sat Apr 16 2022 13:53:56 GMT+0100 (British Summer Time)
+1700,Wa0da3f3630,condition,"{""objective"":""ambiguous"",""trial_type"":""slider"",""horizon"":""ambiguous""}"
+1701,Wa0da3f3630,trialDataFile,exp2_split4
+1702,Wa0da3f3630,featureRandomization,"{""Green"":""Green"",""Red"":""Blue"",""Blue"":""Red"",""Spotted"":""Solid"",""Solid"":""Spotted"",""Striped"":""Striped""}"
+1703,Wa0da3f3630,quizAttempt-1,"{""attempt"":1,""correct"":16,""total"":16}"
+1704,Wa0da3f3630,quizPassed,"{""attempt"":1,""correct"":16,""total"":16}"
+1705,Wa0da3f3630,bonus,2
+1706,W7865893016,startTime,Sat Apr 16 2022 08:54:09 GMT-0400 (Eastern Daylight Time)
+1707,W7865893016,condition,"{""objective"":""utility"",""trial_type"":""slider"",""horizon"":""ambiguous""}"
+1708,W7865893016,trialDataFile,exp2_split3
+1709,W7865893016,featureRandomization,"{""Green"":""Spotted"",""Red"":""Solid"",""Blue"":""Striped"",""Spotted"":""Green"",""Solid"":""Blue"",""Striped"":""Red""}"
+1710,W7865893016,quizAttempt-1,"{""attempt"":1,""correct"":7,""total"":16}"
+1711,W7865893016,quizAttempt-2,"{""attempt"":2,""correct"":12,""total"":13}"
+1712,W7865893016,quizAttempt-3,"{""attempt"":3,""correct"":3,""total"":3}"
+1713,W7865893016,quizPassed,"{""attempt"":3,""correct"":3,""total"":3}"
+1714,W7865893016,bonus,2
+1715,W04bc12a898,startTime,Sat Apr 16 2022 13:55:29 GMT+0100 (Irish Standard Time)
+1716,W04bc12a898,condition,"{""objective"":""ambiguous"",""trial_type"":""slider"",""horizon"":""ambiguous""}"
+1717,W04bc12a898,trialDataFile,exp2_split4
+1718,W04bc12a898,featureRandomization,"{""Green"":""Blue"",""Red"":""Red"",""Blue"":""Green"",""Spotted"":""Spotted"",""Solid"":""Solid"",""Striped"":""Striped""}"
+1719,W04bc12a898,quizAttempt-1,"{""attempt"":1,""correct"":16,""total"":16}"
+1720,W04bc12a898,quizPassed,"{""attempt"":1,""correct"":16,""total"":16}"
+1721,W04bc12a898,bonus,2
+1722,W555774ae83,startTime,Sat Apr 16 2022 07:56:14 GMT-0500 (Central Daylight Time)
+1723,W555774ae83,condition,"{""objective"":""belief"",""trial_type"":""slider"",""horizon"":""ambiguous""}"
+1724,W555774ae83,trialDataFile,exp2_split2
+1725,W555774ae83,featureRandomization,"{""Green"":""Blue"",""Red"":""Red"",""Blue"":""Green"",""Spotted"":""Solid"",""Solid"":""Striped"",""Striped"":""Spotted""}"
+1726,W555774ae83,quizAttempt-1,"{""attempt"":1,""correct"":5,""total"":16}"
+1727,W555774ae83,quizAttempt-2,"{""attempt"":2,""correct"":10,""total"":13}"
+1728,W555774ae83,quizAttempt-3,"{""attempt"":3,""correct"":8,""total"":10}"
+1729,W555774ae83,quizFailed,"{""attempt"":3,""correct"":8,""total"":10}"
+1730,Wc1aae2b982,startTime,Sat Apr 16 2022 09:02:30 GMT-0400 (Eastern Daylight Time)
+1731,W5cba2fe725,startTime,Sat Apr 16 2022 09:05:00 GMT-0400 (Eastern Daylight Time)
+1732,W135450dbea,startTime,Sat Apr 16 2022 14:03:30 GMT+0100 (British Summer Time)
+1733,W135450dbea,condition,"{""objective"":""belief"",""trial_type"":""slider"",""horizon"":""ambiguous""}"
+1734,W135450dbea,trialDataFile,exp2_split1
+1735,W135450dbea,featureRandomization,"{""Green"":""Blue"",""Red"":""Green"",""Blue"":""Red"",""Spotted"":""Striped"",""Solid"":""Spotted"",""Striped"":""Solid""}"
+1736,W135450dbea,quizAttempt-1,"{""attempt"":1,""correct"":7,""total"":16}"
+1737,W135450dbea,quizAttempt-2,"{""attempt"":2,""correct"":8,""total"":13}"
+1738,W135450dbea,quizAttempt-3,"{""attempt"":3,""correct"":7,""total"":10}"
+1739,W135450dbea,quizFailed,"{""attempt"":3,""correct"":7,""total"":10}"
+1740,W432fc398f3,startTime,Sat Apr 16 2022 08:03:00 GMT-0500 (Central Daylight Time)
+1741,W432fc398f3,condition,"{""objective"":""belief"",""trial_type"":""slider"",""horizon"":""ambiguous""}"
+1742,W432fc398f3,trialDataFile,exp2_split4
+1743,W432fc398f3,featureRandomization,"{""Green"":""Solid"",""Red"":""Striped"",""Blue"":""Spotted"",""Spotted"":""Green"",""Solid"":""Blue"",""Striped"":""Red""}"
+1744,W432fc398f3,quizAttempt-1,"{""attempt"":1,""correct"":15,""total"":16}"
+1745,W432fc398f3,quizAttempt-2,"{""attempt"":2,""correct"":3,""total"":3}"
+1746,W432fc398f3,quizPassed,"{""attempt"":2,""correct"":3,""total"":3}"
+1747,W432fc398f3,bonus,2
+1748,W780c1864fc,startTime,Sat Apr 16 2022 14:03:22 GMT+0100 (British Summer Time)
+1749,W780c1864fc,condition,"{""objective"":""ambiguous"",""trial_type"":""slider"",""horizon"":""ambiguous""}"
+1750,W780c1864fc,trialDataFile,exp2_split3
+1751,W780c1864fc,featureRandomization,"{""Green"":""Red"",""Red"":""Blue"",""Blue"":""Green"",""Spotted"":""Striped"",""Solid"":""Solid"",""Striped"":""Spotted""}"
+1752,W780c1864fc,quizAttempt-1,"{""attempt"":1,""correct"":16,""total"":16}"
+1753,W780c1864fc,quizPassed,"{""attempt"":1,""correct"":16,""total"":16}"
+1754,W780c1864fc,bonus,2
+1755,Wdd267739bf,startTime,Sat Apr 16 2022 14:14:08 GMT+0100 (British Summer Time)
+1756,Wdd267739bf,condition,"{""objective"":""utility"",""trial_type"":""slider"",""horizon"":""ambiguous""}"
+1757,Wdd267739bf,trialDataFile,exp2_split4
+1758,Wdd267739bf,featureRandomization,"{""Green"":""Striped"",""Red"":""Spotted"",""Blue"":""Solid"",""Spotted"":""Green"",""Solid"":""Red"",""Striped"":""Blue""}"
+1759,Wdd267739bf,quizAttempt-1,"{""attempt"":1,""correct"":16,""total"":16}"
+1760,Wdd267739bf,quizPassed,"{""attempt"":1,""correct"":16,""total"":16}"
+1761,Wdd267739bf,bonus,2
+1762,W24abf45a42,startTime,Sat Apr 16 2022 08:25:12 GMT-0500 (Central Daylight Time)
+1763,Wb9c5c106f0,startTime,Sat Apr 16 2022 09:18:40 GMT-0400 (hora de verano oriental)
+1764,Wb9c5c106f0,condition,"{""objective"":""utility"",""trial_type"":""slider"",""horizon"":""ambiguous""}"
+1765,Wb9c5c106f0,trialDataFile,exp2_split4
+1766,Wb9c5c106f0,featureRandomization,"{""Green"":""Solid"",""Red"":""Striped"",""Blue"":""Spotted"",""Spotted"":""Blue"",""Solid"":""Green"",""Striped"":""Red""}"
+1767,Wb9c5c106f0,quizAttempt-1,"{""attempt"":1,""correct"":16,""total"":16}"
+1768,Wb9c5c106f0,quizPassed,"{""attempt"":1,""correct"":16,""total"":16}"
+1769,Wb9c5c106f0,bonus,2
+1770,W025ca6aa4a,startTime,Sat Apr 16 2022 14:27:41 GMT+0100 (British Summer Time)
+1771,Wf68020b9d3,startTime,Sat Apr 16 2022 14:33:01 GMT+0100 (BST)
+1772,Wf68020b9d3,condition,"{""objective"":""belief"",""trial_type"":""slider"",""horizon"":""ambiguous""}"
+1773,Wf68020b9d3,trialDataFile,exp2_split2
+1774,Wf68020b9d3,featureRandomization,"{""Green"":""Spotted"",""Red"":""Solid"",""Blue"":""Striped"",""Spotted"":""Red"",""Solid"":""Green"",""Striped"":""Blue""}"
+1775,Wf68020b9d3,quizAttempt-1,"{""attempt"":1,""correct"":12,""total"":16}"
+1776,Wf68020b9d3,quizAttempt-2,"{""attempt"":2,""correct"":10,""total"":10}"
+1777,Wf68020b9d3,quizPassed,"{""attempt"":2,""correct"":10,""total"":10}"
+1778,Wf68020b9d3,bonus,2
+1779,We38c26b94a,startTime,Sat Apr 16 2022 09:13:52 GMT-0400 (Eastern Daylight Time)
+1780,We38c26b94a,condition,"{""objective"":""belief"",""trial_type"":""slider"",""horizon"":""ambiguous""}"
+1781,We38c26b94a,trialDataFile,exp2_split3
+1782,We38c26b94a,featureRandomization,"{""Green"":""Red"",""Red"":""Green"",""Blue"":""Blue"",""Spotted"":""Spotted"",""Solid"":""Solid"",""Striped"":""Striped""}"
+1783,We38c26b94a,quizAttempt-1,"{""attempt"":1,""correct"":15,""total"":16}"
+1784,We38c26b94a,quizAttempt-2,"{""attempt"":2,""correct"":3,""total"":3}"
+1785,We38c26b94a,quizPassed,"{""attempt"":2,""correct"":3,""total"":3}"
+1786,We38c26b94a,bonus,2
+1787,Wa57c77b317,startTime,Sat Apr 16 2022 14:26:17 GMT+0100 (British Summer Time)
+1788,Wa57c77b317,condition,"{""objective"":""belief"",""trial_type"":""slider"",""horizon"":""ambiguous""}"
+1789,Wa57c77b317,trialDataFile,exp2_split4
+1790,Wa57c77b317,featureRandomization,"{""Green"":""Spotted"",""Red"":""Striped"",""Blue"":""Solid"",""Spotted"":""Green"",""Solid"":""Blue"",""Striped"":""Red""}"
+1791,Wa57c77b317,quizAttempt-1,"{""attempt"":1,""correct"":16,""total"":16}"
+1792,Wa57c77b317,quizPassed,"{""attempt"":1,""correct"":16,""total"":16}"
+1793,Wa57c77b317,bonus,2
+1794,W72a1760ec7,startTime,Sat Apr 16 2022 14:29:03 GMT+0100 (British Summer Time)
+1795,W72a1760ec7,condition,"{""objective"":""ambiguous"",""trial_type"":""slider"",""horizon"":""ambiguous""}"
+1796,W72a1760ec7,trialDataFile,exp2_split4
+1797,W72a1760ec7,featureRandomization,"{""Green"":""Blue"",""Red"":""Green"",""Blue"":""Red"",""Spotted"":""Spotted"",""Solid"":""Striped"",""Striped"":""Solid""}"
+1798,W72a1760ec7,quizAttempt-1,"{""attempt"":1,""correct"":16,""total"":16}"
+1799,W72a1760ec7,quizPassed,"{""attempt"":1,""correct"":16,""total"":16}"
+1800,W72a1760ec7,bonus,2
+1801,W7481a7cd19,startTime,Sat Apr 16 2022 08:29:40 GMT-0500 (Central Daylight Time)
+1802,W7481a7cd19,condition,"{""objective"":""ambiguous"",""trial_type"":""slider"",""horizon"":""ambiguous""}"
+1803,W7481a7cd19,trialDataFile,exp2_split2
+1804,W7481a7cd19,featureRandomization,"{""Green"":""Solid"",""Red"":""Striped"",""Blue"":""Spotted"",""Spotted"":""Green"",""Solid"":""Blue"",""Striped"":""Red""}"
+1805,W7481a7cd19,quizAttempt-1,"{""attempt"":1,""correct"":16,""total"":16}"
+1806,W7481a7cd19,quizPassed,"{""attempt"":1,""correct"":16,""total"":16}"
+1807,W7481a7cd19,bonus,2
+1808,W33c3204980,startTime,Sat Apr 16 2022 09:26:05 GMT-0400 (Eastern Daylight Time)
+1809,W33c3204980,condition,"{""objective"":""utility"",""trial_type"":""slider"",""horizon"":""ambiguous""}"
+1810,W33c3204980,trialDataFile,exp2_split2
+1811,W33c3204980,featureRandomization,"{""Green"":""Blue"",""Red"":""Red"",""Blue"":""Green"",""Spotted"":""Spotted"",""Solid"":""Solid"",""Striped"":""Striped""}"
+1812,W33c3204980,quizAttempt-1,"{""attempt"":1,""correct"":13,""total"":16}"
+1813,W33c3204980,quizAttempt-2,"{""attempt"":2,""correct"":7,""total"":7}"
+1814,W33c3204980,quizPassed,"{""attempt"":2,""correct"":7,""total"":7}"
+1815,W33c3204980,bonus,2
+1816,Wb4888de986,startTime,Sat Apr 16 2022 14:29:11 GMT+0100 (British Summer Time)
+1817,Wb4888de986,condition,"{""objective"":""utility"",""trial_type"":""slider"",""horizon"":""ambiguous""}"
+1818,Wb4888de986,trialDataFile,exp2_split2
+1819,Wb4888de986,featureRandomization,"{""Green"":""Solid"",""Red"":""Spotted"",""Blue"":""Striped"",""Spotted"":""Red"",""Solid"":""Blue"",""Striped"":""Green""}"
+1820,Wb4888de986,quizAttempt-1,"{""attempt"":1,""correct"":16,""total"":16}"
+1821,Wb4888de986,quizPassed,"{""attempt"":1,""correct"":16,""total"":16}"
+1822,Wb4888de986,bonus,2
+1823,W2b63fde01b,startTime,Sat Apr 16 2022 09:27:45 GMT-0400 (Eastern Daylight Time)
+1824,Wcf968f25d1,startTime,Sat Apr 16 2022 14:29:27 GMT+0100 (British Summer Time)
+1825,Wcf968f25d1,condition,"{""objective"":""belief"",""trial_type"":""slider"",""horizon"":""ambiguous""}"
+1826,Wcf968f25d1,trialDataFile,exp2_split2
+1827,Wcf968f25d1,featureRandomization,"{""Green"":""Spotted"",""Red"":""Striped"",""Blue"":""Solid"",""Spotted"":""Red"",""Solid"":""Green"",""Striped"":""Blue""}"
+1828,Wcf968f25d1,quizAttempt-1,"{""attempt"":1,""correct"":16,""total"":16}"
+1829,Wcf968f25d1,quizPassed,"{""attempt"":1,""correct"":16,""total"":16}"
+1830,Wcf968f25d1,bonus,2
+1831,W00d6a87210,startTime,Sat Apr 16 2022 14:28:18 GMT+0100 (British Summer Time)
+1832,W00d6a87210,condition,"{""objective"":""ambiguous"",""trial_type"":""slider"",""horizon"":""ambiguous""}"
+1833,W00d6a87210,trialDataFile,exp2_split3
+1834,W00d6a87210,featureRandomization,"{""Green"":""Spotted"",""Red"":""Solid"",""Blue"":""Striped"",""Spotted"":""Green"",""Solid"":""Blue"",""Striped"":""Red""}"
+1835,W00d6a87210,quizAttempt-1,"{""attempt"":1,""correct"":16,""total"":16}"
+1836,W00d6a87210,quizPassed,"{""attempt"":1,""correct"":16,""total"":16}"
+1837,W00d6a87210,bonus,2
+1838,W88e58a616d,startTime,Sat Apr 16 2022 14:29:53 GMT+0100 (British Summer Time)
+1839,W88e58a616d,condition,"{""objective"":""ambiguous"",""trial_type"":""slider"",""horizon"":""ambiguous""}"
+1840,W88e58a616d,trialDataFile,exp2_split1
+1841,W88e58a616d,featureRandomization,"{""Green"":""Blue"",""Red"":""Red"",""Blue"":""Green"",""Spotted"":""Striped"",""Solid"":""Solid"",""Striped"":""Spotted""}"
+1842,W88e58a616d,quizAttempt-1,"{""attempt"":1,""correct"":15,""total"":16}"
+1843,W88e58a616d,quizAttempt-2,"{""attempt"":2,""correct"":4,""total"":4}"
+1844,W88e58a616d,quizPassed,"{""attempt"":2,""correct"":4,""total"":4}"
+1845,W88e58a616d,bonus,2
+1846,Wd23624e29b,startTime,Sat Apr 16 2022 09:30:06 GMT-0400 (Eastern Daylight Time)
+1847,W7147115ffa,startTime,Sat Apr 16 2022 09:29:14 GMT-0400 (Eastern Daylight Time)
+1848,W7147115ffa,condition,"{""objective"":""belief"",""trial_type"":""slider"",""horizon"":""ambiguous""}"
+1849,W7147115ffa,trialDataFile,exp2_split2
+1850,W7147115ffa,featureRandomization,"{""Green"":""Blue"",""Red"":""Green"",""Blue"":""Red"",""Spotted"":""Spotted"",""Solid"":""Striped"",""Striped"":""Solid""}"
+1851,W7147115ffa,quizAttempt-1,"{""attempt"":1,""correct"":16,""total"":16}"
+1852,W7147115ffa,quizPassed,"{""attempt"":1,""correct"":16,""total"":16}"
+1853,W7147115ffa,bonus,2
+1854,W7e2593f0dd,startTime,Sat Apr 16 2022 09:27:33 GMT-0400 (Eastern Daylight Time)
+1855,W7e2593f0dd,condition,"{""objective"":""ambiguous"",""trial_type"":""slider"",""horizon"":""ambiguous""}"
+1856,W7e2593f0dd,trialDataFile,exp2_split1
+1857,W7e2593f0dd,featureRandomization,"{""Green"":""Red"",""Red"":""Green"",""Blue"":""Blue"",""Spotted"":""Solid"",""Solid"":""Striped"",""Striped"":""Spotted""}"
+1858,W7e2593f0dd,quizAttempt-1,"{""attempt"":1,""correct"":8,""total"":16}"
+1859,W7e2593f0dd,quizAttempt-2,"{""attempt"":2,""correct"":13,""total"":13}"
+1860,W7e2593f0dd,quizPassed,"{""attempt"":2,""correct"":13,""total"":13}"
+1861,W7e2593f0dd,bonus,2
+1862,Wd5b13e0e47,startTime,Sat Apr 16 2022 09:29:48 GMT-0400 (Eastern Daylight Time)
+1863,Wd5b13e0e47,condition,"{""objective"":""utility"",""trial_type"":""slider"",""horizon"":""ambiguous""}"
+1864,Wd5b13e0e47,trialDataFile,exp2_split3
+1865,Wd5b13e0e47,featureRandomization,"{""Green"":""Blue"",""Red"":""Green"",""Blue"":""Red"",""Spotted"":""Striped"",""Solid"":""Spotted"",""Striped"":""Solid""}"
+1866,Wd5b13e0e47,quizAttempt-1,"{""attempt"":1,""correct"":15,""total"":16}"
+1867,Wd5b13e0e47,quizAttempt-2,"{""attempt"":2,""correct"":3,""total"":3}"
+1868,Wd5b13e0e47,quizPassed,"{""attempt"":2,""correct"":3,""total"":3}"
+1869,Wd5b13e0e47,bonus,2
+1870,W0971403e0c,startTime,Sat Apr 16 2022 14:29:32 GMT+0100 (British Summer Time)
+1871,W0971403e0c,condition,"{""objective"":""belief"",""trial_type"":""slider"",""horizon"":""ambiguous""}"
+1872,W0971403e0c,trialDataFile,exp2_split1
+1873,W0971403e0c,featureRandomization,"{""Green"":""Green"",""Red"":""Blue"",""Blue"":""Red"",""Spotted"":""Spotted"",""Solid"":""Striped"",""Striped"":""Solid""}"
+1874,W0971403e0c,quizAttempt-1,"{""attempt"":1,""correct"":15,""total"":16}"
+1875,W0971403e0c,quizAttempt-2,"{""attempt"":2,""correct"":3,""total"":3}"
+1876,W0971403e0c,quizPassed,"{""attempt"":2,""correct"":3,""total"":3}"
+1877,W0971403e0c,bonus,2
+1878,W8ddce95524,startTime,Sat Apr 16 2022 08:31:00 GMT-0500 (Central Daylight Time)
+1879,W8ddce95524,condition,"{""objective"":""utility"",""trial_type"":""slider"",""horizon"":""ambiguous""}"
+1880,W8ddce95524,trialDataFile,exp2_split2
+1881,W8ddce95524,featureRandomization,"{""Green"":""Blue"",""Red"":""Green"",""Blue"":""Red"",""Spotted"":""Striped"",""Solid"":""Solid"",""Striped"":""Spotted""}"
+1882,W8ddce95524,quizAttempt-1,"{""attempt"":1,""correct"":16,""total"":16}"
+1883,W8ddce95524,quizPassed,"{""attempt"":1,""correct"":16,""total"":16}"
+1884,W8ddce95524,bonus,2
+1885,W287a8111ca,startTime,Sat Apr 16 2022 09:30:08 GMT-0400 (Eastern Daylight Time)
+1886,W287a8111ca,condition,"{""objective"":""utility"",""trial_type"":""slider"",""horizon"":""ambiguous""}"
+1887,W287a8111ca,trialDataFile,exp2_split1
+1888,W287a8111ca,featureRandomization,"{""Green"":""Striped"",""Red"":""Spotted"",""Blue"":""Solid"",""Spotted"":""Green"",""Solid"":""Blue"",""Striped"":""Red""}"
+1889,W287a8111ca,quizAttempt-1,"{""attempt"":1,""correct"":16,""total"":16}"
+1890,W287a8111ca,quizPassed,"{""attempt"":1,""correct"":16,""total"":16}"
+1891,W287a8111ca,bonus,2
+1892,W81e5500679,startTime,Sat Apr 16 2022 08:29:41 GMT-0500 (CDT)
+1893,W81e5500679,condition,"{""objective"":""utility"",""trial_type"":""slider"",""horizon"":""ambiguous""}"
+1894,W81e5500679,trialDataFile,exp2_split3
+1895,W81e5500679,featureRandomization,"{""Green"":""Solid"",""Red"":""Striped"",""Blue"":""Spotted"",""Spotted"":""Green"",""Solid"":""Blue"",""Striped"":""Red""}"
+1896,W81e5500679,quizAttempt-1,"{""attempt"":1,""correct"":10,""total"":16}"
+1897,W81e5500679,quizAttempt-2,"{""attempt"":2,""correct"":5,""total"":10}"
+1898,W81e5500679,quizAttempt-3,"{""attempt"":3,""correct"":1,""total"":6}"
+1899,W81e5500679,quizFailed,"{""attempt"":3,""correct"":1,""total"":6}"
+1900,We094d59d4e,startTime,Sat Apr 16 2022 07:31:32 GMT-0600 (Mountain Daylight Time)
+1901,We094d59d4e,condition,"{""objective"":""belief"",""trial_type"":""slider"",""horizon"":""ambiguous""}"
+1902,We094d59d4e,trialDataFile,exp2_split1
+1903,We094d59d4e,featureRandomization,"{""Green"":""Striped"",""Red"":""Spotted"",""Blue"":""Solid"",""Spotted"":""Green"",""Solid"":""Red"",""Striped"":""Blue""}"
+1904,We094d59d4e,quizAttempt-1,"{""attempt"":1,""correct"":16,""total"":16}"
+1905,We094d59d4e,quizPassed,"{""attempt"":1,""correct"":16,""total"":16}"
+1906,We094d59d4e,bonus,2
+1907,Wb00887b953,bonus,2
+1908,Wb00887b953,condition,"{""objective"":""belief"",""trial_type"":""slider"",""horizon"":""ambiguous""}"
+1909,Wb00887b953,featureRandomization,"{""Green"":""Solid"",""Red"":""Striped"",""Blue"":""Spotted"",""Spotted"":""Blue"",""Solid"":""Red"",""Striped"":""Green""}"
+1910,Wb00887b953,quizAttempt-1,"{""attempt"":1,""correct"":7,""total"":16}"
+1911,Wb00887b953,quizAttempt-2,"{""attempt"":2,""correct"":0,""total"":9}"
+1912,Wb00887b953,quizPassed,"{""attempt"":2,""correct"":4,""total"":4}"
+1913,Wb00887b953,startTime,Sat Apr 16 2022 08:47:43 GMT-0500 (Central Daylight Time)
+1914,Wb00887b953,trialDataFile,exp2_split2
+1915,Wb00887b953,quizAttempt-3,"{""attempt"":3,""correct"":2,""total"":9}"
+1916,Wb00887b953,quizFailed,"{""attempt"":3,""correct"":2,""total"":9}"
+1917,Wf952ca15b5,startTime,Sat Apr 16 2022 08:29:47 GMT-0500 (Central Daylight Time)
+1918,Wf952ca15b5,condition,"{""objective"":""belief"",""trial_type"":""slider"",""horizon"":""ambiguous""}"
+1919,Wf952ca15b5,trialDataFile,exp2_split1
+1920,Wf952ca15b5,featureRandomization,"{""Green"":""Blue"",""Red"":""Red"",""Blue"":""Green"",""Spotted"":""Spotted"",""Solid"":""Solid"",""Striped"":""Striped""}"
+1921,Wf952ca15b5,quizAttempt-1,"{""attempt"":1,""correct"":11,""total"":16}"
+1922,Wf952ca15b5,quizAttempt-2,"{""attempt"":2,""correct"":7,""total"":7}"
+1923,Wf952ca15b5,quizPassed,"{""attempt"":2,""correct"":7,""total"":7}"
+1924,Wf952ca15b5,bonus,2
+1925,W748ae59664,startTime,Sat Apr 16 2022 09:28:09 GMT-0400 (Eastern Daylight Time)
+1926,Wf1b05ccb4a,startTime,Sat Apr 16 2022 08:32:40 GMT-0500 (Central Daylight Time)
+1927,Wf1b05ccb4a,condition,"{""objective"":""utility"",""trial_type"":""slider"",""horizon"":""ambiguous""}"
+1928,Wf1b05ccb4a,trialDataFile,exp2_split2
+1929,Wf1b05ccb4a,featureRandomization,"{""Green"":""Spotted"",""Red"":""Striped"",""Blue"":""Solid"",""Spotted"":""Blue"",""Solid"":""Red"",""Striped"":""Green""}"
+1930,Wf1b05ccb4a,quizAttempt-1,"{""attempt"":1,""correct"":15,""total"":16}"
+1931,Wf1b05ccb4a,quizAttempt-2,"{""attempt"":2,""correct"":2,""total"":3}"
+1932,Wf1b05ccb4a,quizAttempt-3,"{""attempt"":3,""correct"":3,""total"":3}"
+1933,Wf1b05ccb4a,quizPassed,"{""attempt"":3,""correct"":3,""total"":3}"
+1934,Wf1b05ccb4a,bonus,2
+1935,Wf732e7c27d,startTime,Sat Apr 16 2022 09:57:54 GMT-0400 (Eastern Daylight Time)
+1936,Wf732e7c27d,condition,"{""objective"":""utility"",""trial_type"":""slider"",""horizon"":""ambiguous""}"
+1937,Wf732e7c27d,trialDataFile,exp2_split2
+1938,Wf732e7c27d,featureRandomization,"{""Green"":""Blue"",""Red"":""Red"",""Blue"":""Green"",""Spotted"":""Solid"",""Solid"":""Striped"",""Striped"":""Spotted""}"
+1939,Wf732e7c27d,quizAttempt-1,"{""attempt"":1,""correct"":9,""total"":16}"
+1940,Wf732e7c27d,quizAttempt-2,"{""attempt"":2,""correct"":10,""total"":13}"
+1941,Wf732e7c27d,quizAttempt-3,"{""attempt"":3,""correct"":8,""total"":10}"
+1942,Wf732e7c27d,quizFailed,"{""attempt"":3,""correct"":8,""total"":10}"
+1943,Wd8676a49b4,startTime,Sat Apr 16 2022 09:57:37 GMT-0400 (Eastern Daylight Time)
+1944,W5e6c265a39,startTime,Sat Apr 16 2022 14:33:17 GMT+0100 (British Summer Time)
+1945,W5e6c265a39,condition,"{""objective"":""utility"",""trial_type"":""slider"",""horizon"":""ambiguous""}"
+1946,W5e6c265a39,trialDataFile,exp2_split1
+1947,W5e6c265a39,featureRandomization,"{""Green"":""Striped"",""Red"":""Solid"",""Blue"":""Spotted"",""Spotted"":""Green"",""Solid"":""Blue"",""Striped"":""Red""}"
+1948,W5e6c265a39,quizAttempt-1,"{""attempt"":1,""correct"":15,""total"":16}"
+1949,W5e6c265a39,quizAttempt-2,"{""attempt"":2,""correct"":3,""total"":3}"
+1950,W5e6c265a39,quizPassed,"{""attempt"":2,""correct"":3,""total"":3}"
+1951,W5e6c265a39,bonus,2
+1952,W52eb88e788,startTime,Sat Apr 16 2022 09:33:36 GMT-0400 (Eastern Daylight Time)
+1953,W52eb88e788,condition,"{""objective"":""ambiguous"",""trial_type"":""slider"",""horizon"":""ambiguous""}"
+1954,W52eb88e788,trialDataFile,exp2_split3
+1955,W52eb88e788,featureRandomization,"{""Green"":""Spotted"",""Red"":""Solid"",""Blue"":""Striped"",""Spotted"":""Green"",""Solid"":""Red"",""Striped"":""Blue""}"
+1956,W52eb88e788,quizAttempt-1,"{""attempt"":1,""correct"":14,""total"":16}"
+1957,W52eb88e788,quizAttempt-2,"{""attempt"":2,""correct"":5,""total"":7}"
+1958,W52eb88e788,quizAttempt-3,"{""attempt"":3,""correct"":4,""total"":7}"
+1959,W52eb88e788,quizFailed,"{""attempt"":3,""correct"":4,""total"":7}"
+1960,W9a240e63f3,startTime,Sat Apr 16 2022 09:35:45 GMT-0400 (Eastern Daylight Time)
+1961,W9a240e63f3,condition,"{""objective"":""ambiguous"",""trial_type"":""slider"",""horizon"":""ambiguous""}"
+1962,W9a240e63f3,trialDataFile,exp2_split1
+1963,W9a240e63f3,featureRandomization,"{""Green"":""Red"",""Red"":""Green"",""Blue"":""Blue"",""Spotted"":""Striped"",""Solid"":""Solid"",""Striped"":""Spotted""}"
+1964,W9a240e63f3,quizAttempt-1,"{""attempt"":1,""correct"":16,""total"":16}"
+1965,W9a240e63f3,quizPassed,"{""attempt"":1,""correct"":16,""total"":16}"
+1966,W9a240e63f3,bonus,2
+1967,W8ea56859ab,startTime,Sat Apr 16 2022 08:47:31 GMT-0500 (Central Daylight Time)
+1968,W8ea56859ab,condition,"{""objective"":""belief"",""trial_type"":""slider"",""horizon"":""ambiguous""}"
+1969,W8ea56859ab,trialDataFile,exp2_split3
+1970,W8ea56859ab,featureRandomization,"{""Green"":""Striped"",""Red"":""Solid"",""Blue"":""Spotted"",""Spotted"":""Red"",""Solid"":""Green"",""Striped"":""Blue""}"
+1971,W8ea56859ab,quizAttempt-1,"{""attempt"":1,""correct"":16,""total"":16}"
+1972,W8ea56859ab,quizPassed,"{""attempt"":1,""correct"":16,""total"":16}"
+1973,W8ea56859ab,bonus,2
+1974,W763ad5015b,startTime,Sat Apr 16 2022 08:32:21 GMT-0500 (Central Daylight Time)
+1975,W763ad5015b,condition,"{""objective"":""belief"",""trial_type"":""slider"",""horizon"":""ambiguous""}"
+1976,W763ad5015b,trialDataFile,exp2_split2
+1977,W763ad5015b,featureRandomization,"{""Green"":""Green"",""Red"":""Red"",""Blue"":""Blue"",""Spotted"":""Spotted"",""Solid"":""Striped"",""Striped"":""Solid""}"
+1978,W763ad5015b,quizAttempt-1,"{""attempt"":1,""correct"":12,""total"":16}"
+1979,W763ad5015b,quizAttempt-2,"{""attempt"":2,""correct"":6,""total"":6}"
+1980,W763ad5015b,quizPassed,"{""attempt"":2,""correct"":6,""total"":6}"
+1981,W763ad5015b,bonus,2
+1982,Wa840d2d0d4,startTime,Sat Apr 16 2022 14:58:13 GMT+0100 (British Summer Time)
+1983,Wa840d2d0d4,condition,"{""objective"":""utility"",""trial_type"":""slider"",""horizon"":""ambiguous""}"
+1984,Wa840d2d0d4,trialDataFile,exp2_split4
+1985,Wa840d2d0d4,featureRandomization,"{""Green"":""Blue"",""Red"":""Green"",""Blue"":""Red"",""Spotted"":""Solid"",""Solid"":""Spotted"",""Striped"":""Striped""}"
+1986,Wa840d2d0d4,quizAttempt-1,"{""attempt"":1,""correct"":9,""total"":16}"
+1987,Wa840d2d0d4,quizAttempt-2,"{""attempt"":2,""correct"":4,""total"":9}"
+1988,Wa840d2d0d4,quizAttempt-3,"{""attempt"":3,""correct"":2,""total"":6}"
+1989,Wa840d2d0d4,quizFailed,"{""attempt"":3,""correct"":2,""total"":6}"
+1990,W6523f27760,startTime,Sat Apr 16 2022 09:57:04 GMT-0400 (Eastern Daylight Time)
+1991,W6523f27760,condition,"{""objective"":""ambiguous"",""trial_type"":""slider"",""horizon"":""ambiguous""}"
+1992,W6523f27760,trialDataFile,exp2_split2
+1993,W6523f27760,featureRandomization,"{""Green"":""Red"",""Red"":""Blue"",""Blue"":""Green"",""Spotted"":""Solid"",""Solid"":""Spotted"",""Striped"":""Striped""}"
+1994,W6523f27760,quizAttempt-1,"{""attempt"":1,""correct"":16,""total"":16}"
+1995,W6523f27760,quizPassed,"{""attempt"":1,""correct"":16,""total"":16}"
+1996,W6523f27760,bonus,2
+1997,W2d9a1032e6,startTime,Sat Apr 16 2022 08:56:53 GMT-0500 (Central Daylight Time)
+1998,W2d9a1032e6,condition,"{""objective"":""belief"",""trial_type"":""slider"",""horizon"":""ambiguous""}"
+1999,W2d9a1032e6,trialDataFile,exp2_split1
+2000,W2d9a1032e6,featureRandomization,"{""Green"":""Striped"",""Red"":""Spotted"",""Blue"":""Solid"",""Spotted"":""Green"",""Solid"":""Red"",""Striped"":""Blue""}"
+2001,W2d9a1032e6,quizAttempt-1,"{""attempt"":1,""correct"":16,""total"":16}"
+2002,W2d9a1032e6,quizPassed,"{""attempt"":1,""correct"":16,""total"":16}"
+2003,W2d9a1032e6,bonus,2
+2004,W56c4e200fd,startTime,Sat Apr 16 2022 09:35:52 GMT-0400 (Eastern Daylight Time)
+2005,W56c4e200fd,condition,"{""objective"":""utility"",""trial_type"":""slider"",""horizon"":""ambiguous""}"
+2006,W56c4e200fd,trialDataFile,exp2_split4
+2007,W56c4e200fd,featureRandomization,"{""Green"":""Spotted"",""Red"":""Solid"",""Blue"":""Striped"",""Spotted"":""Green"",""Solid"":""Red"",""Striped"":""Blue""}"
+2008,W56c4e200fd,quizAttempt-1,"{""attempt"":1,""correct"":9,""total"":16}"
+2009,W56c4e200fd,quizAttempt-2,"{""attempt"":2,""correct"":8,""total"":10}"
+2010,W56c4e200fd,quizAttempt-3,"{""attempt"":3,""correct"":4,""total"":4}"
+2011,W56c4e200fd,quizPassed,"{""attempt"":3,""correct"":4,""total"":4}"
+2012,W56c4e200fd,bonus,2
+2013,W07ff1c3a96,startTime,Sat Apr 16 2022 06:50:14 GMT-0700 (Pacific Daylight Time)
+2014,W07ff1c3a96,condition,"{""objective"":""utility"",""trial_type"":""slider"",""horizon"":""ambiguous""}"
+2015,W07ff1c3a96,trialDataFile,exp2_split1
+2016,W07ff1c3a96,featureRandomization,"{""Green"":""Solid"",""Red"":""Spotted"",""Blue"":""Striped"",""Spotted"":""Red"",""Solid"":""Blue"",""Striped"":""Green""}"
+2017,W07ff1c3a96,quizAttempt-1,"{""attempt"":1,""correct"":13,""total"":16}"
+2018,W07ff1c3a96,quizAttempt-2,"{""attempt"":2,""correct"":6,""total"":7}"
+2019,W07ff1c3a96,quizAttempt-3,"{""attempt"":3,""correct"":2,""total"":4}"
+2020,W07ff1c3a96,quizFailed,"{""attempt"":3,""correct"":2,""total"":4}"
+2021,W4b6d49a1d7,startTime,Sat Apr 16 2022 09:58:32 GMT-0400 (Eastern Daylight Time)
+2022,W4b6d49a1d7,condition,"{""objective"":""ambiguous"",""trial_type"":""slider"",""horizon"":""ambiguous""}"
+2023,W4b6d49a1d7,trialDataFile,exp2_split1
+2024,W4b6d49a1d7,featureRandomization,"{""Green"":""Blue"",""Red"":""Green"",""Blue"":""Red"",""Spotted"":""Solid"",""Solid"":""Spotted"",""Striped"":""Striped""}"
+2025,W4b6d49a1d7,quizAttempt-1,"{""attempt"":1,""correct"":16,""total"":16}"
+2026,W4b6d49a1d7,quizPassed,"{""attempt"":1,""correct"":16,""total"":16}"
+2027,W4b6d49a1d7,bonus,2
+2028,Wf2e4bf6192,startTime,Sat Apr 16 2022 10:01:38 GMT-0400 (Eastern Daylight Time)
+2029,Wf2e4bf6192,condition,"{""objective"":""belief"",""trial_type"":""slider"",""horizon"":""ambiguous""}"
+2030,Wf2e4bf6192,trialDataFile,exp2_split3
+2031,Wf2e4bf6192,featureRandomization,"{""Green"":""Solid"",""Red"":""Spotted"",""Blue"":""Striped"",""Spotted"":""Red"",""Solid"":""Blue"",""Striped"":""Green""}"
+2032,Wf2e4bf6192,quizAttempt-1,"{""attempt"":1,""correct"":16,""total"":16}"
+2033,Wf2e4bf6192,quizPassed,"{""attempt"":1,""correct"":16,""total"":16}"
+2034,Wf2e4bf6192,bonus,2
+2035,Wa50064e42e,startTime,Sat Apr 16 2022 10:02:08 GMT-0400 (EDT)
+2036,Wa50064e42e,condition,"{""objective"":""ambiguous"",""trial_type"":""slider"",""horizon"":""ambiguous""}"
+2037,Wa50064e42e,trialDataFile,exp2_split1
+2038,Wa50064e42e,featureRandomization,"{""Green"":""Striped"",""Red"":""Solid"",""Blue"":""Spotted"",""Spotted"":""Blue"",""Solid"":""Green"",""Striped"":""Red""}"
+2039,Wa50064e42e,quizAttempt-1,"{""attempt"":1,""correct"":16,""total"":16}"
+2040,Wa50064e42e,quizPassed,"{""attempt"":1,""correct"":16,""total"":16}"
+2041,Wa50064e42e,bonus,2
+2042,W715e5724b9,startTime,Sat Apr 16 2022 15:30:21 GMT+0100 (British Summer Time)
+2043,W715e5724b9,condition,"{""objective"":""utility"",""trial_type"":""slider"",""horizon"":""ambiguous""}"
+2044,W715e5724b9,trialDataFile,exp2_split4
+2045,W715e5724b9,featureRandomization,"{""Green"":""Spotted"",""Red"":""Solid"",""Blue"":""Striped"",""Spotted"":""Blue"",""Solid"":""Green"",""Striped"":""Red""}"
+2046,W715e5724b9,quizAttempt-1,"{""attempt"":1,""correct"":9,""total"":16}"
+2047,W715e5724b9,quizAttempt-2,"{""attempt"":2,""correct"":9,""total"":9}"
+2048,W715e5724b9,quizPassed,"{""attempt"":2,""correct"":9,""total"":9}"
+2049,W715e5724b9,bonus,2
+2050,W13ab91110b,startTime,Sat Apr 16 2022 15:54:46 GMT+0100 (British Summer Time)
+2051,Wdababedab2,startTime,Sat Apr 16 2022 10:00:36 GMT-0400 (Eastern Daylight Time)
+2052,W914ea62b5c,startTime,Sat Apr 16 2022 15:08:23 GMT+0100 (British Summer Time)
+2053,W914ea62b5c,condition,"{""objective"":""utility"",""trial_type"":""slider"",""horizon"":""ambiguous""}"
+2054,W914ea62b5c,trialDataFile,exp2_split1
+2055,W914ea62b5c,featureRandomization,"{""Green"":""Blue"",""Red"":""Green"",""Blue"":""Red"",""Spotted"":""Striped"",""Solid"":""Solid"",""Striped"":""Spotted""}"
+2056,W914ea62b5c,quizAttempt-1,"{""attempt"":1,""correct"":16,""total"":16}"
+2057,W914ea62b5c,quizPassed,"{""attempt"":1,""correct"":16,""total"":16}"
+2058,W914ea62b5c,bonus,2
+2059,W27b7c32ad4,startTime,Sat Apr 16 2022 15:05:26 GMT+0100 (British Summer Time)
+2060,W27b7c32ad4,condition,"{""objective"":""utility"",""trial_type"":""slider"",""horizon"":""ambiguous""}"
+2061,W27b7c32ad4,trialDataFile,exp2_split4
+2062,W27b7c32ad4,featureRandomization,"{""Green"":""Spotted"",""Red"":""Solid"",""Blue"":""Striped"",""Spotted"":""Red"",""Solid"":""Green"",""Striped"":""Blue""}"
+2063,W27b7c32ad4,quizAttempt-1,"{""attempt"":1,""correct"":16,""total"":16}"
+2064,W27b7c32ad4,quizPassed,"{""attempt"":1,""correct"":16,""total"":16}"
+2065,W27b7c32ad4,bonus,2
+2066,W8e79bed66c,startTime,Sat Apr 16 2022 07:03:34 GMT-0700 (Pacific Daylight Time)
+2067,Wfe887723f2,startTime,Sat Apr 16 2022 15:00:51 GMT+0100 (British Summer Time)
+2068,Wfe887723f2,condition,"{""objective"":""ambiguous"",""trial_type"":""slider"",""horizon"":""ambiguous""}"
+2069,Wfe887723f2,trialDataFile,exp2_split2
+2070,Wfe887723f2,featureRandomization,"{""Green"":""Red"",""Red"":""Blue"",""Blue"":""Green"",""Spotted"":""Striped"",""Solid"":""Solid"",""Striped"":""Spotted""}"
+2071,Wfe887723f2,quizAttempt-1,"{""attempt"":1,""correct"":12,""total"":16}"
+2072,Wfe887723f2,quizAttempt-2,"{""attempt"":2,""correct"":5,""total"":7}"
+2073,Wfe887723f2,quizAttempt-3,"{""attempt"":3,""correct"":3,""total"":3}"
+2074,Wfe887723f2,quizPassed,"{""attempt"":3,""correct"":3,""total"":3}"
+2075,Wfe887723f2,bonus,2
+2076,W664a313bbb,startTime,Sat Apr 16 2022 15:09:11 GMT+0100 (British Summer Time)
+2077,W664a313bbb,condition,"{""objective"":""ambiguous"",""trial_type"":""slider"",""horizon"":""ambiguous""}"
+2078,W664a313bbb,trialDataFile,exp2_split4
+2079,W664a313bbb,featureRandomization,"{""Green"":""Spotted"",""Red"":""Striped"",""Blue"":""Solid"",""Spotted"":""Green"",""Solid"":""Red"",""Striped"":""Blue""}"
+2080,W664a313bbb,quizAttempt-1,"{""attempt"":1,""correct"":8,""total"":16}"
+2081,W664a313bbb,quizAttempt-2,"{""attempt"":2,""correct"":6,""total"":12}"
+2082,W664a313bbb,quizAttempt-3,"{""attempt"":3,""correct"":4,""total"":9}"
+2083,W664a313bbb,quizFailed,"{""attempt"":3,""correct"":4,""total"":9}"
+2084,W4496d175b5,startTime,Sat Apr 16 2022 15:00:04 GMT+0100 (British Summer Time)
+2085,W4496d175b5,condition,"{""objective"":""belief"",""trial_type"":""slider"",""horizon"":""ambiguous""}"
+2086,W4496d175b5,trialDataFile,exp2_split1
+2087,W4496d175b5,featureRandomization,"{""Green"":""Striped"",""Red"":""Solid"",""Blue"":""Spotted"",""Spotted"":""Red"",""Solid"":""Blue"",""Striped"":""Green""}"
+2088,W4496d175b5,quizAttempt-1,"{""attempt"":1,""correct"":14,""total"":16}"
+2089,W4496d175b5,quizAttempt-2,"{""attempt"":2,""correct"":7,""total"":7}"
+2090,W4496d175b5,quizPassed,"{""attempt"":2,""correct"":7,""total"":7}"
+2091,W4496d175b5,bonus,2
+2092,W228e5f7242,startTime,Sat Apr 16 2022 15:01:17 GMT+0100 (British Summer Time)
+2093,W228e5f7242,condition,"{""objective"":""belief"",""trial_type"":""slider"",""horizon"":""ambiguous""}"
+2094,W228e5f7242,trialDataFile,exp2_split4
+2095,W228e5f7242,featureRandomization,"{""Green"":""Striped"",""Red"":""Solid"",""Blue"":""Spotted"",""Spotted"":""Green"",""Solid"":""Blue"",""Striped"":""Red""}"
+2096,W228e5f7242,quizAttempt-1,"{""attempt"":1,""correct"":11,""total"":16}"
+2097,W228e5f7242,quizAttempt-2,"{""attempt"":2,""correct"":8,""total"":10}"
+2098,W228e5f7242,quizAttempt-3,"{""attempt"":3,""correct"":4,""total"":4}"
+2099,W228e5f7242,quizPassed,"{""attempt"":3,""correct"":4,""total"":4}"
+2100,W228e5f7242,bonus,2
+2101,Wb0b800f570,startTime,Sat Apr 16 2022 10:08:41 GMT-0400 (Eastern Daylight Time)
+2102,Wb0b800f570,condition,"{""objective"":""utility"",""trial_type"":""slider"",""horizon"":""ambiguous""}"
+2103,Wb0b800f570,trialDataFile,exp2_split3
+2104,Wb0b800f570,featureRandomization,"{""Green"":""Blue"",""Red"":""Red"",""Blue"":""Green"",""Spotted"":""Solid"",""Solid"":""Spotted"",""Striped"":""Striped""}"
+2105,Wb0b800f570,quizAttempt-1,"{""attempt"":1,""correct"":12,""total"":16}"
+2106,Wb0b800f570,quizAttempt-2,"{""attempt"":2,""correct"":7,""total"":7}"
+2107,Wb0b800f570,quizPassed,"{""attempt"":2,""correct"":7,""total"":7}"
+2108,Wb0b800f570,bonus,2
+2109,W1229bf1e8a,startTime,Sat Apr 16 2022 15:04:56 GMT+0100 (British Summer Time)
+2110,W6579022c37,startTime,Sat Apr 16 2022 15:08:36 GMT+0100 (British Summer Time)
+2111,W6579022c37,condition,"{""objective"":""belief"",""trial_type"":""slider"",""horizon"":""ambiguous""}"
+2112,W6579022c37,trialDataFile,exp2_split2
+2113,W6579022c37,featureRandomization,"{""Green"":""Green"",""Red"":""Blue"",""Blue"":""Red"",""Spotted"":""Striped"",""Solid"":""Solid"",""Striped"":""Spotted""}"
+2114,W6579022c37,quizAttempt-1,"{""attempt"":1,""correct"":16,""total"":16}"
+2115,W6579022c37,quizPassed,"{""attempt"":1,""correct"":16,""total"":16}"
+2116,W6579022c37,bonus,2
+2117,W9bc9ea4fc2,startTime,Sat Apr 16 2022 14:57:09 GMT+0100 (British Summer Time)
+2118,W9bc9ea4fc2,condition,"{""objective"":""ambiguous"",""trial_type"":""slider"",""horizon"":""ambiguous""}"
+2119,W9bc9ea4fc2,trialDataFile,exp2_split2
+2120,W9bc9ea4fc2,featureRandomization,"{""Green"":""Red"",""Red"":""Blue"",""Blue"":""Green"",""Spotted"":""Solid"",""Solid"":""Spotted"",""Striped"":""Striped""}"
+2121,W9bc9ea4fc2,quizAttempt-1,"{""attempt"":1,""correct"":15,""total"":16}"
+2122,W9bc9ea4fc2,quizAttempt-2,"{""attempt"":2,""correct"":4,""total"":4}"
+2123,W9bc9ea4fc2,quizPassed,"{""attempt"":2,""correct"":4,""total"":4}"
+2124,W9bc9ea4fc2,bonus,2
+2125,W67f94f705a,startTime,Sat Apr 16 2022 10:05:29 GMT-0400 (Eastern Daylight Time)
+2126,W67f94f705a,condition,"{""objective"":""belief"",""trial_type"":""slider"",""horizon"":""ambiguous""}"
+2127,W67f94f705a,trialDataFile,exp2_split2
+2128,W67f94f705a,featureRandomization,"{""Green"":""Spotted"",""Red"":""Striped"",""Blue"":""Solid"",""Spotted"":""Blue"",""Solid"":""Green"",""Striped"":""Red""}"
+2129,W67f94f705a,quizAttempt-1,"{""attempt"":1,""correct"":16,""total"":16}"
+2130,W67f94f705a,quizPassed,"{""attempt"":1,""correct"":16,""total"":16}"
+2131,W67f94f705a,bonus,2
+2132,W9c1891fc77,startTime,Sat Apr 16 2022 15:05:15 GMT+0100 (British Summer Time)
+2133,W9c1891fc77,condition,"{""objective"":""ambiguous"",""trial_type"":""slider"",""horizon"":""ambiguous""}"
+2134,W9c1891fc77,trialDataFile,exp2_split2
+2135,W9c1891fc77,featureRandomization,"{""Green"":""Striped"",""Red"":""Solid"",""Blue"":""Spotted"",""Spotted"":""Green"",""Solid"":""Red"",""Striped"":""Blue""}"
+2136,W9c1891fc77,quizAttempt-1,"{""attempt"":1,""correct"":13,""total"":16}"
+2137,W9c1891fc77,quizAttempt-2,"{""attempt"":2,""correct"":6,""total"":6}"
+2138,W9c1891fc77,quizPassed,"{""attempt"":2,""correct"":6,""total"":6}"
+2139,W9c1891fc77,bonus,2
+2140,W3356e741c8,startTime,Sat Apr 16 2022 10:06:12 GMT-0400 (Eastern Daylight Time)
+2141,W3356e741c8,condition,"{""objective"":""ambiguous"",""trial_type"":""slider"",""horizon"":""ambiguous""}"
+2142,W3356e741c8,trialDataFile,exp2_split2
+2143,W3356e741c8,featureRandomization,"{""Green"":""Spotted"",""Red"":""Solid"",""Blue"":""Striped"",""Spotted"":""Red"",""Solid"":""Blue"",""Striped"":""Green""}"
+2144,W3356e741c8,quizAttempt-1,"{""attempt"":1,""correct"":7,""total"":16}"
+2145,W3356e741c8,quizAttempt-2,"{""attempt"":2,""correct"":9,""total"":9}"
+2146,W3356e741c8,quizPassed,"{""attempt"":2,""correct"":9,""total"":9}"
+2147,W3356e741c8,bonus,2
+2148,Wdeb78905e7,startTime,Sat Apr 16 2022 15:04:27 GMT+0100 (British Summer Time)
+2149,Wdeb78905e7,condition,"{""objective"":""utility"",""trial_type"":""slider"",""horizon"":""ambiguous""}"
+2150,Wdeb78905e7,trialDataFile,exp2_split1
+2151,Wdeb78905e7,featureRandomization,"{""Green"":""Blue"",""Red"":""Red"",""Blue"":""Green"",""Spotted"":""Spotted"",""Solid"":""Solid"",""Striped"":""Striped""}"
+2152,Wdeb78905e7,quizAttempt-1,"{""attempt"":1,""correct"":13,""total"":16}"
+2153,Wdeb78905e7,quizAttempt-2,"{""attempt"":2,""correct"":6,""total"":6}"
+2154,Wdeb78905e7,quizPassed,"{""attempt"":2,""correct"":6,""total"":6}"
+2155,Wdeb78905e7,bonus,2
+2156,W649f11111c,startTime,Sat Apr 16 2022 10:05:35 GMT-0400 (Eastern Daylight Time)
+2157,W649f11111c,condition,"{""objective"":""ambiguous"",""trial_type"":""slider"",""horizon"":""ambiguous""}"
+2158,W649f11111c,trialDataFile,exp2_split4
+2159,W649f11111c,featureRandomization,"{""Green"":""Striped"",""Red"":""Solid"",""Blue"":""Spotted"",""Spotted"":""Red"",""Solid"":""Green"",""Striped"":""Blue""}"
+2160,W649f11111c,quizAttempt-1,"{""attempt"":1,""correct"":16,""total"":16}"
+2161,W649f11111c,quizPassed,"{""attempt"":1,""correct"":16,""total"":16}"
+2162,W649f11111c,bonus,2
+2163,W8f8e170851,startTime,Sat Apr 16 2022 09:31:08 GMT-0500 (CDT)
+2164,W8f8e170851,condition,"{""objective"":""utility"",""trial_type"":""slider"",""horizon"":""ambiguous""}"
+2165,W8f8e170851,trialDataFile,exp2_split2
+2166,W8f8e170851,featureRandomization,"{""Green"":""Green"",""Red"":""Blue"",""Blue"":""Red"",""Spotted"":""Spotted"",""Solid"":""Striped"",""Striped"":""Solid""}"
+2167,W8f8e170851,quizAttempt-1,"{""attempt"":1,""correct"":14,""total"":16}"
+2168,W8f8e170851,quizAttempt-2,"{""attempt"":2,""correct"":3,""total"":3}"
+2169,W8f8e170851,quizPassed,"{""attempt"":2,""correct"":3,""total"":3}"
+2170,W8f8e170851,bonus,2
+2171,W765575d395,startTime,Sat Apr 16 2022 10:10:29 GMT-0400 (Eastern Daylight Time)
+2172,W765575d395,condition,"{""objective"":""utility"",""trial_type"":""slider"",""horizon"":""ambiguous""}"
+2173,W765575d395,trialDataFile,exp2_split3
+2174,W765575d395,featureRandomization,"{""Green"":""Green"",""Red"":""Blue"",""Blue"":""Red"",""Spotted"":""Solid"",""Solid"":""Striped"",""Striped"":""Spotted""}"
+2175,W765575d395,quizAttempt-1,"{""attempt"":1,""correct"":11,""total"":16}"
+2176,W765575d395,quizAttempt-2,"{""attempt"":2,""correct"":10,""total"":10}"
+2177,W765575d395,quizPassed,"{""attempt"":2,""correct"":10,""total"":10}"
+2178,W765575d395,bonus,2
+2179,W78f8d01b95,startTime,Sat Apr 16 2022 10:17:20 GMT-0400 (Eastern Daylight Time)
+2180,W78f8d01b95,condition,"{""objective"":""ambiguous"",""trial_type"":""slider"",""horizon"":""ambiguous""}"
+2181,W78f8d01b95,trialDataFile,exp2_split2
+2182,W78f8d01b95,featureRandomization,"{""Green"":""Striped"",""Red"":""Solid"",""Blue"":""Spotted"",""Spotted"":""Red"",""Solid"":""Blue"",""Striped"":""Green""}"
+2183,W78f8d01b95,quizAttempt-1,"{""attempt"":1,""correct"":14,""total"":16}"
+2184,W78f8d01b95,quizAttempt-2,"{""attempt"":2,""correct"":3,""total"":4}"
+2185,W78f8d01b95,quizAttempt-3,"{""attempt"":3,""correct"":3,""total"":4}"
+2186,W78f8d01b95,quizFailed,"{""attempt"":3,""correct"":3,""total"":4}"
+2187,Wad8577be16,startTime,Sat Apr 16 2022 15:31:02 GMT+0100 (British Summer Time)
+2188,Wad8577be16,condition,"{""objective"":""ambiguous"",""trial_type"":""slider"",""horizon"":""ambiguous""}"
+2189,Wad8577be16,trialDataFile,exp2_split3
+2190,Wad8577be16,featureRandomization,"{""Green"":""Green"",""Red"":""Blue"",""Blue"":""Red"",""Spotted"":""Spotted"",""Solid"":""Striped"",""Striped"":""Solid""}"
+2191,Wad8577be16,quizAttempt-1,"{""attempt"":1,""correct"":12,""total"":16}"
+2192,Wad8577be16,quizAttempt-2,"{""attempt"":2,""correct"":7,""total"":7}"
+2193,Wad8577be16,quizPassed,"{""attempt"":2,""correct"":7,""total"":7}"
+2194,Wad8577be16,bonus,2
+2195,W2d2091f2fc,startTime,Sat Apr 16 2022 10:30:43 GMT-0400 (Eastern Daylight Time)
+2196,W2d2091f2fc,condition,"{""objective"":""belief"",""trial_type"":""slider"",""horizon"":""ambiguous""}"
+2197,W2d2091f2fc,trialDataFile,exp2_split1
+2198,W2d2091f2fc,featureRandomization,"{""Green"":""Striped"",""Red"":""Spotted"",""Blue"":""Solid"",""Spotted"":""Blue"",""Solid"":""Red"",""Striped"":""Green""}"
+2199,W2d2091f2fc,quizAttempt-1,"{""attempt"":1,""correct"":16,""total"":16}"
+2200,W2d2091f2fc,quizPassed,"{""attempt"":1,""correct"":16,""total"":16}"
+2201,W2d2091f2fc,bonus,2
+2202,W54b7ea1a9b,startTime,Sat Apr 16 2022 07:09:32 GMT-0700 (Pacific Daylight Time)
+2203,W54b7ea1a9b,condition,"{""objective"":""ambiguous"",""trial_type"":""slider"",""horizon"":""ambiguous""}"
+2204,W54b7ea1a9b,trialDataFile,exp2_split3
+2205,W54b7ea1a9b,featureRandomization,"{""Green"":""Green"",""Red"":""Blue"",""Blue"":""Red"",""Spotted"":""Solid"",""Solid"":""Striped"",""Striped"":""Spotted""}"
+2206,W54b7ea1a9b,quizAttempt-1,"{""attempt"":1,""correct"":16,""total"":16}"
+2207,W54b7ea1a9b,quizPassed,"{""attempt"":1,""correct"":16,""total"":16}"
+2208,W54b7ea1a9b,bonus,2
+2209,We9d1aa94f2,startTime,Sat Apr 16 2022 15:16:11 GMT+0100 (British Summer Time)
+2210,We9d1aa94f2,condition,"{""objective"":""belief"",""trial_type"":""slider"",""horizon"":""ambiguous""}"
+2211,We9d1aa94f2,trialDataFile,exp2_split3
+2212,We9d1aa94f2,featureRandomization,"{""Green"":""Green"",""Red"":""Blue"",""Blue"":""Red"",""Spotted"":""Striped"",""Solid"":""Spotted"",""Striped"":""Solid""}"
+2213,We9d1aa94f2,quizAttempt-1,"{""attempt"":1,""correct"":14,""total"":16}"
+2214,We9d1aa94f2,quizAttempt-2,"{""attempt"":2,""correct"":3,""total"":3}"
+2215,We9d1aa94f2,quizPassed,"{""attempt"":2,""correct"":3,""total"":3}"
+2216,We9d1aa94f2,bonus,2
+2217,Wcf66713efd,startTime,Sat Apr 16 2022 15:32:09 GMT+0100 (Irish Standard Time)
+2218,Wcf66713efd,condition,"{""objective"":""belief"",""trial_type"":""slider"",""horizon"":""ambiguous""}"
+2219,Wcf66713efd,trialDataFile,exp2_split3
+2220,Wcf66713efd,featureRandomization,"{""Green"":""Green"",""Red"":""Red"",""Blue"":""Blue"",""Spotted"":""Striped"",""Solid"":""Spotted"",""Striped"":""Solid""}"
+2221,Wcf66713efd,quizAttempt-1,"{""attempt"":1,""correct"":16,""total"":16}"
+2222,Wcf66713efd,quizPassed,"{""attempt"":1,""correct"":16,""total"":16}"
+2223,Wcf66713efd,bonus,2
+2224,Wb05294975a,startTime,Sat Apr 16 2022 15:32:06 GMT+0100 (British Summer Time)
+2225,Wb05294975a,condition,"{""objective"":""utility"",""trial_type"":""slider"",""horizon"":""ambiguous""}"
+2226,Wb05294975a,trialDataFile,exp2_split2
+2227,Wb05294975a,featureRandomization,"{""Green"":""Solid"",""Red"":""Spotted"",""Blue"":""Striped"",""Spotted"":""Blue"",""Solid"":""Green"",""Striped"":""Red""}"
+2228,Wb05294975a,quizAttempt-1,"{""attempt"":1,""correct"":16,""total"":16}"
+2229,Wb05294975a,quizPassed,"{""attempt"":1,""correct"":16,""total"":16}"
+2230,Wb05294975a,bonus,2
+2231,W629141a18b,startTime,Sat Apr 16 2022 15:31:46 GMT+0100 (British Summer Time)
+2232,W629141a18b,condition,"{""objective"":""belief"",""trial_type"":""slider"",""horizon"":""ambiguous""}"
+2233,W629141a18b,trialDataFile,exp2_split4
+2234,W629141a18b,featureRandomization,"{""Green"":""Green"",""Red"":""Blue"",""Blue"":""Red"",""Spotted"":""Spotted"",""Solid"":""Striped"",""Striped"":""Solid""}"
+2235,W629141a18b,quizAttempt-1,"{""attempt"":1,""correct"":16,""total"":16}"
+2236,W629141a18b,quizPassed,"{""attempt"":1,""correct"":16,""total"":16}"
+2237,W629141a18b,bonus,2
+2238,W91c9e82c6c,startTime,Sat Apr 16 2022 15:33:27 GMT+0100 (British Summer Time)
+2239,W91c9e82c6c,condition,"{""objective"":""utility"",""trial_type"":""slider"",""horizon"":""ambiguous""}"
+2240,W91c9e82c6c,trialDataFile,exp2_split4
+2241,W91c9e82c6c,featureRandomization,"{""Green"":""Solid"",""Red"":""Striped"",""Blue"":""Spotted"",""Spotted"":""Red"",""Solid"":""Green"",""Striped"":""Blue""}"
+2242,W91c9e82c6c,quizAttempt-1,"{""attempt"":1,""correct"":15,""total"":16}"
+2243,W91c9e82c6c,quizAttempt-2,"{""attempt"":2,""correct"":3,""total"":3}"
+2244,W91c9e82c6c,quizPassed,"{""attempt"":2,""correct"":3,""total"":3}"
+2245,W91c9e82c6c,bonus,2
+2246,Wd931bccbe1,startTime,Sat Apr 16 2022 15:32:18 GMT+0100 (British Summer Time)
+2247,Wd931bccbe1,condition,"{""objective"":""ambiguous"",""trial_type"":""slider"",""horizon"":""ambiguous""}"
+2248,Wd931bccbe1,trialDataFile,exp2_split2
+2249,Wd931bccbe1,featureRandomization,"{""Green"":""Green"",""Red"":""Red"",""Blue"":""Blue"",""Spotted"":""Solid"",""Solid"":""Striped"",""Striped"":""Spotted""}"
+2250,Wd931bccbe1,quizAttempt-1,"{""attempt"":1,""correct"":9,""total"":16}"
+2251,Wd931bccbe1,quizAttempt-2,"{""attempt"":2,""correct"":6,""total"":10}"
+2252,Wd931bccbe1,quizAttempt-3,"{""attempt"":3,""correct"":7,""total"":10}"
+2253,Wd931bccbe1,quizFailed,"{""attempt"":3,""correct"":7,""total"":10}"
+2254,Wf91695b9a7,startTime,Sat Apr 16 2022 15:31:22 GMT+0100 (British Summer Time)
+2255,Wf91695b9a7,condition,"{""objective"":""ambiguous"",""trial_type"":""slider"",""horizon"":""ambiguous""}"
+2256,Wf91695b9a7,trialDataFile,exp2_split4
+2257,Wf91695b9a7,featureRandomization,"{""Green"":""Red"",""Red"":""Blue"",""Blue"":""Green"",""Spotted"":""Striped"",""Solid"":""Spotted"",""Striped"":""Solid""}"
+2258,Wf91695b9a7,quizAttempt-1,"{""attempt"":1,""correct"":7,""total"":16}"
+2259,Wf91695b9a7,quizAttempt-2,"{""attempt"":2,""correct"":7,""total"":13}"
+2260,Wf91695b9a7,quizAttempt-3,"{""attempt"":3,""correct"":7,""total"":13}"
+2261,Wf91695b9a7,quizFailed,"{""attempt"":3,""correct"":7,""total"":13}"
+2262,Waa6fe217e7,startTime,Sat Apr 16 2022 10:31:02 GMT-0400 (Eastern Daylight Time)
+2263,Waa6fe217e7,condition,"{""objective"":""belief"",""trial_type"":""slider"",""horizon"":""ambiguous""}"
+2264,Waa6fe217e7,trialDataFile,exp2_split1
+2265,Waa6fe217e7,featureRandomization,"{""Green"":""Green"",""Red"":""Blue"",""Blue"":""Red"",""Spotted"":""Striped"",""Solid"":""Spotted"",""Striped"":""Solid""}"
+2266,Waa6fe217e7,quizAttempt-1,"{""attempt"":1,""correct"":12,""total"":16}"
+2267,Waa6fe217e7,quizAttempt-2,"{""attempt"":2,""correct"":5,""total"":6}"
+2268,Waa6fe217e7,quizAttempt-3,"{""attempt"":3,""correct"":3,""total"":3}"
+2269,Waa6fe217e7,quizPassed,"{""attempt"":3,""correct"":3,""total"":3}"
+2270,Waa6fe217e7,bonus,2
+2271,Wef744fff1f,startTime,Sat Apr 16 2022 15:30:58 GMT+0100 (British Summer Time)
+2272,Wef744fff1f,condition,"{""objective"":""ambiguous"",""trial_type"":""slider"",""horizon"":""ambiguous""}"
+2273,Wef744fff1f,trialDataFile,exp2_split2
+2274,Wef744fff1f,featureRandomization,"{""Green"":""Red"",""Red"":""Blue"",""Blue"":""Green"",""Spotted"":""Striped"",""Solid"":""Solid"",""Striped"":""Spotted""}"
+2275,Wef744fff1f,quizAttempt-1,"{""attempt"":1,""correct"":16,""total"":16}"
+2276,Wef744fff1f,quizPassed,"{""attempt"":1,""correct"":16,""total"":16}"
+2277,Wef744fff1f,bonus,2
+2278,Wbc4d66222c,startTime,Sat Apr 16 2022 10:33:34 GMT-0400 (Eastern Daylight Time)
+2279,Wbc4d66222c,condition,"{""objective"":""belief"",""trial_type"":""slider"",""horizon"":""ambiguous""}"
+2280,Wbc4d66222c,trialDataFile,exp2_split2
+2281,Wbc4d66222c,featureRandomization,"{""Green"":""Striped"",""Red"":""Spotted"",""Blue"":""Solid"",""Spotted"":""Blue"",""Solid"":""Red"",""Striped"":""Green""}"
+2282,Wbc4d66222c,quizAttempt-1,"{""attempt"":1,""correct"":16,""total"":16}"
+2283,Wbc4d66222c,quizPassed,"{""attempt"":1,""correct"":16,""total"":16}"
+2284,Wbc4d66222c,bonus,2
+2285,Wc91a697412,startTime,Sat Apr 16 2022 15:33:07 GMT+0100 (British Summer Time)
+2286,Wc91a697412,condition,"{""objective"":""belief"",""trial_type"":""slider"",""horizon"":""ambiguous""}"
+2287,Wc91a697412,trialDataFile,exp2_split4
+2288,Wc91a697412,featureRandomization,"{""Green"":""Green"",""Red"":""Red"",""Blue"":""Blue"",""Spotted"":""Solid"",""Solid"":""Striped"",""Striped"":""Spotted""}"
+2289,Wc91a697412,quizAttempt-1,"{""attempt"":1,""correct"":15,""total"":16}"
+2290,Wc91a697412,quizAttempt-2,"{""attempt"":2,""correct"":3,""total"":3}"
+2291,Wc91a697412,quizPassed,"{""attempt"":2,""correct"":3,""total"":3}"
+2292,Wc91a697412,bonus,2
+2293,W44df7ca30d,startTime,Sat Apr 16 2022 09:32:44 GMT-0500 (Central Daylight Time)
+2294,W44df7ca30d,condition,"{""objective"":""ambiguous"",""trial_type"":""slider"",""horizon"":""ambiguous""}"
+2295,W44df7ca30d,trialDataFile,exp2_split3
+2296,W44df7ca30d,featureRandomization,"{""Green"":""Solid"",""Red"":""Striped"",""Blue"":""Spotted"",""Spotted"":""Blue"",""Solid"":""Red"",""Striped"":""Green""}"
+2297,W44df7ca30d,quizAttempt-1,"{""attempt"":1,""correct"":13,""total"":16}"
+2298,W44df7ca30d,quizAttempt-2,"{""attempt"":2,""correct"":9,""total"":9}"
+2299,W44df7ca30d,quizPassed,"{""attempt"":2,""correct"":9,""total"":9}"
+2300,W44df7ca30d,bonus,2
+2301,W4a5ea49ff1,startTime,Sat Apr 16 2022 15:34:59 GMT+0100 (British Summer Time)
+2302,W4a5ea49ff1,condition,"{""objective"":""belief"",""trial_type"":""slider"",""horizon"":""ambiguous""}"
+2303,W4a5ea49ff1,trialDataFile,exp2_split3
+2304,W4a5ea49ff1,featureRandomization,"{""Green"":""Blue"",""Red"":""Red"",""Blue"":""Green"",""Spotted"":""Spotted"",""Solid"":""Striped"",""Striped"":""Solid""}"
+2305,W4a5ea49ff1,quizAttempt-1,"{""attempt"":1,""correct"":16,""total"":16}"
+2306,W4a5ea49ff1,quizPassed,"{""attempt"":1,""correct"":16,""total"":16}"
+2307,W4a5ea49ff1,bonus,2
+2308,W2ee3132fcc,startTime,Sat Apr 16 2022 15:38:32 GMT+0100 (British Summer Time)
+2309,W2ee3132fcc,condition,"{""objective"":""ambiguous"",""trial_type"":""slider"",""horizon"":""ambiguous""}"
+2310,W2ee3132fcc,trialDataFile,exp2_split2
+2311,W2ee3132fcc,featureRandomization,"{""Green"":""Red"",""Red"":""Green"",""Blue"":""Blue"",""Spotted"":""Solid"",""Solid"":""Striped"",""Striped"":""Spotted""}"
+2312,W2ee3132fcc,quizAttempt-1,"{""attempt"":1,""correct"":16,""total"":16}"
+2313,W2ee3132fcc,quizPassed,"{""attempt"":1,""correct"":16,""total"":16}"
+2314,W2ee3132fcc,bonus,2

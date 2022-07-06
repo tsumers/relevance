@@ -1,0 +1,65 @@
+---
+title: "R Notebook"
+output: html_notebook
+---
+
+# Load data / packages 
+
+```{r}
+library(lme4)
+library(lmerTest)
+library(multcomp)
+require(ggplot2)
+require(ggiraph)
+require(ggiraphExtra)
+require(plyr)
+library(dplyr)
+library(tidyverse)
+library(broom)
+library(multcomp)
+library(xtable)
+library(broom.mixed)
+
+#install.packages("broom.mixed")
+```
+
+##### EXPERIMENT 1 - RESPONSE TIMES##### 
+```{r}
+response_time_df <- read.csv("./response_times_for_r.csv")
+response_time_df
+
+# Null model uses only task UUID
+xmdl_null = lmer(rt_seconds ~ (1|workerid), response_time_df)
+xmdl_main <- update(xmdl_null, ~ . + utilityWeight)
+
+summary(xmdl_main)
+
+anova_all_comp <- anova(xmdl_null, xmdl_main, test='Chisq')
+anova_all_comp
+
+## Generate table for appendix
+xtable(tidy(xmdl_main))
+```   
+```{r}
+# Null model uses only task UUID
+xmdl_null = lmer(rt_seconds ~ (1|workerid), response_time_df)
+xmdl_main <- update(xmdl_null, ~ . + truthful)
+xmdl_utility <- update(xmdl_main, ~ . + utilityWeight)
+
+
+summary(xmdl_utility)
+
+anova_all_comp <- anova(xmdl_null, xmdl_main, xmdl_utility, test='Chisq')
+anova_all_comp
+
+xtable(tidy(xmdl_utility))
+
+```
+```{r}
+
+truthful <- response_time_df %>% filter(truthful == 'True')
+false <- response_time_df %>% filter(truthful == 'False')
+
+t.test(truthful$log_rt_seconds, false$log_rt_seconds)
+
+```
