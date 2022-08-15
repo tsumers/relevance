@@ -1,0 +1,120 @@
+var ALPHA = 5
+
+/// DECISION PROBLEM: possible worlds, actions, and
+var possibleWorlds =
+    Categorical({
+        ps:[1, 1],
+        vs: ['5:00', '5:05']
+    })
+
+var actions = ['5:00', '5:05']
+
+/// R(a, w)
+var marginalReward = function(a, worlds) {
+
+    return expectation(worlds, function(w) {
+
+        // arriving exactly when the lecture starts is great
+        if (a === w) {
+            return 1
+        }
+
+        // arriving too late is bad
+        if (a === '5:05') {
+            return -1
+        }
+
+        // we showed up on time, the lecture was late.
+        return .9
+
+    })
+
+}
+
+/// Utterances and p(w | u)
+var utterances =  Infer({method: 'enumerate'}, function(){
+    uniformDraw(['5:00', '5:05'])
+})
+
+var literalMeanings = {
+    '5:00': function(world) { return world === '5:00'; },
+    '5:05': function(world) { return world === '5:05'; }
+};
+
+///fold:
+var beliefListener = function(utt) {
+    return Infer({method: 'enumerate'}, function(){
+
+        // Sample from all worlds
+        var world = sample(possibleWorlds)
+        var meaning = literalMeanings[utt];
+        condition(meaning(world));
+
+        return world
+    })
+}
+
+var actionListener = function(utt) {
+
+    var beliefs = beliefListener(utt)
+
+    return Infer({method: 'enumerate'}, function(){
+
+        var actionChoice = uniformDraw(actions)
+        factor(ALPHA * marginalReward(actionChoice, beliefs))
+
+        return actionChoice
+    })
+}
+
+var truthFunc = function(utt, trueWorld){
+
+    var worldLogProb = beliefListener(utt).score(trueWorld)
+
+    // Use +1 / -1
+    return (worldLogProb === -Infinity) ? -1 : 1
+
+}
+
+var speaker = function(trueWorld, lambda){
+
+    return Infer({method: 'enumerate'}, function(){
+
+        var utt = sample(utterances)
+        var action = sample(actionListener(utt))
+        var actionUtility = marginalReward(action, Categorical({ps:[1], vs:[trueWorld]}))
+        var truthUtility = truthFunc(utt, trueWorld)
+
+        var uttUtility = lambda * actionUtility + (1-lambda)*truthUtility - uttCost(utt)
+        factor(ALPHA * uttUtility)
+
+        return utt
+    })
+
+}
+///
+
+var pragmaticListener = function(utt, lambda){
+
+    return Infer({method: 'enumerate'}, function(){
+
+        var world = sample(possibleWorlds)
+        var speakerUtt = sample(speaker(world, lambda))
+        condition(speakerUtt === utt)
+
+        return world
+
+    })
+
+}
+
+
+/// Assume longer utterances are more expensive.
+var uttCost = function(utt){
+
+    return 0
+
+}
+
+viz(pragmaticListener('5:00', 0))
+viz(pragmaticListener('5:00', .9))

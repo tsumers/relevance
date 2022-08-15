@@ -1,0 +1,106 @@
+/// DECISION PROBLEM: possible worlds, actions, and
+var times = [0, 1, 2, 3, 4, 5]
+
+var possibleWorlds =
+    Categorical({
+        ps: repeat(times.length, function(){
+            return 1/times.length
+        }),
+        vs: times
+    })
+
+var rounded = function(t) {
+    return Math.round(t / 5) * 5;
+}
+
+var actions = ['early', 'on_time', 'late']
+
+/// R(a, w)
+var actionValueRegular = function(utt, trueWorld) {
+
+    if (rounded(trueWorld) === rounded(utt)){
+        return 1
+    }
+    return -1
+
+}
+
+var actionValueWatchSetting = function(utt, trueWorld) {
+
+    var minutesOff = Math.abs(utt - trueWorld)
+
+    // Assume we lose a quarter point of utility for every minute we're off.
+    return 1 - minutesOff / 4
+
+}
+
+/// Assume exact times are more expensive.
+var uttCost = function(utt){
+
+    if (rounded(utt) === utt){
+        return .5
+    }
+    return 1
+
+}
+
+var uttTruth = function(utt, world) {
+
+    if (utt === world) {return 1}
+    return -1
+
+}
+
+var speaker = function(time, actionValueFunction, lambda, alpha){
+
+    return Infer({method: 'enumerate'}, function(){
+
+        var utt = sample(possibleWorlds)
+        var uttUtility = lambda * actionValueFunction(utt, time) + (1-lambda)*uttTruth(utt, time) - uttCost(utt)
+        factor(alpha * uttUtility)
+
+        return utt
+    })
+
+}
+
+//// Run a big grid search over params to figure out what settings replicate empirical patterns
+
+var speakerWrapper = function(params){
+
+    var results = speaker(params.time, params.actionValueFunction, params.lambda, params.alpha)
+    return extend(params, {'results': results})
+
+}
+
+var gridSearchParams = function(actionValueFunction){
+    return Infer({method: 'enumerate'}, function(){
+        return {
+            'alpha': uniformDraw([10]),
+            'time': uniformDraw([0, 1, 2, 3, 4]),
+            'lambda': uniformDraw(_.range(0, 1.05, .05)),
+            // 'lambda': uniformDraw(_.range([0, .5, .75, .9, .95, 1])),
+            'actionValueFunction': uniformDraw([actionValueFunction])
+        }
+    }).support()
+}
+
+/// Interactive tests
+// map2(actionValueRegular, [0, 1, 2, 3, 4, 5], [2, 2, 2, 2, 2])
+// map2(actionValueWatchSetting, [0, 1, 2, 3, 4, 5], [2, 2, 2, 2, 2])
+// viz(possibleWorlds)
+
+var time = 3
+var lambda = .9
+var alpha = 10
+// viz(speaker(time, actionValueRegular, lambda, alpha))
+// viz(speaker(time, actionValueWatchSetting, lambda, alpha))
+
+/// Parameter sweep for analysis
+
+var normalGridResults = mapData({'data': gridSearchParams(actionValueRegular)}, speakerWrapper)
+json.write('ex3-results-regular.json', normalGridResults);
+
+var watchSettingGridResults = mapData({'data': gridSearchParams(actionValueWatchSetting)}, speakerWrapper)
+json.write('ex3-results-watch-setting.json', watchSettingGridResults);
+
