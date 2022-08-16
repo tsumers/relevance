@@ -13,7 +13,11 @@ var rounded = function(t) {
     return Math.round(t / 5) * 5;
 }
 
-var actions = ['early', 'on_time', 'late']
+var literalMeanings = function(t) {
+    return function(trueWorld) {
+        return t == trueWorld
+    }
+};
 
 /// R(a, w)
 var actionValueRegular = function(utt, trueWorld) {
@@ -51,12 +55,42 @@ var uttTruth = function(utt, world) {
 
 }
 
-var speaker = function(time, actionValueFunction, lambda, alpha){
+///fold:
+var beliefListener = function(utt) {
+    return Infer({method: 'enumerate'}, function(){
+
+        // Sample from all worlds
+        var world = sample(possibleWorlds)
+        var meaning = literalMeanings(utt);
+        condition(meaning(world));
+
+        return world
+    })
+}
+
+var actionListener = function(utt, actionValueFunction, alpha) {
+
+    var beliefs = beliefListener(utt)
+    return Infer({method: 'enumerate'}, function(){
+
+        var actionChoice = uniformDraw(times)
+        var world = sample(beliefs)
+        factor(1 * actionValueFunction(actionChoice, world))
+
+        return actionChoice
+    })
+}
+
+var speaker = function(trueWorld, actionValueFunction, lambda, alpha){
 
     return Infer({method: 'enumerate'}, function(){
 
         var utt = sample(possibleWorlds)
-        var uttUtility = lambda * actionValueFunction(utt, time) + (1-lambda)*uttTruth(utt, time) - uttCost(utt)
+        var actionUtility = sum(map(function(a){
+            return actionValueFunction(a, trueWorld) * actionListener(utt, actionValueFunction, alpha).score(a)
+        }, times))
+
+        var uttUtility = lambda * actionUtility + (1-lambda)*uttTruth(utt, time) - uttCost(utt)
         factor(alpha * uttUtility)
 
         return utt
@@ -93,14 +127,13 @@ var gridSearchParams = function(actionValueFunction){
 var time = 3
 var lambda = .9
 var alpha = 10
-// viz(speaker(time, actionValueRegular, lambda, alpha))
-// viz(speaker(time, actionValueWatchSetting, lambda, alpha))
+console.log(JSON.stringify(speaker(time, actionValueRegular, lambda, alpha)))
+console.log(JSON.stringify(speaker(time, actionValueWatchSetting, lambda, alpha)))
 
 /// Parameter sweep for analysis
 
-var normalGridResults = mapData({'data': gridSearchParams(actionValueRegular)}, speakerWrapper)
-json.write('ex3-results-regular.json', normalGridResults);
+// var normalGridResults = mapData({'data': gridSearchParams(actionValueRegular)}, speakerWrapper)
+// json.write('ex3-results-regular.json', normalGridResults);
 
-var watchSettingGridResults = mapData({'data': gridSearchParams(actionValueWatchSetting)}, speakerWrapper)
-json.write('ex3-results-watch-setting.json', watchSettingGridResults);
-
+// var watchSettingGridResults = mapData({'data': gridSearchParams(actionValueWatchSetting)}, speakerWrapper)
+// json.write('ex3-results-watch-setting.json', watchSettingGridResults);
