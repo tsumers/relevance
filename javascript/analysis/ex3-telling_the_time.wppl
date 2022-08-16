@@ -74,8 +74,9 @@ var actionListener = function(utt, actionValueFunction, alpha) {
     return Infer({method: 'enumerate'}, function(){
 
         var actionChoice = uniformDraw(times)
-        var world = sample(beliefs)
-        factor(1 * actionValueFunction(actionChoice, world))
+        factor(alpha * expectation(beliefs, function(world){
+            return actionValueFunction(actionChoice, world)
+        }));
 
         return actionChoice
     })
@@ -86,9 +87,9 @@ var speaker = function(trueWorld, actionValueFunction, lambda, alpha){
     return Infer({method: 'enumerate'}, function(){
 
         var utt = sample(possibleWorlds)
-        var actionUtility = sum(map(function(a){
-            return actionValueFunction(a, trueWorld) * actionListener(utt, actionValueFunction, alpha).score(a)
-        }, times))
+        var actionUtility = expectation(actionListener(utt, actionValueFunction, alpha), function(a){
+            return actionValueFunction(a, trueWorld)
+        })
 
         var uttUtility = lambda * actionUtility + (1-lambda)*uttTruth(utt, time) - uttCost(utt)
         factor(alpha * uttUtility)

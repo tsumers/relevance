@@ -1,5 +1,4 @@
-var SPEAKER_ALPHA = 2
-var LISTENER_ALPHA = 1
+var ALPHA = 5
 
 /// DECISION PROBLEM: possible worlds, actions, and
 var possibleWorlds =
@@ -19,7 +18,7 @@ var reward = function(a, w) {
 
     // arriving too late is bad
     if (w === '5:00' && a === '5:05') {
-        return -.5
+        return -1
     }
 
     // we showed up on time, the lecture was late.
@@ -58,10 +57,9 @@ var actionListener = function(utt) {
 
         var actionChoice = uniformDraw(actions)
 
-        // marginalizing over reward in possible worlds
-        // i.e. L \propto \sum_w P(w | u) e^{beta*R}
-        var world = sample(beliefs)
-        factor(LISTENER_ALPHA * reward(actionChoice, world))
+        factor(ALPHA * expectation(beliefs, function(world) {
+            return reward(actionChoice, world)
+        }));
 
         return actionChoice
     })
@@ -81,13 +79,13 @@ var speaker = function(trueWorld, lambda){
     return Infer({method: 'enumerate'}, function(){
 
         var utt = sample(utterances)
-        var actionUtility = sum(map(function(a){
-            return reward(a, trueWorld) * actionListener(utt).score(a)
-        }, actions))
+        var actionUtility = expectation(actionListener(utt), function(a){
+            return reward(a, trueWorld)
+        })
         var truthUtility = truthFunc(utt, trueWorld)
 
         var uttUtility = lambda * actionUtility + (1-lambda)*truthUtility - uttCost(utt)
-        factor(SPEAKER_ALPHA * uttUtility)
+        factor(ALPHA * uttUtility)
 
         return utt
     })

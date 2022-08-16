@@ -1,5 +1,4 @@
-var LISTENER_ALPHA = 1
-var SPEAKER_ALPHA = 10
+var ALPHA = 10
 
 /// DECISION PROBLEM: possible worlds, actions, and
 var possibleWorlds =
@@ -20,7 +19,7 @@ var reward = function(a, w) {
     }
 
     // default of waiting is bad, but not *as* bad as making the trip for nothing.
-    return -0.1
+    return -0.5
 }
 
 /// Utterances and p(w | u)
@@ -69,8 +68,9 @@ var actionListener = function(utt) {
     return Infer({method: 'enumerate'}, function(){
 
         var actionChoice = uniformDraw(actions)
-        var world = sample(beliefs)
-        factor(LISTENER_ALPHA * reward(actionChoice, world))
+        factor(ALPHA * expectation(beliefs, function(world) {
+            return reward(actionChoice, world)
+        }))
 
         return actionChoice
     })
@@ -93,15 +93,13 @@ var speaker = function(trueWorld, lambda){
     return Infer({method: 'enumerate'}, function(){
 
         var utt = sample(utterances)
-        var actionUtility = sum(map(function(a){
-            return reward(a, trueWorld) * actionListener(utt).score(a)
-        }, actions))
-        // console.log(JSON.stringify(actionListener(utt)))
-        // console.log(trueWorld, utt, actionUtility)
+        var actionUtility = expectation(actionListener(utt), function(a){
+            return reward(a, trueWorld)
+        });
         var truthUtility = truthFunc(utt, trueWorld)
 
         var uttUtility = lambda * actionUtility + (1-lambda)*truthUtility - uttCost(utt)
-        factor(SPEAKER_ALPHA * uttUtility)
+        factor(ALPHA * uttUtility)
 
         return utt
     })
