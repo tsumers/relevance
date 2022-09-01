@@ -1,4 +1,5 @@
-/// DECISION PROBLEM: possible worlds, actions, and
+//////// Setup: Possible worlds, literal meanings ////////
+
 var times = [0, 1, 2, 3, 4, 5]
 
 var possibleWorlds =
@@ -15,30 +16,35 @@ var rounded = function(t) {
 
 var literalMeanings = function(t) {
     return function(trueWorld) {
-        return t == trueWorld
+        return t === trueWorld
     }
 };
 
-/// R(a, w)
+//////// Utterance utilities and costs ////////
+
+// Decision-theoretic utility of an utterance for control condition
 var actionValueRegular = function(utt, trueWorld) {
 
+    // If the true time rounds to the given time, we're fine
     if (rounded(trueWorld) === rounded(utt)){
         return 1
     }
+    // Otherwise, bad.
     return -1
 
 }
 
+// Decision-theoretic utility of an utterance for watch-setting condition
 var actionValueWatchSetting = function(utt, trueWorld) {
 
     var minutesOff = Math.abs(utt - trueWorld)
 
-    // Assume we lose a quarter point of utility for every minute we're off.
+    // We lose a quarter point of utility for every minute we're off.
     return 1 - minutesOff / 4
 
 }
 
-/// Assume exact times are more expensive.
+// Unrounded times are more expensive.
 var uttCost = function(utt){
 
     if (rounded(utt) === utt){
@@ -48,6 +54,7 @@ var uttCost = function(utt){
 
 }
 
+// Truth value is +1 / -1
 var uttTruth = function(utt, world) {
 
     if (utt === world) {return 1}
@@ -55,7 +62,7 @@ var uttTruth = function(utt, world) {
 
 }
 
-///fold:
+//////// Speakers and Listeners ////////
 var beliefListener = function(utt) {
     return Infer({method: 'enumerate'}, function(){
 
@@ -99,7 +106,9 @@ var speaker = function(trueWorld, actionValueFunction, lambda, alpha){
 
 }
 
-//// Run a big grid search over params to figure out what settings replicate empirical patterns
+//////// Grid Search over parameters ////////
+// See notebook: webppl-analysis.ipynb to launch this script
+// Runs a search over parameters
 
 var speakerWrapper = function(params){
 
@@ -114,27 +123,21 @@ var gridSearchParams = function(actionValueFunction){
             'alpha': uniformDraw([10]),
             'time': uniformDraw([0, 1, 2, 3, 4]),
             'lambda': uniformDraw(_.range(0, 1.05, .05)),
-            // 'lambda': uniformDraw(_.range([0, .5, .75, .9, .95, 1])),
             'actionValueFunction': uniformDraw([actionValueFunction])
         }
     }).support()
 }
 
-/// Interactive tests
-// map2(actionValueRegular, [0, 1, 2, 3, 4, 5], [2, 2, 2, 2, 2])
-// map2(actionValueWatchSetting, [0, 1, 2, 3, 4, 5], [2, 2, 2, 2, 2])
-// viz(possibleWorlds)
+/// Run parameter sweep for analysis
+var normalGridResults = mapData({'data': gridSearchParams(actionValueRegular)}, speakerWrapper)
+json.write('ex3-results-regular.json', normalGridResults);
 
-var time = 3
-var lambda = .9
-var alpha = 10
-console.log(JSON.stringify(speaker(time, actionValueRegular, lambda, alpha)))
-console.log(JSON.stringify(speaker(time, actionValueWatchSetting, lambda, alpha)))
+var watchSettingGridResults = mapData({'data': gridSearchParams(actionValueWatchSetting)}, speakerWrapper)
+json.write('ex3-results-watch-setting.json', watchSettingGridResults);
 
-/// Parameter sweep for analysis
-
-// var normalGridResults = mapData({'data': gridSearchParams(actionValueRegular)}, speakerWrapper)
-// json.write('ex3-results-regular.json', normalGridResults);
-
-// var watchSettingGridResults = mapData({'data': gridSearchParams(actionValueWatchSetting)}, speakerWrapper)
-// json.write('ex3-results-watch-setting.json', watchSettingGridResults);
+// OR comment the above out, and uncomment this to run in browser
+// var time = 3
+// var lambda = .9
+// var alpha = 10
+// console.log(JSON.stringify(speaker(time, actionValueRegular, lambda, alpha)))
+// console.log(JSON.stringify(speaker(time, actionValueWatchSetting, lambda, alpha)))

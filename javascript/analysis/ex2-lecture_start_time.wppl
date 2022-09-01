@@ -1,6 +1,7 @@
+//////// Setup: possible worlds, actions, and literal meanings ////////
+
 var ALPHA = 5
 
-/// DECISION PROBLEM: possible worlds, actions, and
 var possibleWorlds =
     Categorical({
         ps:[1, 1],
@@ -9,7 +10,18 @@ var possibleWorlds =
 
 var actions = ['5:00', '5:05']
 
-/// R(a, w)
+var utterances =  Infer({method: 'enumerate'}, function(){
+    uniformDraw(['5:00', '5:05'])
+})
+
+var literalMeanings = {
+    '5:00': function(world) { return world === '5:00'; },
+    '5:05': function(world) { return world === '5:05'; }
+};
+
+
+//////// Action rewards ////////
+
 var reward = function(a, w) {
     // arriving exactly when the lecture starts is great
     if (a === w) {
@@ -26,17 +38,8 @@ var reward = function(a, w) {
 
 }
 
-/// Utterances and p(w | u)
-var utterances =  Infer({method: 'enumerate'}, function(){
-    uniformDraw(['5:00', '5:05'])
-})
+//////// Literal Listeners ////////
 
-var literalMeanings = {
-    '5:00': function(world) { return world === '5:00'; },
-    '5:05': function(world) { return world === '5:05'; }
-};
-
-///fold:
 var beliefListener = function(utt) {
     return Infer({method: 'enumerate'}, function(){
 
@@ -69,10 +72,12 @@ var truthFunc = function(utt, trueWorld){
 
     var worldLogProb = beliefListener(utt).score(trueWorld)
 
-    // Use +1 / -1
+    // Use +1 / -1 epistemic utility
     return (worldLogProb === -Infinity) ? -1 : 1
 
 }
+
+//////// Speaker ////////
 
 var speaker = function(trueWorld, lambda){
 
@@ -84,14 +89,15 @@ var speaker = function(trueWorld, lambda){
         })
         var truthUtility = truthFunc(utt, trueWorld)
 
-        var uttUtility = lambda * actionUtility + (1-lambda)*truthUtility - uttCost(utt)
+        var uttUtility = lambda * actionUtility + (1-lambda)*truthUtility
         factor(ALPHA * uttUtility)
 
         return utt
     })
 
 }
-///
+
+//////// Pragmatic Listener ////////
 
 var pragmaticListener = function(utt, lambda){
 
@@ -104,14 +110,6 @@ var pragmaticListener = function(utt, lambda){
         return world
 
     })
-
-}
-
-
-/// Assume longer utterances are more expensive.
-var uttCost = function(utt){
-
-    return 0
 
 }
 
