@@ -10,24 +10,19 @@ var possibleWorlds =
 var actions = ['5:00', '5:05']
 
 /// R(a, w)
-var marginalReward = function(a, worlds) {
+var reward = function(a, w) {
+    // arriving exactly when the lecture starts is great
+    if (a === w) {
+        return 1
+    }
 
-    return expectation(worlds, function(w) {
+    // arriving too late is bad
+    if (w === '5:00' && a === '5:05') {
+        return -1
+    }
 
-        // arriving exactly when the lecture starts is great
-        if (a === w) {
-            return 1
-        }
-
-        // arriving too late is bad
-        if (a === '5:05') {
-            return -1
-        }
-
-        // we showed up on time, the lecture was late.
-        return .9
-
-    })
+    // we showed up on time, the lecture was late.
+    return 0.9
 
 }
 
@@ -61,7 +56,10 @@ var actionListener = function(utt) {
     return Infer({method: 'enumerate'}, function(){
 
         var actionChoice = uniformDraw(actions)
-        factor(ALPHA * marginalReward(actionChoice, beliefs))
+
+        factor(ALPHA * expectation(beliefs, function(world) {
+            return reward(actionChoice, world)
+        }));
 
         return actionChoice
     })
@@ -81,8 +79,9 @@ var speaker = function(trueWorld, lambda){
     return Infer({method: 'enumerate'}, function(){
 
         var utt = sample(utterances)
-        var action = sample(actionListener(utt))
-        var actionUtility = marginalReward(action, Categorical({ps:[1], vs:[trueWorld]}))
+        var actionUtility = expectation(actionListener(utt), function(a){
+            return reward(a, trueWorld)
+        })
         var truthUtility = truthFunc(utt, trueWorld)
 
         var uttUtility = lambda * actionUtility + (1-lambda)*truthUtility - uttCost(utt)
@@ -116,5 +115,14 @@ var uttCost = function(utt){
 
 }
 
-viz(pragmaticListener('5:00', 0))
-viz(pragmaticListener('5:00', .9))
+//console.log(JSON.stringify(speaker('5:00', 1)))
+
+console.log('belief-only speaker draws symmetric inferences for 5:00 and 5:05')
+console.log(JSON.stringify(pragmaticListener('5:00', 0)))
+console.log(JSON.stringify(pragmaticListener('5:05', 0)))
+
+console.log('\ncombined speaker draws asymmetric inferences')
+console.log('5:05 less likely to be interpreted as 5:00 than vice versa')
+console.log('because speaker knows being late is worse than being early')
+console.log(JSON.stringify(pragmaticListener('5:00', .9)))
+console.log(JSON.stringify(pragmaticListener('5:05', .9)))

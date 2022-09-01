@@ -10,21 +10,16 @@ var possibleWorlds =
 var actions = ['gas', 'wait']
 
 /// R(a, w)
-var marginalReward = function(a, worlds) {
+var reward = function(a, w) {
 
-    return expectation(worlds, function(w) {
+    // getting gas is great if it's open, bad otherwise
+    if (a === 'gas') {
+        if (w === 'exists - open') {return 1}
+        return -1
+    }
 
-        // getting gas is great if it's open, bad otherwise
-        if (a === 'gas') {
-            if (w === 'exists - open') {return 1}
-            return -1
-        }
-
-        // default of waiting is bad, but not *as* bad.
-        return -.5
-
-    })
-
+    // default of waiting is bad, but not *as* bad as making the trip for nothing.
+    return -0.5
 }
 
 /// Utterances and p(w | u)
@@ -70,11 +65,12 @@ var beliefListener = function(utt) {
 var actionListener = function(utt) {
 
     var beliefs = beliefListener(utt)
-
     return Infer({method: 'enumerate'}, function(){
 
         var actionChoice = uniformDraw(actions)
-        factor(ALPHA * marginalReward(actionChoice, beliefs))
+        factor(ALPHA * expectation(beliefs, function(world) {
+            return reward(actionChoice, world)
+        }))
 
         return actionChoice
     })
@@ -97,8 +93,9 @@ var speaker = function(trueWorld, lambda){
     return Infer({method: 'enumerate'}, function(){
 
         var utt = sample(utterances)
-        var action = sample(actionListener(utt))
-        var actionUtility = marginalReward(action, Categorical({ps:[1], vs:[trueWorld]}))
+        var actionUtility = expectation(actionListener(utt), function(a){
+            return reward(a, trueWorld)
+        });
         var truthUtility = truthFunc(utt, trueWorld)
 
         var uttUtility = lambda * actionUtility + (1-lambda)*truthUtility - uttCost(utt)
@@ -115,6 +112,7 @@ var pragmaticListener = function(utt, lambda){
     return Infer({method: 'enumerate'}, function(){
 
         var world = sample(possibleWorlds)
+        console.log(world, JSON.stringify(speaker(world, lambda)))
         var speakerUtt = sample(speaker(world, lambda))
         condition(speakerUtt === utt)
 
@@ -126,14 +124,13 @@ var pragmaticListener = function(utt, lambda){
 
 
 
-viz(beliefListener('sorry'))
-// viz(actionListener('sorry'))
-// viz(actionListener('exists'))
+// console.log(JSON.stringify(beliefListener('sorry')))
+// console.log(JSON.stringify(actionListener('sorry')))
+// console.log(JSON.stringify(actionListener('exists')))
 
-// viz(speaker('exists - open', 0))
-// viz(speaker('exists - open', .5))
-// viz(speaker('exists - open', 1))
+// console.log(JSON.stringify(speaker('exists - open', 0)))
+// console.log(JSON.stringify(speaker('exists - open', .5)))
+// console.log(JSON.stringify(speaker('exists - open', 1)))
 
-viz(pragmaticListener('exists', 0))
-viz(pragmaticListener('exists', .5))
-viz(pragmaticListener('exists', 1))
+console.log(JSON.stringify(pragmaticListener('exists', 0))) // viz()
+console.log(JSON.stringify(pragmaticListener('exists', .5))) //viz()
