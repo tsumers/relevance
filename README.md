@@ -1,6 +1,6 @@
-# Relevance as Decision-Theoretic Utility
+# Reconciling truthfulness and relevance via decision-theoretic utility
 
-This repository contains code to support the paper `Relevance as Decision-Theoretic Utility`.
+This repository contains code to support the paper `Reconciling truthfulness and relevance via decision-theoretic utility`.
 
 # Data
 
