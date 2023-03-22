@@ -1,7 +1,5 @@
 //////// Setup: possible worlds, actions, and literal meanings ////////
 
-var ALPHA = 5
-
 var possibleWorlds =
     Categorical({
         ps:[1, 1],
@@ -38,6 +36,14 @@ var reward = function(a, w) {
 
 }
 
+var uttCost = function(utt) {
+
+    if (utt === '5:00') return .5
+
+    return 1
+
+}
+
 //////// Literal Listeners ////////
 
 var beliefListener = function(utt) {
@@ -52,7 +58,7 @@ var beliefListener = function(utt) {
     })
 }
 
-var actionListener = function(utt) {
+var actionListener = function(utt, alpha) {
 
     var beliefs = beliefListener(utt)
 
@@ -60,7 +66,7 @@ var actionListener = function(utt) {
 
         var actionChoice = uniformDraw(actions)
 
-        factor(ALPHA * expectation(beliefs, function(world) {
+        factor(alpha * expectation(beliefs, function(world) {
             return reward(actionChoice, world)
         }));
 
@@ -79,18 +85,23 @@ var truthFunc = function(utt, trueWorld){
 
 //////// Speaker ////////
 
-var speaker = function(trueWorld, lambda){
+var speaker = function(trueWorld, lambda, alpha, includeUttCost){
 
     return Infer({method: 'enumerate'}, function(){
 
         var utt = sample(utterances)
-        var actionUtility = expectation(actionListener(utt), function(a){
+        var actionUtility = expectation(actionListener(utt, alpha), function(a){
             return reward(a, trueWorld)
         })
         var truthUtility = truthFunc(utt, trueWorld)
 
         var uttUtility = lambda * actionUtility + (1-lambda)*truthUtility
-        factor(ALPHA * uttUtility)
+
+        if (includeUttCost){
+            factor(alpha * (uttUtility - uttCost(utt)))
+        } else {
+            factor(alpha * uttUtility)
+        }
 
         return utt
     })
@@ -99,12 +110,12 @@ var speaker = function(trueWorld, lambda){
 
 //////// Pragmatic Listener ////////
 
-var pragmaticListener = function(utt, lambda){
+var pragmaticListener = function(utt, lambda, alpha, includeUttCost){
 
     return Infer({method: 'enumerate'}, function(){
 
         var world = sample(possibleWorlds)
-        var speakerUtt = sample(speaker(world, lambda))
+        var speakerUtt = sample(speaker(world, lambda, alpha, includeUttCost))
         condition(speakerUtt === utt)
 
         return world
@@ -113,14 +124,40 @@ var pragmaticListener = function(utt, lambda){
 
 }
 
+//////// Grid Search over parameters ////////
+// See notebook: webppl-analysis.ipynb to launch this script
+// Runs a search over parameters
+
+var listenerWrapper = function(params){
+
+    var results = pragmaticListener('5:00', params.lambda, params.alpha, params.includeUttCost)
+    return extend(params, {'results': results})
+
+}
+
+var gridSearchParams = function(){
+    return Infer({method: 'enumerate'}, function(){
+        return {
+            // 'alpha': uniformDraw([10]),
+            'alpha': uniformDraw(_.range(1, 11, 1)),
+            'lambda': uniformDraw(_.range(0, 1.1, .1)),
+            'includeUttCost': uniformDraw([true, false])
+        }
+    }).support()
+}
+
+/// Run parameter sweep for analysis
+var gridResults = mapData({'data': gridSearchParams()}, listenerWrapper)
+json.write('ex2-grid-results.json', gridResults);
+
 //console.log(JSON.stringify(speaker('5:00', 1)))
-
-console.log('belief-only speaker draws symmetric inferences for 5:00 and 5:05')
-console.log(JSON.stringify(pragmaticListener('5:00', 0)))
-console.log(JSON.stringify(pragmaticListener('5:05', 0)))
-
-console.log('\ncombined speaker draws asymmetric inferences')
-console.log('5:05 less likely to be interpreted as 5:00 than vice versa')
-console.log('because speaker knows being late is worse than being early')
-console.log(JSON.stringify(pragmaticListener('5:00', .9)))
-console.log(JSON.stringify(pragmaticListener('5:05', .9)))
+//
+// console.log('belief-only speaker draws symmetric inferences for 5:00 and 5:05')
+// console.log(JSON.stringify(pragmaticListener('5:00', 0)))
+// console.log(JSON.stringify(pragmaticListener('5:05', 0)))
+//
+// console.log('\ncombined speaker draws asymmetric inferences')
+// console.log('5:05 less likely to be interpreted as 5:00 than vice versa')
+// console.log('because speaker knows being late is worse than being early')
+// console.log(JSON.stringify(pragmaticListener('5:00', .9)))
+// console.log(JSON.stringify(pragmaticListener('5:05', .9)))

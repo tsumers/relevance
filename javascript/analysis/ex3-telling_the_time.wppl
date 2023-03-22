@@ -98,7 +98,7 @@ var speaker = function(trueWorld, actionValueFunction, lambda, alpha){
             return actionValueFunction(a, trueWorld)
         })
 
-        var uttUtility = lambda * actionUtility + (1-lambda)*uttTruth(utt, time) - uttCost(utt)
+        var uttUtility = lambda * actionUtility + (1-lambda)*uttTruth(utt, trueWorld) - uttCost(utt)
         factor(alpha * uttUtility)
 
         return utt
@@ -120,7 +120,7 @@ var speakerWrapper = function(params){
 var gridSearchParams = function(actionValueFunction){
     return Infer({method: 'enumerate'}, function(){
         return {
-            'alpha': uniformDraw([10]),
+            'alpha': uniformDraw(_.range(1, 11, 1)),
             'time': uniformDraw([0, 1, 2, 3, 4]),
             'lambda': uniformDraw(_.range(0, 1.05, .05)),
             'actionValueFunction': uniformDraw([actionValueFunction])
@@ -130,7 +130,7 @@ var gridSearchParams = function(actionValueFunction){
 
 /// Run parameter sweep for analysis
 var normalGridResults = mapData({'data': gridSearchParams(actionValueRegular)}, speakerWrapper)
-json.write('ex3-results-regular.json', normalGridResults);
+json.write('ex3-results-regular-new.json', normalGridResults);
 
 var watchSettingGridResults = mapData({'data': gridSearchParams(actionValueWatchSetting)}, speakerWrapper)
 json.write('ex3-results-watch-setting.json', watchSettingGridResults);

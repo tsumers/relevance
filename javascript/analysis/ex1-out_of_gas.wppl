@@ -1,7 +1,5 @@
 //////// Setup: possible worlds, actions, and literal meanings ////////
 
-var ALPHA = 10
-
 var possibleWorlds =
     Categorical({
         ps:[.8, .1, .1],
@@ -40,7 +38,15 @@ var reward = function(a, w) {
     }
 
     // default of waiting is bad, but not *as* bad as making the trip for nothing.
-    return -0.5
+    return -.5
+}
+
+var uttCost = function(utt) {
+
+    if (utt === 'sorry') return .5
+    if (utt === 'exists') return .5
+    else return 1
+
 }
 
 //////// Literal Listeners ////////
@@ -57,13 +63,13 @@ var beliefListener = function(utt) {
     })
 }
 
-var actionListener = function(utt) {
+var actionListener = function(utt, alpha) {
 
     var beliefs = beliefListener(utt)
     return Infer({method: 'enumerate'}, function(){
 
         var actionChoice = uniformDraw(actions)
-        factor(ALPHA * expectation(beliefs, function(world) {
+        factor(alpha * expectation(beliefs, function(world) {
             return reward(actionChoice, world)
         }))
 
@@ -82,18 +88,24 @@ var truthFunc = function(utt, trueWorld){
 
 //////// Speaker ////////
 
-var speaker = function(trueWorld, lambda){
+var speaker = function(trueWorld, lambda, alpha, includeUttCost){
 
     return Infer({method: 'enumerate'}, function(){
 
         var utt = sample(utterances)
-        var actionUtility = expectation(actionListener(utt), function(a){
+        var actionUtility = expectation(actionListener(utt, alpha), function(a){
             return reward(a, trueWorld)
         });
         var truthUtility = truthFunc(utt, trueWorld)
 
-        var uttUtility = lambda * actionUtility + (1-lambda)*truthUtility
-        factor(ALPHA * uttUtility)
+        let uttUtility = lambda * actionUtility + (1-lambda)*truthUtility
+        if (includeUttCost) {
+            factor(alpha * (uttUtility - uttCost(utt)))
+        } else{
+            factor(alpha * uttUtility)
+        }
+
+
 
         return utt
     })
@@ -102,13 +114,13 @@ var speaker = function(trueWorld, lambda){
 
 //////// Pragmatic Listener ////////
 
-var pragmaticListener = function(utt, lambda){
+var pragmaticListener = function(utt, lambda, alpha, includeUttCost){
 
     return Infer({method: 'enumerate'}, function(){
 
         var world = sample(possibleWorlds)
-        console.log(world, JSON.stringify(speaker(world, lambda)))
-        var speakerUtt = sample(speaker(world, lambda))
+        // console.log(world, JSON.stringify(speaker(world, lambda, alpha)))
+        var speakerUtt = sample(speaker(world, lambda, alpha, includeUttCost))
         condition(speakerUtt === utt)
 
         return world
@@ -118,7 +130,33 @@ var pragmaticListener = function(utt, lambda){
 }
 
 
+//////// Grid Search over parameters ////////
+// See notebook: webppl-analysis.ipynb to launch this script
+// Runs a search over parameters
 
+var listenerWrapper = function(params){
+
+    var results = pragmaticListener('exists', params.lambda, params.alpha, params.includeUttCost)
+    return extend(params, {'results': results})
+
+}
+
+var gridSearchParams = function(){
+    return Infer({method: 'enumerate'}, function(){
+        return {
+            // 'alpha': uniformDraw([10]),
+            'alpha': uniformDraw(_.range(1, 11, 1)),
+            'lambda': uniformDraw(_.range(0, 1.05, .1)),
+            'includeUttCost': uniformDraw([true, false])
+        }
+    }).support()
+}
+
+/// Run parameter sweep for analysis
+var gridResults = mapData({'data': gridSearchParams()}, listenerWrapper)
+json.write('ex1-grid-results.json', gridResults);
+
+// var ALPHA = 10
 // console.log(JSON.stringify(beliefListener('sorry')))
 // console.log(JSON.stringify(actionListener('sorry')))
 // console.log(JSON.stringify(actionListener('exists')))
@@ -127,5 +165,5 @@ var pragmaticListener = function(utt, lambda){
 // console.log(JSON.stringify(speaker('exists - open', .5)))
 // console.log(JSON.stringify(speaker('exists - open', 1)))
 
-console.log(JSON.stringify(pragmaticListener('exists', 0))) // viz()
-console.log(JSON.stringify(pragmaticListener('exists', .5))) //viz()
+// console.log(JSON.stringify(pragmaticListener('exists', 0))) // viz()
+// console.log(JSON.stringify(pragmaticListener('exists', .5))) //viz()
