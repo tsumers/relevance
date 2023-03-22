@@ -1,0 +1,138 @@
+// To run from CLI:
+// webppl models.wppl --require actions --require webppl-json --require webppl-timeit
+
+var colors = ['Red', 'Green', 'Blue']
+var textures = ['Striped', 'Spotted', 'Solid']
+var values = [2, 1, 0, -1, -2]
+
+var trueWorld = {"Red": 0, "Green":2, "Blue": -2, "Striped": -1, "Spotted": 1, "Solid": 0}
+
+var worlds = Infer({method: 'enumerate'}, function(){
+    var features = colors.concat(textures)
+    var world = repeat(features.length, function(){return uniformDraw(values)})
+    return _.zipObject(features, world)
+})
+
+var utterances = Infer({method: 'enumerate'}, function(){
+    return {
+        'feature' : uniformDraw(colors.concat(textures)),
+        'feature_value' : uniformDraw(values)
+    }
+})
+
+var truthFunc = function(utt, falsePenalty) {
+
+    // The RSA way of doing it
+    // return (utt["feature"] === "SILENCE") ? SILENCE_SHIFTED : (trueWorld[utt["feature"]] === utt["feature_value"]) ? TRUTH_SHIFTED : LIE_UTILITY
+
+    // The "fixed value" way
+    return (utt["feature"] === "SILENCE") ? 0 : (trueWorld[utt["feature"]] === utt["feature_value"]) ? 1 : falsePenalty
+
+}
+
+var combinedS1 = cache(function(utt, context, utilityWeight, params, comparisonUtterances) {
+    // Calculate utterance truth and utility, then combine
+    var thisUttTruth = truthFunc(utt, params.falsePenalty)
+    var thisUttRewards = actions.speakerUtteranceRewardsDirect(trueWorld, utt, context, params)
+    var thisUttValence = (utt.feature_value > 0) ? 1 : (utt.feature_value < 0) ? -1 : 0
+
+    var thisUttUtility = utilityWeight * thisUttRewards + (1 - utilityWeight) * thisUttTruth + params.valenceWeight * thisUttValence
+
+    // Calculate rewards for all other utterances
+    var normalizingConstant = reduce(function(otherUtt, summedUtility){
+
+        // Calculate utterance truth and utility for *other* utterance, keep running sum
+        var otherUttTruth = truthFunc(otherUtt, params.falsePenalty)
+        var otherUttRewards = actions.speakerUtteranceRewardsDirect(trueWorld, otherUtt, context, params)
+        var otherUttValence = (otherUtt.feature_value > 0) ? 1 : (otherUtt.feature_value < 0) ? -1 : 0
+
+        var otherUttUtility = utilityWeight * otherUttRewards + (1 - utilityWeight) * otherUttTruth + params.valenceWeight * otherUttValence
+
+        return Math.log(Math.exp(summedUtility) + Math.exp(otherUttUtility * params.alphaS))
+
+    }, -Infinity, comparisonUtterances)
+
+    // Subtract logs directly-- equivalent to:
+    // Math.log(Math.exp(thisUttUtility * params.alphaS) / Math.exp(normalizingConstant))
+    return (thisUttUtility * params.alphaS) - normalizingConstant
+
+}, 10000)
+
+var combinedS1Distribution = cache(function(context, utilityWeight, params, comparisonUtterances) {
+    return Infer({method: 'enumerate'},
+        function () {
+            var utt = sample(comparisonUtterances)
+            factor(combinedS1(utt, context, utilityWeight, params, comparisonUtterances))
+            return utt
+        })
+}, 10000)
+
+
+var sliderNoiseFunc = function(modelPred, sigma) {
+
+    return Gaussian({mu: modelPred, sigma: sigma})
+}
+
+var sliderLogLikelihood = function(datum, utilityWeight, sharedParams){
+
+    // Construct alternative utterance set: here, this utterance or silence.
+    var possibleUtterances = [datum.utterance, {feature:"SILENCE", feature_value:0}]
+
+    // Get the probability of speaking-vs-silence
+    var probUtterance = Math.exp(combinedS1(
+        datum.utterance,
+        datum.action_context,
+        utilityWeight,
+        sharedParams,
+        possibleUtterances)
+    )
+
+    return sliderNoiseFunc(probUtterance*100, sharedParams.sigmaGaussian).score(datum.response)
+}
+
+// Vanilla gridsearch (single utilityWeight)
+var sharedParamPrior = function(){
+    return {
+        'alphaS' : uniformDrift({a: 1, b: 5, width: 1}),
+        'alphaL' : uniformDrift({a: 1, b: 5, width: 1}),
+        'valenceWeight': 0,
+        "falsePenalty": -1,
+        "sigmaGaussian": 30
+    }
+}
+
+var participantParamPrior = function(pids, modelType) {
+    var participantParamKeys = map(function(participant_id){
+        return participant_id + '-utilityWeight'
+    }, pids)
+    var participantParamVals = map(function(participant_id){
+        return modelType == 'binary' ? flip() : uniformDrift({a:0, b:1, width:0.1});
+    }, participantParamKeys)
+    //console.log(participantParamVals)
+    return _.zipObject(participantParamKeys, participantParamVals)
+}
+
+// Given data and model parameters, write out log-likelihoods
+if (argv.hasOwnProperty("AIS") && argv.hasOwnProperty('modelType')) {
+
+    var input_data = json.read(argv.fpath + argv.fname)
+    console.log("Here! Read " + input_data.length + " data from " + argv.fpath + argv.fname)
+
+    var model = function() {
+        console.log('here')
+        var sharedParams = sharedParamPrior()
+        console.log(sharedParams)
+        var participantParams = participantParamPrior(_.uniq(_.map(input_data, 'workerid')), argv.modelType)
+        var likelihoods = mapData({data: input_data}, function(datum) {
+            return sliderLogLikelihood(datum, participantParams[datum.workerid + '-utilityWeight'], sharedParams)
+        })
+        //console.log(likelihoods)
+        // OUTPUT DATA
+        //json.write(argv.outpath, likelihoods);
+        var out = extend(sharedParams, {likelihood: sum(likelihoods)})
+        console.log(out.likelihood)
+        return out
+    }
+    Infer({method: 'MCMC', samples: 10000, model: model})
+    //console.log(AIS(model, {steps: 1000, samples: 1}))
+}
