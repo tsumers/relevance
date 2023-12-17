@@ -2,7 +2,7 @@
 
 # Reconciling truthfulness and relevance as epistemic and decision-theoretic utility
 
-This repository contains code and data to support the paper `Reconciling truthfulness and relevance  as epistemic and decision-theoretic utility`.
+This repository contains code and data to support the paper `Reconciling truthfulness and relevance as epistemic and decision-theoretic utility`.
 
 # Data
 
