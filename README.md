@@ -1,8 +1,8 @@
 <img src="https://user-images.githubusercontent.com/4450850/193468608-beae10fc-d8f4-48ab-8051-1e948f0428cf.png" alt="Cover Image" width="600"/>
 
-# Reconciling truthfulness and relevance via decision-theoretic utility
+# Reconciling truthfulness and relevance as epistemic and decision-theoretic utility
 
-This repository contains code and data to support the paper `Reconciling truthfulness and relevance via decision-theoretic utility`.
+This repository contains code and data to support the paper `Reconciling truthfulness and relevance  as epistemic and decision-theoretic utility`.
 
 # Data
 
